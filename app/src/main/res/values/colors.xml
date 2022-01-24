@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#E20808</color>
+    <color name="colorPrimaryDark">#D60707</color>
+    <color name="colorAccent">#2196F3</color>
+
+    <color name="colorPrimaryDisable">#eac5c5</color>
+
+    <color name="colorBg">#E4E6E9</color>
+
+    <color name="title">#303030</color>
+
+    <color name="content">#545454</color>
+
+    <color name="itemProduct">#3b3b3b</color>
+
+
+    <color name="colorLabel">#7c7c7c</color>
+    <color name="colorText">#313131</color>
+
+    <color name="borderColor">#7c7c7c</color>
+    <color name="borderColorTv">#d2d2d2</color>
+
+    <color name="colorIconRemove">#ecd1cfcf</color>
+
+    <color name="colorWhite">#fff</color>
+
+    <color name="approved">#bd80d977</color>
+    <color name="noApproved">#8eed7070</color>
+
+    <color name="stateDelivery">#2f6603</color>
+    <color name="statePending">#f2c10c0c</color>
+    <color name="stateNotDelivery">#979797</color>
+
+    <color name="colorBtn">#e29908</color>
+</resources>

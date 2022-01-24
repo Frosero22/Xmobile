@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+
+    <TextView
+        android:id="@+id/tv_order"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:text="Orden 14777"
+        android:textColor="@color/colorText"
+        android:textSize="@dimen/title" />
+
+    <include layout="@layout/util_order" />
+
+    <Button
+        android:id="@+id/btn_close"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:background="@drawable/btn_b_icon"
+        android:text="CERRAR"
+        android:textColor="@color/colorWhite"
+        android:layout_marginTop="-53dp"/>
+
+</LinearLayout>

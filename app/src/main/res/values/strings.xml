@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">X-MOBILE</string>
+
+    <string name="error_invalid_ruc">Ruc Inválido</string>
+    <string name="error_ws_ruc">El Ruc ingresado no se encuentra registrado</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Usuario</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_sign_in_short">Iniciar Sesión</string>
+    <string name="error_invalid_email">Email invalido</string>
+    <string name="error_invalid_password">Contraseña invalida</string>
+    <string name="error_incorrect_password">Usuario o contraseña incorrecta</string>
+    <string name="error_field_required">Este campo es requerido</string>
+
+    <string name="recover">Olvide mi contraseña</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="ruc">Ingresa el Ruc de la Empresa</string>
+
+    <string name="action_finish_install">Finalizar instalación</string>
+    <string name="message_client_order">Selecciona un cliente para continuar con el pedido</string>
+    <string name="message_client">Selecciona un cliente para ver su información</string>
+    <string name="title_activity_geolocation_day">Map</string>
+
+</resources>

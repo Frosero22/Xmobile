@@ -1,0 +1,7 @@
+#Sat Jan 22 12:07:13 COT 2022
+base.0=C\:\\WorkSpaces\\Android Workspace\\xmobile\\app\\build\\intermediates\\transforms\\dexMerger\\release\\0
+path.1=classes2.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=C\:\\WorkSpaces\\Android Workspace\\xmobile\\app\\build\\intermediates\\transforms\\dexMerger\\release\\0

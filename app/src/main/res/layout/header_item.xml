@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="horizontal">
+
+
+    <TextView
+        android:id="@+id/tv_day"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="1dp"
+        android:layout_weight="0.8"
+        android:padding="8dp"
+        android:text="LUNES"
+        android:textColor="@color/colorAccent"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="1dp"
+        android:layout_weight="1"
+        android:text="visitas planificadas"
+        android:textColor="@color/colorText"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/tv_cant"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="1dp"
+        android:layout_weight="0.5"
+        android:text="0"
+        android:textColor="@color/colorText"
+        android:textSize="15dp" />
+
+</LinearLayout>

@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\WorkSpaces\\Android Workspace\\xmobile\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\WorkSpaces\\Android Workspace\\xmobile\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "from": {
+                        "startLines": "4,11,10,6,7,9",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "295,559,509,356,405,460",
+                        "endColumns": "57,46,48,47,51,47",
+                        "endOffsets": "348,601,553,399,452,503"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,113,160,209,257,309",
+                        "endColumns": "57,46,48,47,51,47",
+                        "endOffsets": "108,155,204,252,304,352"
+                    }
+                }
+            ]
+        }
+    ]
+}

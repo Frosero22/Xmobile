@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="14dp"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="12dp">
+
+    <LinearLayout
+        android:id="@+id/ll_stock"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="14dp"
+            android:layout_weight="1"
+            android:text="stock"
+            android:textColor="@color/colorLabel"
+            android:textSize="@dimen/content" />
+
+        <TextView
+            android:id="@+id/tv_stock"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:text="-"
+            android:textColor="@color/colorText"
+            android:textSize="@dimen/content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="14dp"
+            android:layout_weight="1"
+            android:text="precio"
+            android:textColor="@color/colorLabel"
+            android:textSize="@dimen/content" />
+
+        <TextView
+            android:id="@+id/tv_price"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:text="-"
+            android:textColor="@color/colorText"
+            android:textSize="@dimen/content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:orientation="horizontal"
+        android:paddingTop="7dp"
+        android:paddingLeft="10dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_weight="1"
+            android:text="cantidad"
+            android:textColor="@color/content"
+            android:textSize="@dimen/title" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_boxes"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:orientation="horizontal"
+        android:paddingBottom="0dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="7dp"
+        android:visibility="gone"
+        android:paddingTop="3dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="4dp"
+                android:text="cajas"
+                android:textColor="@color/colorLabel"
+                android:textSize="@dimen/content"
+                android:id="@+id/textView6" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.2"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:text="-"
+                android:backgroundTint="#fff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:width="0dp"
+                android:id="@+id/btn_less_c"
+                android:layout_weight="1" />
+
+            <EditText
+                android:id="@+id/et_boxes"
+                android:layout_width="58dp"
+                android:layout_height="37dp"
+                android:paddingTop="7dp"
+                android:paddingRight="1dp"
+                android:gravity="right"
+                android:textSize="16dp"
+                android:inputType="number"
+                android:scrollbars="vertical"
+                android:background="@drawable/border"/>
+
+            <Button
+                android:text="+"
+                android:backgroundTint="#fff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_more_c"
+                android:width="0dp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:orientation="horizontal"
+        android:paddingBottom="0dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="7dp"
+        android:paddingTop="5dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="4dp"
+                android:text="unidades"
+                android:textColor="@color/colorLabel"
+                android:textSize="@dimen/content" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.2"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:text="-"
+                android:backgroundTint="#fff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:width="0dp"
+                android:id="@+id/btn_less_u"
+                android:layout_weight="1" />
+
+            <EditText
+                android:id="@+id/et_units"
+                android:layout_width="58dp"
+                android:layout_height="37dp"
+                android:paddingTop="7dp"
+                android:paddingRight="1dp"
+                android:gravity="right"
+                android:textSize="16dp"
+                android:inputType="number"
+                android:scrollbars="vertical"
+                android:background="@drawable/border"/>
+
+            <Button
+                android:text="+"
+                android:backgroundTint="#fff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_more_u"
+                android:width="0dp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_discounts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="7dp"
+        android:paddingLeft="10dp"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="Descuento"
+            android:textColor="@color/content"
+            android:textSize="@dimen/title" />
+
+        <RadioGroup
+            android:id="@+id/rg_discount"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+
+            <RadioButton
+                android:id="@+id/dollar"
+                android:visibility="gone"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="$" />
+
+            <RadioButton
+                android:id="@+id/percent"
+                android:visibility="gone"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="%" />
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/et_value"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="135dp"
+            android:layout_height="37dp"
+            android:paddingTop="7dp"
+            android:paddingRight="1dp"
+            android:gravity="right"
+            android:textSize="16dp"
+            android:inputType="number"
+            android:scrollbars="vertical"
+            android:background="@drawable/border"/>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

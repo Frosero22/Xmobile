@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="14dp"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="12dp">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:minHeight="55dp"
+        android:paddingLeft="@dimen/et_padding_left"
+        android:paddingRight="@dimen/et_padding_right"
+        android:paddingTop="@dimen/et_padding_top">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:focusable="false"
+            android:ems="10"
+            android:textSize="15dp"
+            android:hint="Fecha de Pago"
+            android:id="@+id/et_deliver_date" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:minHeight="55dp"
+        android:paddingLeft="@dimen/et_padding_left"
+        android:paddingRight="@dimen/et_padding_right"
+        android:paddingTop="@dimen/et_padding_top">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:focusable="false"
+            android:ems="10"
+            android:textSize="15dp"
+            android:hint="Fecha de Entrega de orden"
+            android:id="@+id/et_pay_date" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:minHeight="55dp"
+        android:paddingLeft="@dimen/et_padding_left"
+        android:paddingRight="@dimen/et_padding_right"
+        android:paddingTop="@dimen/et_padding_top">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:hint="Observaciones"
+            android:id="@+id/et_observations" />
+
+    </android.support.design.widget.TextInputLayout>
+
+</LinearLayout>

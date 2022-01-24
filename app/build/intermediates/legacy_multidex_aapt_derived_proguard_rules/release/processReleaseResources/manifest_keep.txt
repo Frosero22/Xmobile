@@ -1,0 +1,2 @@
+# Referenced at C:\WorkSpaces\Android Workspace\xmobile\app\build\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:32
+-keep class com.mobile.polux.app.App { <init>(...); }

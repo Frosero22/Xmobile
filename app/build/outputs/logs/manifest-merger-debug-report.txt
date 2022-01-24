@@ -1,0 +1,1240 @@
+-- Merging decision tree log ---
+provider#android.support.v4.content.FileProvider
+INJECTED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:87:9-95:20
+	android:grantUriPermissions
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:91:13-47
+	android:authorities
+		INJECTED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:89:13-60
+	android:exported
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:90:13-37
+	android:name
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:88:13-67
+manifest
+ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:2:1-125:12
+INJECTED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:2:1-125:12
+INJECTED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:2:1-125:12
+INJECTED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:2:1-125:12
+MERGED from [io.realm:realm-android-library:3.3.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\realm-android-library-3.3.1.aar\e508e8be156375802ab905bd77a4838a\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:multidex:1.0.3] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\multidex-1.0.3.aar\6cc2820741ad243d272e2aaffaac44d0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\6f80e9b8046dda255e60c1fddeaaf018\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-12.0.1.aar\6fb66d412da858d50e5a6966f1bb4fd7\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-awareness:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-awareness-12.0.1.aar\c5d6b0b4adb19d0e7572a06b2d7ade75\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-fitness:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-fitness-12.0.1.aar\986c48f873ee4402edcf0d9730e83511\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-location:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-location-12.0.1.aar\2336fe8e3feba55ad3f410aafad3d8e9\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-places:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-places-12.0.1.aar\13bd39b655f5ede470666b0990bc2a4f\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-wallet:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-wallet-12.0.1.aar\c486f80b8b60ba62bea64d6849266a49\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-maps:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-maps-12.0.1.aar\6f27854de968d38aa8d3d1ee916f0899\AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-analytics:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-analytics-12.0.1.aar\3c50eb506c6aeac1567ddd35cff9eed5\AndroidManifest.xml:17:1-47:12
+MERGED from [com.google.android.gms:play-services-tagmanager:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-tagmanager-12.0.1.aar\333d352b3d8e3ff82e0f52efde0b6a2c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-tagmanager-v4-impl-12.0.1.aar\50c7230bd8ecdcf619b0cb5d0c37d76d\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-analytics-impl:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-analytics-impl-12.0.1.aar\727f16034a96df41c51e1a4f04c876db\AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.gms:play-services-appinvite:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-appinvite-12.0.1.aar\29c1ae86cd67f074dc5235fb3dea68ad\AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.android.gms:play-services-auth:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-auth-12.0.1.aar\3970cfcbd4716bfd1491ee697322b7d4\AndroidManifest.xml:17:1-39:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-auth-api-phone-12.0.1.aar\8cc8a73f0e3da3665df7cb136c1a5a69\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-auth-base-12.0.1.aar\9015b504e90ea028468ceae22c13112c\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-cast-framework:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-cast-framework-12.0.1.aar\70f844f356381869b931eb5a05849ac4\AndroidManifest.xml:2:1-14:12
+MERGED from [com.google.android.gms:play-services-cast:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-cast-12.0.1.aar\3796bba2cf18e100c0b8e42a7fc01bce\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-config:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-config-12.0.1.aar\c86ff8af15e97fe6fd558c5fa70ed5b1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-games:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-games-12.0.1.aar\9ebb397ddbc89677d67ac0d499841c64\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-drive:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-drive-12.0.1.aar\9279b16c55cabd20208e397f4d481ba3\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-fido:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-fido-12.0.1.aar\a1028abe6d2be4c06903da8d21064ea3\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-auth:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-auth-12.0.1.aar\90a507456c729cd32c57dc226d36d319\AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.firebase:firebase-dynamic-links:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-dynamic-links-12.0.1.aar\9e7efacb5db426623dec382d77ac6678\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-gcm:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-gcm-12.0.1.aar\dd4090c0f789345d8a95d714c4395a66\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.firebase:firebase-appindexing:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-appindexing-12.0.1.aar\9aada45400a12db1b32c2f77f3cb49d5\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-identity:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-identity-12.0.1.aar\b6a948af9987e49241347e6e4ddfe2f5\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-iid:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-iid-12.0.1.aar\9887dcaa5396d92a792e48a662cdec27\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-instantapps:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-instantapps-12.0.1.aar\38e501f2b21c2cb74850806840f4096c\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-nearby:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-nearby-12.0.1.aar\102f4a6cbb93a99b7482911b890e4efd\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-panorama:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-panorama-12.0.1.aar\3c9ee754b0d35c0ac66ef2559ebf395a\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-plus:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-plus-12.0.1.aar\0f50e79875caa9ce97b763062297c6cf\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-safetynet:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-safetynet-12.0.1.aar\c62074e9e934ef513981804a3c9833b3\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-vision:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-vision-12.0.1.aar\cc5a2d2e8c3ee4bb1c30de9d60b77044\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-vision-common:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-vision-common-12.0.1.aar\2247713d9620a1b3d0faf75d39e06543\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-wearable:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-wearable-12.0.1.aar\2668030904b9bb32666ebbbc3d90d19b\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-base-12.0.1.aar\a738961baa70576d78f0aa22e4396f16\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-database:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-database-12.0.1.aar\1bbbabd1f5c708d2b9358a1c55b3288a\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.firebase:firebase-crash:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-crash-12.0.1.aar\c3708f45110c7a8c067df8b73a67f896\AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.firebase:firebase-messaging:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-messaging-12.0.1.aar\5ab5382152f2fb59df18cc3152a25a9c\AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-tagmanager-api-12.0.1.aar\80f8fb797cc2374e203c70f9fcf7900b\AndroidManifest.xml:17:1-47:12
+MERGED from [com.google.firebase:firebase-analytics:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-analytics-12.0.1.aar\b75fcd1d3120658a88e5a11d836e84e1\AndroidManifest.xml:17:1-54:12
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-analytics-impl-12.0.1.aar\08eef71b7c6eb9f38a9e62389d2ef0c9\AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\9a8a84574bc1640a33ff92a5c37e1fa1\AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-storage:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-storage-12.0.1.aar\ed90333cc384b077bd58cd6204166347\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.firebase:firebase-database-connection:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-database-connection-12.0.1.aar\1cd93dbf5bb1190b50fe7a2d01c36280\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.firebase:firebase-common:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\ab4b4da1236284625b96d0b35b2e5219\AndroidManifest.xml:2:1-15:12
+MERGED from [com.google.android.gms:play-services-tasks:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-tasks-12.0.1.aar\0580ba19fed2a661cd81b15066a0f07c\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-ads-12.0.1.aar\b00fdfd244f6946c39664c82e43a7d4f\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads-lite:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-ads-lite-12.0.1.aar\270ff2a6e005cf7df4587097e61556e7\AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.firebase:firebase-storage-common:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-storage-common-12.0.1.aar\a6ddfffbb17d56ee6bdcf2aca1d2732c\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-gass:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-gass-12.0.1.aar\55de49252f4c8c90fe503d1a092051c6\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-basement-12.0.1.aar\d77673db12046acaaddf1fd9cc45c598\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\8963efa85842dbfc9dabe0b01da78ebd\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:design:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\design-28.0.0.aar\ee4314f349afcb69741434a37604cd8a\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:mediarouter-v7:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\mediarouter-v7-28.0.0.aar\8a23e069ca5fa86b2d0851bb6059ff2a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\64692786b31b448890a0915f3e997604\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.maps.android:android-maps-utils:0.4] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\android-maps-utils-0.4.aar\6d6adb1fec0875dac891f849cee2e12d\AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\4423c229b2b15c98129aa5c30a404eb7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\64ebd97d856009d701a54f507e63fddf\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\83f31c7d99e441a9de7bccba4ab16ef1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\1540cdd9335fe23e4968ac6b53ce3571\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\5736d6d95d4be0200cea5cd75e6e3534\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:palette-v7:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\palette-v7-28.0.0.aar\a83d1ba1c8ecf6de1706ba81c2616e86\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\284966a97fcb694fe9284a8d3c6b86d8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\9f711570169985bcbc4bcdf0505bc9e7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\3b45dbcc87e79525017e5299630873cd\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\transition-28.0.0.aar\b19666f576ec132cf20efcd20d88e414\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\loader-28.0.0.aar\2c1824703777d6bf7db2743b5eb33632\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\5e5d1fd8341638233711a21bda6b140c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\caba1c9828fabf7ad002d3f08d241515\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\d0618a05885b43c94ed66844b9fccd5e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\9df15ecb521240ba40aade63953cd9e1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\customview-28.0.0.aar\5550151fc357576ca99564f27243e370\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\b850e3f491d3aab7a881778598651c2c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\704bfd770ee669e001fb521371a76857\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\436b79979992c80eb8a51004e03d1d7d\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\21602a8750d3c722f4fee42595dbf1a2\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\5809391ac931f27fc3c2f81841ca35bb\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\4eeb40cb5b2431f01dfe6af8366ed98b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\96edd6cc4d48b9e4f680328e0d822d2b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\print-28.0.0.aar\3af9690bd79612f84c5a8980b5a5ca4b\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\runtime-1.1.1.aar\476fa12afa7f3e8e67770baf20e941af\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\d7ae7a510b543610fc94b001a3e53e97\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\20816a7a37887597c43619faeebbef7e\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\livedata-1.1.1.aar\723b787d770f83303e380b42f0766272\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\72d281b8d41a31d3a7b72b26ce5a2b97\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\runtime-1.1.1.aar\1db060ab91d736198d124c0eab42ffaf\AndroidManifest.xml:17:1-22:12
+MERGED from [id.zelory:compressor:2.1.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\compressor-2.1.0.aar\94fbd45d7394f29396ecd9ce3830cba5\AndroidManifest.xml:2:1-12:12
+MERGED from [com.getkeepsafe.relinker:relinker:1.2.2] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\relinker-1.2.2.aar\dae06fa74a89285e52762df3963adb03\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-location-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-location-license-12.0.1.aar\f95f490fe84af3f0a6d146bc3670014b\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-maps-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-maps-license-12.0.1.aar\55a285f2b518ba549d13007d288d01c0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-base-license-12.0.1.aar\f05446ae6d3eccaa24656ee33e8a83c0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-basement-license-12.0.1.aar\c7b0cd34be782eaaceea1643157bc00a\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-tasks-license-12.0.1.aar\217ab6568730ee6f85ce5755e05737b7\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-ads-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-ads-license-12.0.1.aar\87ebe15dfc7f7a13a50f0202cc96e018\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-ads-lite-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-ads-lite-license-12.0.1.aar\a4cb5042d781f5e811112680f8be234b\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-analytics-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-analytics-license-12.0.1.aar\82e295377d92cac75ed0d39a0a9df7f3\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-analytics-impl-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-analytics-impl-license-12.0.1.aar\ef86d21622d67085c44f69a373a3b453\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-appinvite-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-appinvite-license-12.0.1.aar\16eefe7804d3ed4926b8670c2f3606a8\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-auth-api-phone-license-12.0.1.aar\9fcebc2bf304ad12ce19cfdae558fe02\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-auth-base-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-auth-base-license-12.0.1.aar\f7e355e4b6447afae9ffdfc047f3ad6d\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-cast-framework-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-cast-framework-license-12.0.1.aar\07eefffa9cd1c1fc4c75d653e10eb5c6\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-cast-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-cast-license-12.0.1.aar\8775325c64c555ae384bf55f69890235\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-config-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-config-license-12.0.1.aar\1b75ed94d055934d371e11d34c7323c8\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-awareness-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-awareness-license-12.0.1.aar\cc8aba56afc54577a2c90018c7603180\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-crash-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-crash-license-12.0.1.aar\cbed77b0a42b30620a4fe3dde052e0b1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-drive-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-drive-license-12.0.1.aar\1ed1a06e8874a0e35e18228021fad7a8\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-fido-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-fido-license-12.0.1.aar\924b2e4df7801ef21deedac7965c6c93\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-auth-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-auth-license-12.0.1.aar\1b68dce3ffbee7e9211488556db3e4e7\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-database-connection-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-database-connection-license-12.0.1.aar\76d5bb1353bc0dd3965d87ffb54920b6\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-database-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-database-license-12.0.1.aar\00b973560a3cb7004599341e3f83eb99\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-dynamic-links-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-dynamic-links-license-12.0.1.aar\a4f65d47fdfd9639be58abaaeaebdb84\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-iid-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-iid-license-12.0.1.aar\8cb95c5da485f545f84db858b4cb83a1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-messaging-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-messaging-license-12.0.1.aar\4e4ed3091a856e88c01c02c0a0561d95\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-storage-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-storage-license-12.0.1.aar\cdf7ab18e371e7a9bf757bf0e5db69c9\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-storage-common-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-storage-common-license-12.0.1.aar\9ddfe5a271773b4f905f8dbe2932a633\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-common-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-common-license-12.0.1.aar\f907924f1b2b3149fca2ebd682bec306\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-fitness-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-fitness-license-12.0.1.aar\aea6654e949aff51f993e387feba0cac\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-games-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-games-license-12.0.1.aar\2626a6e98b8d3676aab89dc9d20e4667\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-gass-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-gass-license-12.0.1.aar\88aed820620bc211243e600c879cc8be\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-gcm-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-gcm-license-12.0.1.aar\b175c0f10cd47d3a7d875e4d690431b0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-appindexing-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-appindexing-license-12.0.1.aar\c022f1074f1c202afd187525b593f61d\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-identity-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-identity-license-12.0.1.aar\42d5ad1176d9b38aa2fc5725780295cf\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-iid-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-iid-license-12.0.1.aar\0baff32628988d14ca63c78054bca324\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-instantapps-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-instantapps-license-12.0.1.aar\2314245201f75b9e05bf3a35d4329dcc\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-analytics-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-analytics-license-12.0.1.aar\1eb0f4b6e6a5a1bc149c658ba98ea5b8\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-analytics-impl-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-analytics-impl-license-12.0.1.aar\7c53d6d1f949efd729f6dcee7ebd63d2\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-nearby-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-nearby-license-12.0.1.aar\91c6cf88f658792684683f5876b948b2\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-panorama-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-panorama-license-12.0.1.aar\bc4d2e9f1f028c4431bf033f7e81acc4\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-places-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-places-license-12.0.1.aar\d9f4a7c50da5b065ed4061395ae2f155\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-plus-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-plus-license-12.0.1.aar\4bdf0ed225c1333c7a6a2ad05d347c38\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-safetynet-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-safetynet-license-12.0.1.aar\6724a943b6d342eadff836cbf86b416d\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tagmanager-api-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-tagmanager-api-license-12.0.1.aar\3d076997b14d94ea07fba4849650472a\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tagmanager-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-tagmanager-license-12.0.1.aar\4464297340c8c3a33cdd26f2c8c95212\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-tagmanager-v4-impl-license-12.0.1.aar\e30dc639787a486da838a05fdc82621a\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-vision-common-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-vision-common-license-12.0.1.aar\f4b01641be6f314799073c1ef91c66ab\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-vision-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-vision-license-12.0.1.aar\4b6e479e8024bc4b4a102057426a3572\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-wallet-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-wallet-license-12.0.1.aar\eb558b387081a937cae3344dd65ffe5c\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-wearable-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-wearable-license-12.0.1.aar\957b42d6e31efc2adbed06596c7eff41\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:2:1-125:12
+INJECTED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:2:1-125:12
+INJECTED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:2:1-125:12
+	package
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:3:5-31
+		INJECTED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml
+		INJECTED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:2:1-125:12
+		INJECTED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:2:1-125:12
+		INJECTED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:5:5-79
+MERGED from [com.google.android.gms:play-services-maps:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-maps-12.0.1.aar\6f27854de968d38aa8d3d1ee916f0899\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-maps-12.0.1.aar\6f27854de968d38aa8d3d1ee916f0899\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-analytics:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-analytics-12.0.1.aar\3c50eb506c6aeac1567ddd35cff9eed5\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-analytics:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-analytics-12.0.1.aar\3c50eb506c6aeac1567ddd35cff9eed5\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-analytics-impl:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-analytics-impl-12.0.1.aar\727f16034a96df41c51e1a4f04c876db\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-analytics-impl:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-analytics-impl-12.0.1.aar\727f16034a96df41c51e1a4f04c876db\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-nearby:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-nearby-12.0.1.aar\102f4a6cbb93a99b7482911b890e4efd\AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-nearby:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-nearby-12.0.1.aar\102f4a6cbb93a99b7482911b890e4efd\AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-tagmanager-api-12.0.1.aar\80f8fb797cc2374e203c70f9fcf7900b\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-tagmanager-api-12.0.1.aar\80f8fb797cc2374e203c70f9fcf7900b\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-analytics-12.0.1.aar\b75fcd1d3120658a88e5a11d836e84e1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-analytics-12.0.1.aar\b75fcd1d3120658a88e5a11d836e84e1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-analytics-impl-12.0.1.aar\08eef71b7c6eb9f38a9e62389d2ef0c9\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-analytics-impl-12.0.1.aar\08eef71b7c6eb9f38a9e62389d2ef0c9\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\9a8a84574bc1640a33ff92a5c37e1fa1\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\9a8a84574bc1640a33ff92a5c37e1fa1\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-ads-lite-12.0.1.aar\270ff2a6e005cf7df4587097e61556e7\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-ads-lite-12.0.1.aar\270ff2a6e005cf7df4587097e61556e7\AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:5:22-76
+uses-permission#android.permission.INTERNET
+ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:6:5-67
+MERGED from [com.google.android.gms:play-services-maps:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-maps-12.0.1.aar\6f27854de968d38aa8d3d1ee916f0899\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-maps-12.0.1.aar\6f27854de968d38aa8d3d1ee916f0899\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-analytics:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-analytics-12.0.1.aar\3c50eb506c6aeac1567ddd35cff9eed5\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-analytics:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-analytics-12.0.1.aar\3c50eb506c6aeac1567ddd35cff9eed5\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-analytics-impl-12.0.1.aar\727f16034a96df41c51e1a4f04c876db\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-analytics-impl-12.0.1.aar\727f16034a96df41c51e1a4f04c876db\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-appinvite:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-appinvite-12.0.1.aar\29c1ae86cd67f074dc5235fb3dea68ad\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-appinvite:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-appinvite-12.0.1.aar\29c1ae86cd67f074dc5235fb3dea68ad\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-gcm:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-gcm-12.0.1.aar\dd4090c0f789345d8a95d714c4395a66\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-gcm:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-gcm-12.0.1.aar\dd4090c0f789345d8a95d714c4395a66\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-iid:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-iid-12.0.1.aar\9887dcaa5396d92a792e48a662cdec27\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-iid:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-iid-12.0.1.aar\9887dcaa5396d92a792e48a662cdec27\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-crash:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-crash-12.0.1.aar\c3708f45110c7a8c067df8b73a67f896\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-crash:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-crash-12.0.1.aar\c3708f45110c7a8c067df8b73a67f896\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-tagmanager-api-12.0.1.aar\80f8fb797cc2374e203c70f9fcf7900b\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-tagmanager-api-12.0.1.aar\80f8fb797cc2374e203c70f9fcf7900b\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-analytics-12.0.1.aar\b75fcd1d3120658a88e5a11d836e84e1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-analytics-12.0.1.aar\b75fcd1d3120658a88e5a11d836e84e1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-analytics-impl-12.0.1.aar\08eef71b7c6eb9f38a9e62389d2ef0c9\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-analytics-impl-12.0.1.aar\08eef71b7c6eb9f38a9e62389d2ef0c9\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\9a8a84574bc1640a33ff92a5c37e1fa1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\9a8a84574bc1640a33ff92a5c37e1fa1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-ads-lite-12.0.1.aar\270ff2a6e005cf7df4587097e61556e7\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-ads-lite-12.0.1.aar\270ff2a6e005cf7df4587097e61556e7\AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:7:22-76
+uses-permission#android.permission.CAMERA
+ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:9:5-65
+	android:name
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:9:22-62
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:10:5-81
+	android:name
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:10:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:11:5-80
+	android:name
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:11:22-77
+application
+ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:14:5-122:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\6f80e9b8046dda255e60c1fddeaaf018\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\6f80e9b8046dda255e60c1fddeaaf018\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-12.0.1.aar\6fb66d412da858d50e5a6966f1bb4fd7\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-12.0.1.aar\6fb66d412da858d50e5a6966f1bb4fd7\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-awareness:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-awareness-12.0.1.aar\c5d6b0b4adb19d0e7572a06b2d7ade75\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-awareness:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-awareness-12.0.1.aar\c5d6b0b4adb19d0e7572a06b2d7ade75\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-fitness:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-fitness-12.0.1.aar\986c48f873ee4402edcf0d9730e83511\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-fitness:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-fitness-12.0.1.aar\986c48f873ee4402edcf0d9730e83511\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-location:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-location-12.0.1.aar\2336fe8e3feba55ad3f410aafad3d8e9\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-location-12.0.1.aar\2336fe8e3feba55ad3f410aafad3d8e9\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-places:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-places-12.0.1.aar\13bd39b655f5ede470666b0990bc2a4f\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-places-12.0.1.aar\13bd39b655f5ede470666b0990bc2a4f\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-maps:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-maps-12.0.1.aar\6f27854de968d38aa8d3d1ee916f0899\AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-maps:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-maps-12.0.1.aar\6f27854de968d38aa8d3d1ee916f0899\AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-analytics:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-analytics-12.0.1.aar\3c50eb506c6aeac1567ddd35cff9eed5\AndroidManifest.xml:29:5-45:19
+MERGED from [com.google.android.gms:play-services-analytics:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-analytics-12.0.1.aar\3c50eb506c6aeac1567ddd35cff9eed5\AndroidManifest.xml:29:5-45:19
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-tagmanager-v4-impl-12.0.1.aar\50c7230bd8ecdcf619b0cb5d0c37d76d\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-tagmanager-v4-impl-12.0.1.aar\50c7230bd8ecdcf619b0cb5d0c37d76d\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-analytics-impl:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-analytics-impl-12.0.1.aar\727f16034a96df41c51e1a4f04c876db\AndroidManifest.xml:29:5-20
+MERGED from [com.google.android.gms:play-services-analytics-impl:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-analytics-impl-12.0.1.aar\727f16034a96df41c51e1a4f04c876db\AndroidManifest.xml:29:5-20
+MERGED from [com.google.android.gms:play-services-appinvite:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-appinvite-12.0.1.aar\29c1ae86cd67f074dc5235fb3dea68ad\AndroidManifest.xml:24:5-35:19
+MERGED from [com.google.android.gms:play-services-appinvite:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-appinvite-12.0.1.aar\29c1ae86cd67f074dc5235fb3dea68ad\AndroidManifest.xml:24:5-35:19
+MERGED from [com.google.android.gms:play-services-auth:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-auth-12.0.1.aar\3970cfcbd4716bfd1491ee697322b7d4\AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-auth-12.0.1.aar\3970cfcbd4716bfd1491ee697322b7d4\AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-cast-framework:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-cast-framework-12.0.1.aar\70f844f356381869b931eb5a05849ac4\AndroidManifest.xml:7:5-12:19
+MERGED from [com.google.android.gms:play-services-cast-framework:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-cast-framework-12.0.1.aar\70f844f356381869b931eb5a05849ac4\AndroidManifest.xml:7:5-12:19
+MERGED from [com.google.android.gms:play-services-cast:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-cast-12.0.1.aar\3796bba2cf18e100c0b8e42a7fc01bce\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-cast:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-cast-12.0.1.aar\3796bba2cf18e100c0b8e42a7fc01bce\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-config:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-config-12.0.1.aar\c86ff8af15e97fe6fd558c5fa70ed5b1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-config:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-config-12.0.1.aar\c86ff8af15e97fe6fd558c5fa70ed5b1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-games:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-games-12.0.1.aar\9ebb397ddbc89677d67ac0d499841c64\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-games:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-games-12.0.1.aar\9ebb397ddbc89677d67ac0d499841c64\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-drive:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-drive-12.0.1.aar\9279b16c55cabd20208e397f4d481ba3\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-drive:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-drive-12.0.1.aar\9279b16c55cabd20208e397f4d481ba3\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-fido:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-fido-12.0.1.aar\a1028abe6d2be4c06903da8d21064ea3\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-fido:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-fido-12.0.1.aar\a1028abe6d2be4c06903da8d21064ea3\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-auth-12.0.1.aar\90a507456c729cd32c57dc226d36d319\AndroidManifest.xml:22:5-30:19
+MERGED from [com.google.firebase:firebase-auth:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-auth-12.0.1.aar\90a507456c729cd32c57dc226d36d319\AndroidManifest.xml:22:5-30:19
+MERGED from [com.google.firebase:firebase-dynamic-links:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-dynamic-links-12.0.1.aar\9e7efacb5db426623dec382d77ac6678\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-dynamic-links:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-dynamic-links-12.0.1.aar\9e7efacb5db426623dec382d77ac6678\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-gcm:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-gcm-12.0.1.aar\dd4090c0f789345d8a95d714c4395a66\AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-gcm:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-gcm-12.0.1.aar\dd4090c0f789345d8a95d714c4395a66\AndroidManifest.xml:26:5-20
+MERGED from [com.google.firebase:firebase-appindexing:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-appindexing-12.0.1.aar\9aada45400a12db1b32c2f77f3cb49d5\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-appindexing:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-appindexing-12.0.1.aar\9aada45400a12db1b32c2f77f3cb49d5\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-identity:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-identity-12.0.1.aar\b6a948af9987e49241347e6e4ddfe2f5\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-identity:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-identity-12.0.1.aar\b6a948af9987e49241347e6e4ddfe2f5\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-iid:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-iid-12.0.1.aar\9887dcaa5396d92a792e48a662cdec27\AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-iid:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-iid-12.0.1.aar\9887dcaa5396d92a792e48a662cdec27\AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-nearby:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-nearby-12.0.1.aar\102f4a6cbb93a99b7482911b890e4efd\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-nearby:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-nearby-12.0.1.aar\102f4a6cbb93a99b7482911b890e4efd\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-panorama:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-panorama-12.0.1.aar\3c9ee754b0d35c0ac66ef2559ebf395a\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-panorama:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-panorama-12.0.1.aar\3c9ee754b0d35c0ac66ef2559ebf395a\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-plus:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-plus-12.0.1.aar\0f50e79875caa9ce97b763062297c6cf\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-plus:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-plus-12.0.1.aar\0f50e79875caa9ce97b763062297c6cf\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-safetynet-12.0.1.aar\c62074e9e934ef513981804a3c9833b3\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-safetynet-12.0.1.aar\c62074e9e934ef513981804a3c9833b3\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-vision:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-vision-12.0.1.aar\cc5a2d2e8c3ee4bb1c30de9d60b77044\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-vision-12.0.1.aar\cc5a2d2e8c3ee4bb1c30de9d60b77044\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-vision-common-12.0.1.aar\2247713d9620a1b3d0faf75d39e06543\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-vision-common-12.0.1.aar\2247713d9620a1b3d0faf75d39e06543\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-wearable:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-wearable-12.0.1.aar\2668030904b9bb32666ebbbc3d90d19b\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-wearable:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-wearable-12.0.1.aar\2668030904b9bb32666ebbbc3d90d19b\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-base-12.0.1.aar\a738961baa70576d78f0aa22e4396f16\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-base-12.0.1.aar\a738961baa70576d78f0aa22e4396f16\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-crash:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-crash-12.0.1.aar\c3708f45110c7a8c067df8b73a67f896\AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.firebase:firebase-crash:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-crash-12.0.1.aar\c3708f45110c7a8c067df8b73a67f896\AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.firebase:firebase-messaging:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-messaging-12.0.1.aar\5ab5382152f2fb59df18cc3152a25a9c\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-messaging-12.0.1.aar\5ab5382152f2fb59df18cc3152a25a9c\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-tagmanager-api-12.0.1.aar\80f8fb797cc2374e203c70f9fcf7900b\AndroidManifest.xml:26:5-45:19
+MERGED from [com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-tagmanager-api-12.0.1.aar\80f8fb797cc2374e203c70f9fcf7900b\AndroidManifest.xml:26:5-45:19
+MERGED from [com.google.firebase:firebase-analytics:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-analytics-12.0.1.aar\b75fcd1d3120658a88e5a11d836e84e1\AndroidManifest.xml:27:5-52:19
+MERGED from [com.google.firebase:firebase-analytics:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-analytics-12.0.1.aar\b75fcd1d3120658a88e5a11d836e84e1\AndroidManifest.xml:27:5-52:19
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-analytics-impl-12.0.1.aar\08eef71b7c6eb9f38a9e62389d2ef0c9\AndroidManifest.xml:27:5-38:19
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-analytics-impl-12.0.1.aar\08eef71b7c6eb9f38a9e62389d2ef0c9\AndroidManifest.xml:27:5-38:19
+MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\9a8a84574bc1640a33ff92a5c37e1fa1\AndroidManifest.xml:34:5-57:19
+MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\9a8a84574bc1640a33ff92a5c37e1fa1\AndroidManifest.xml:34:5-57:19
+MERGED from [com.google.firebase:firebase-common:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\ab4b4da1236284625b96d0b35b2e5219\AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.firebase:firebase-common:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\ab4b4da1236284625b96d0b35b2e5219\AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.android.gms:play-services-tasks:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-tasks-12.0.1.aar\0580ba19fed2a661cd81b15066a0f07c\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-tasks-12.0.1.aar\0580ba19fed2a661cd81b15066a0f07c\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-ads-lite-12.0.1.aar\270ff2a6e005cf7df4587097e61556e7\AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-ads-lite:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-ads-lite-12.0.1.aar\270ff2a6e005cf7df4587097e61556e7\AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-gass:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-gass-12.0.1.aar\55de49252f4c8c90fe503d1a092051c6\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-gass:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-gass-12.0.1.aar\55de49252f4c8c90fe503d1a092051c6\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-basement-12.0.1.aar\d77673db12046acaaddf1fd9cc45c598\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-basement-12.0.1.aar\d77673db12046acaaddf1fd9cc45c598\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:design:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\design-28.0.0.aar\ee4314f349afcb69741434a37604cd8a\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\design-28.0.0.aar\ee4314f349afcb69741434a37604cd8a\AndroidManifest.xml:22:5-20
+MERGED from [com.google.maps.android:android-maps-utils:0.4] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\android-maps-utils-0.4.aar\6d6adb1fec0875dac891f849cee2e12d\AndroidManifest.xml:7:5-11:19
+MERGED from [com.google.maps.android:android-maps-utils:0.4] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\android-maps-utils-0.4.aar\6d6adb1fec0875dac891f849cee2e12d\AndroidManifest.xml:7:5-11:19
+MERGED from [com.android.support:support-compat:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\436b79979992c80eb8a51004e03d1d7d\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\436b79979992c80eb8a51004e03d1d7d\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\21602a8750d3c722f4fee42595dbf1a2\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\21602a8750d3c722f4fee42595dbf1a2\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-location-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-location-license-12.0.1.aar\f95f490fe84af3f0a6d146bc3670014b\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-location-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-location-license-12.0.1.aar\f95f490fe84af3f0a6d146bc3670014b\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-maps-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-maps-license-12.0.1.aar\55a285f2b518ba549d13007d288d01c0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-maps-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-maps-license-12.0.1.aar\55a285f2b518ba549d13007d288d01c0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-base-license-12.0.1.aar\f05446ae6d3eccaa24656ee33e8a83c0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-base-license-12.0.1.aar\f05446ae6d3eccaa24656ee33e8a83c0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-basement-license-12.0.1.aar\c7b0cd34be782eaaceea1643157bc00a\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-basement-license-12.0.1.aar\c7b0cd34be782eaaceea1643157bc00a\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-tasks-license-12.0.1.aar\217ab6568730ee6f85ce5755e05737b7\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-tasks-license-12.0.1.aar\217ab6568730ee6f85ce5755e05737b7\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-ads-license-12.0.1.aar\87ebe15dfc7f7a13a50f0202cc96e018\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-ads-license-12.0.1.aar\87ebe15dfc7f7a13a50f0202cc96e018\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-ads-lite-license-12.0.1.aar\a4cb5042d781f5e811112680f8be234b\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-ads-lite-license-12.0.1.aar\a4cb5042d781f5e811112680f8be234b\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-analytics-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-analytics-license-12.0.1.aar\82e295377d92cac75ed0d39a0a9df7f3\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-analytics-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-analytics-license-12.0.1.aar\82e295377d92cac75ed0d39a0a9df7f3\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-analytics-impl-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-analytics-impl-license-12.0.1.aar\ef86d21622d67085c44f69a373a3b453\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-analytics-impl-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-analytics-impl-license-12.0.1.aar\ef86d21622d67085c44f69a373a3b453\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-appinvite-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-appinvite-license-12.0.1.aar\16eefe7804d3ed4926b8670c2f3606a8\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-appinvite-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-appinvite-license-12.0.1.aar\16eefe7804d3ed4926b8670c2f3606a8\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-auth-api-phone-license-12.0.1.aar\9fcebc2bf304ad12ce19cfdae558fe02\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-auth-api-phone-license-12.0.1.aar\9fcebc2bf304ad12ce19cfdae558fe02\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-auth-base-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-auth-base-license-12.0.1.aar\f7e355e4b6447afae9ffdfc047f3ad6d\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-auth-base-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-auth-base-license-12.0.1.aar\f7e355e4b6447afae9ffdfc047f3ad6d\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-cast-framework-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-cast-framework-license-12.0.1.aar\07eefffa9cd1c1fc4c75d653e10eb5c6\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-cast-framework-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-cast-framework-license-12.0.1.aar\07eefffa9cd1c1fc4c75d653e10eb5c6\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-cast-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-cast-license-12.0.1.aar\8775325c64c555ae384bf55f69890235\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-cast-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-cast-license-12.0.1.aar\8775325c64c555ae384bf55f69890235\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-config-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-config-license-12.0.1.aar\1b75ed94d055934d371e11d34c7323c8\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-config-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-config-license-12.0.1.aar\1b75ed94d055934d371e11d34c7323c8\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-awareness-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-awareness-license-12.0.1.aar\cc8aba56afc54577a2c90018c7603180\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-awareness-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-awareness-license-12.0.1.aar\cc8aba56afc54577a2c90018c7603180\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-crash-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-crash-license-12.0.1.aar\cbed77b0a42b30620a4fe3dde052e0b1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-crash-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-crash-license-12.0.1.aar\cbed77b0a42b30620a4fe3dde052e0b1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-drive-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-drive-license-12.0.1.aar\1ed1a06e8874a0e35e18228021fad7a8\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-drive-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-drive-license-12.0.1.aar\1ed1a06e8874a0e35e18228021fad7a8\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-fido-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-fido-license-12.0.1.aar\924b2e4df7801ef21deedac7965c6c93\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-fido-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-fido-license-12.0.1.aar\924b2e4df7801ef21deedac7965c6c93\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-auth-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-auth-license-12.0.1.aar\1b68dce3ffbee7e9211488556db3e4e7\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-auth-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-auth-license-12.0.1.aar\1b68dce3ffbee7e9211488556db3e4e7\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-database-connection-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-database-connection-license-12.0.1.aar\76d5bb1353bc0dd3965d87ffb54920b6\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-database-connection-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-database-connection-license-12.0.1.aar\76d5bb1353bc0dd3965d87ffb54920b6\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-database-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-database-license-12.0.1.aar\00b973560a3cb7004599341e3f83eb99\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-database-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-database-license-12.0.1.aar\00b973560a3cb7004599341e3f83eb99\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-dynamic-links-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-dynamic-links-license-12.0.1.aar\a4f65d47fdfd9639be58abaaeaebdb84\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-dynamic-links-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-dynamic-links-license-12.0.1.aar\a4f65d47fdfd9639be58abaaeaebdb84\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-iid-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-iid-license-12.0.1.aar\8cb95c5da485f545f84db858b4cb83a1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-iid-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-iid-license-12.0.1.aar\8cb95c5da485f545f84db858b4cb83a1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-messaging-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-messaging-license-12.0.1.aar\4e4ed3091a856e88c01c02c0a0561d95\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-messaging-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-messaging-license-12.0.1.aar\4e4ed3091a856e88c01c02c0a0561d95\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-storage-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-storage-license-12.0.1.aar\cdf7ab18e371e7a9bf757bf0e5db69c9\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-storage-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-storage-license-12.0.1.aar\cdf7ab18e371e7a9bf757bf0e5db69c9\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-storage-common-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-storage-common-license-12.0.1.aar\9ddfe5a271773b4f905f8dbe2932a633\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-storage-common-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-storage-common-license-12.0.1.aar\9ddfe5a271773b4f905f8dbe2932a633\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-common-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-common-license-12.0.1.aar\f907924f1b2b3149fca2ebd682bec306\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-common-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-common-license-12.0.1.aar\f907924f1b2b3149fca2ebd682bec306\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-fitness-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-fitness-license-12.0.1.aar\aea6654e949aff51f993e387feba0cac\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-fitness-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-fitness-license-12.0.1.aar\aea6654e949aff51f993e387feba0cac\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-games-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-games-license-12.0.1.aar\2626a6e98b8d3676aab89dc9d20e4667\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-games-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-games-license-12.0.1.aar\2626a6e98b8d3676aab89dc9d20e4667\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-gass-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-gass-license-12.0.1.aar\88aed820620bc211243e600c879cc8be\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-gass-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-gass-license-12.0.1.aar\88aed820620bc211243e600c879cc8be\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-gcm-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-gcm-license-12.0.1.aar\b175c0f10cd47d3a7d875e4d690431b0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-gcm-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-gcm-license-12.0.1.aar\b175c0f10cd47d3a7d875e4d690431b0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-appindexing-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-appindexing-license-12.0.1.aar\c022f1074f1c202afd187525b593f61d\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-appindexing-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-appindexing-license-12.0.1.aar\c022f1074f1c202afd187525b593f61d\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-identity-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-identity-license-12.0.1.aar\42d5ad1176d9b38aa2fc5725780295cf\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-identity-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-identity-license-12.0.1.aar\42d5ad1176d9b38aa2fc5725780295cf\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-iid-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-iid-license-12.0.1.aar\0baff32628988d14ca63c78054bca324\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-iid-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-iid-license-12.0.1.aar\0baff32628988d14ca63c78054bca324\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-instantapps-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-instantapps-license-12.0.1.aar\2314245201f75b9e05bf3a35d4329dcc\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-instantapps-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-instantapps-license-12.0.1.aar\2314245201f75b9e05bf3a35d4329dcc\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-analytics-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-analytics-license-12.0.1.aar\1eb0f4b6e6a5a1bc149c658ba98ea5b8\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-analytics-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-analytics-license-12.0.1.aar\1eb0f4b6e6a5a1bc149c658ba98ea5b8\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-analytics-impl-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-analytics-impl-license-12.0.1.aar\7c53d6d1f949efd729f6dcee7ebd63d2\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-analytics-impl-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-analytics-impl-license-12.0.1.aar\7c53d6d1f949efd729f6dcee7ebd63d2\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-nearby-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-nearby-license-12.0.1.aar\91c6cf88f658792684683f5876b948b2\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-nearby-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-nearby-license-12.0.1.aar\91c6cf88f658792684683f5876b948b2\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-panorama-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-panorama-license-12.0.1.aar\bc4d2e9f1f028c4431bf033f7e81acc4\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-panorama-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-panorama-license-12.0.1.aar\bc4d2e9f1f028c4431bf033f7e81acc4\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-places-license-12.0.1.aar\d9f4a7c50da5b065ed4061395ae2f155\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-places-license-12.0.1.aar\d9f4a7c50da5b065ed4061395ae2f155\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-plus-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-plus-license-12.0.1.aar\4bdf0ed225c1333c7a6a2ad05d347c38\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-plus-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-plus-license-12.0.1.aar\4bdf0ed225c1333c7a6a2ad05d347c38\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-safetynet-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-safetynet-license-12.0.1.aar\6724a943b6d342eadff836cbf86b416d\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-safetynet-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-safetynet-license-12.0.1.aar\6724a943b6d342eadff836cbf86b416d\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tagmanager-api-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-tagmanager-api-license-12.0.1.aar\3d076997b14d94ea07fba4849650472a\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tagmanager-api-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-tagmanager-api-license-12.0.1.aar\3d076997b14d94ea07fba4849650472a\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tagmanager-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-tagmanager-license-12.0.1.aar\4464297340c8c3a33cdd26f2c8c95212\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tagmanager-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-tagmanager-license-12.0.1.aar\4464297340c8c3a33cdd26f2c8c95212\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-tagmanager-v4-impl-license-12.0.1.aar\e30dc639787a486da838a05fdc82621a\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-tagmanager-v4-impl-license-12.0.1.aar\e30dc639787a486da838a05fdc82621a\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-vision-common-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-vision-common-license-12.0.1.aar\f4b01641be6f314799073c1ef91c66ab\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-vision-common-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-vision-common-license-12.0.1.aar\f4b01641be6f314799073c1ef91c66ab\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-vision-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-vision-license-12.0.1.aar\4b6e479e8024bc4b4a102057426a3572\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-vision-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-vision-license-12.0.1.aar\4b6e479e8024bc4b4a102057426a3572\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-wallet-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-wallet-license-12.0.1.aar\eb558b387081a937cae3344dd65ffe5c\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-wallet-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-wallet-license-12.0.1.aar\eb558b387081a937cae3344dd65ffe5c\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-wearable-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-wearable-license-12.0.1.aar\957b42d6e31efc2adbed06596c7eff41\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-wearable-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-wearable-license-12.0.1.aar\957b42d6e31efc2adbed06596c7eff41\AndroidManifest.xml:22:5-20
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\436b79979992c80eb8a51004e03d1d7d\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:20:9-35
+	android:label
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:19:9-41
+	android:fullBackupContent
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:17:9-42
+	android:icon
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:18:9-42
+	android:allowBackup
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:16:9-36
+	android:theme
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:21:9-40
+	android:usesCleartextTraffic
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:22:9-44
+	android:name
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:15:9-32
+activity#com.mobile.polux.activities.recaudaciones.GuideListActivity
+ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:23:9-89
+	android:name
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:23:19-77
+activity#com.mobile.polux.activities.MainActivity
+ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:24:9-27:59
+	android:configChanges
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:26:13-59
+	android:theme
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:27:13-56
+	android:name
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:25:13-52
+activity#com.mobile.polux.activities.LoginActivity
+ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:28:9-32:71
+	android:windowSoftInputMode
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:32:13-68
+	android:configChanges
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:30:13-59
+	android:theme
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:31:13-56
+	android:name
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:29:13-53
+activity#com.mobile.polux.activities.OrdersActivity
+ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:33:9-63
+	android:name
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:33:19-60
+activity#com.mobile.polux.activities.OrderClientActivity
+ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:34:9-41:20
+	android:parentActivityName
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:37:13-68
+	android:configChanges
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:36:13-59
+	android:name
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:35:13-59
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:38:13-40:62
+	android:value
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:40:17-59
+	android:name
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:39:17-63
+activity#com.mobile.polux.activities.OrderProductsActivity
+ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:42:9-69
+	android:name
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:42:19-67
+activity#com.mobile.polux.activities.SearchClientActivity
+ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:43:9-69
+	android:name
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:43:19-66
+activity#com.mobile.polux.activities.SearchProductActivity
+ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:44:9-70
+	android:name
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:44:19-67
+activity#com.mobile.polux.activities.FinishInstallationActivity
+ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:45:9-48:71
+	android:windowSoftInputMode
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:48:13-68
+	android:theme
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:47:13-56
+	android:name
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:46:13-66
+activity#com.mobile.polux.activities.ClientActivity
+ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:49:9-51:62
+	android:configChanges
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:51:13-59
+	android:name
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:50:13-54
+activity#com.mobile.polux.activities.LocalitiesActivity
+ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:52:9-54:62
+	android:configChanges
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:54:13-59
+	android:name
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:53:13-58
+activity#com.mobile.polux.activities.LocationActivity
+ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:55:9-57:62
+	android:configChanges
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:57:13-59
+	android:name
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:56:13-56
+activity#com.mobile.polux.activities.CreditHistoryActivity
+ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:58:9-60:62
+	android:configChanges
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:60:13-59
+	android:name
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:59:13-61
+activity#com.mobile.polux.activities.AccountsActivity
+ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:61:9-63:62
+	android:configChanges
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:63:13-59
+	android:name
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:62:13-56
+activity#com.mobile.polux.activities.OrdersOffActivity
+ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:64:9-66:62
+	android:configChanges
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:66:13-59
+	android:name
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:65:13-57
+activity#com.mobile.polux.activities.GeolocationDayActivity
+ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:67:9-69:62
+	android:configChanges
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:69:13-59
+	android:name
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:68:13-62
+activity#com.mobile.polux.activities.MapActivity
+ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:70:9-72:62
+	android:configChanges
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:72:13-59
+	android:name
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:71:13-51
+activity#com.mobile.polux.activities.SplashActivity
+ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:73:9-81:20
+	android:theme
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:75:13-48
+	android:name
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:74:13-54
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:76:13-80:29
+action#android.intent.action.MAIN
+ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:77:17-69
+	android:name
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:77:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:79:17-77
+	android:name
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:79:27-74
+meta-data#com.google.android.geo.API_KEY
+ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:83:9-85:55
+	android:value
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:85:13-52
+	android:name
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:84:13-58
+activity#com.mobile.polux.activities.DeliveryActivity
+ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:97:9-99:62
+	android:configChanges
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:99:13-59
+	android:name
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:98:13-56
+activity#com.mobile.polux.activities.recaudaciones.GuideActivity
+ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:100:9-102:62
+	android:configChanges
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:102:13-59
+	android:name
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:101:13-67
+activity#com.mobile.polux.activities.recaudaciones.CashingRegisterActivity
+ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:103:9-105:62
+	android:configChanges
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:105:13-59
+	android:name
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:104:13-77
+activity#com.mobile.polux.activities.recaudaciones.CashingActivity
+ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:106:9-108:62
+	android:configChanges
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:108:13-59
+	android:name
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:107:13-69
+activity#com.mobile.polux.activities.recaudaciones.SearchInvoiceActivity
+ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:109:9-111:62
+	android:configChanges
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:111:13-59
+	android:name
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:110:13-75
+activity#com.mobile.polux.activities.recaudaciones.InvoiceActivity
+ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:112:9-114:62
+	android:configChanges
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:114:13-59
+	android:name
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:113:13-69
+activity#com.mobile.polux.activities.recaudaciones.ViewCashingActivity
+ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:115:9-117:62
+	android:configChanges
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:117:13-59
+	android:name
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:116:13-73
+uses-library#org.apache.http.legacy
+ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:119:9-121:40
+	android:required
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:121:13-37
+	android:name
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:120:13-50
+uses-sdk
+INJECTED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml
+INJECTED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml
+MERGED from [io.realm:realm-android-library:3.3.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\realm-android-library-3.3.1.aar\e508e8be156375802ab905bd77a4838a\AndroidManifest.xml:7:5-9:41
+MERGED from [io.realm:realm-android-library:3.3.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\realm-android-library-3.3.1.aar\e508e8be156375802ab905bd77a4838a\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:multidex:1.0.3] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\multidex-1.0.3.aar\6cc2820741ad243d272e2aaffaac44d0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.3] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\multidex-1.0.3.aar\6cc2820741ad243d272e2aaffaac44d0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\6f80e9b8046dda255e60c1fddeaaf018\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\6f80e9b8046dda255e60c1fddeaaf018\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-12.0.1.aar\6fb66d412da858d50e5a6966f1bb4fd7\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-12.0.1.aar\6fb66d412da858d50e5a6966f1bb4fd7\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-awareness:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-awareness-12.0.1.aar\c5d6b0b4adb19d0e7572a06b2d7ade75\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-awareness:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-awareness-12.0.1.aar\c5d6b0b4adb19d0e7572a06b2d7ade75\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-fitness:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-fitness-12.0.1.aar\986c48f873ee4402edcf0d9730e83511\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-fitness:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-fitness-12.0.1.aar\986c48f873ee4402edcf0d9730e83511\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-location-12.0.1.aar\2336fe8e3feba55ad3f410aafad3d8e9\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-location-12.0.1.aar\2336fe8e3feba55ad3f410aafad3d8e9\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-places:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-places-12.0.1.aar\13bd39b655f5ede470666b0990bc2a4f\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-places-12.0.1.aar\13bd39b655f5ede470666b0990bc2a4f\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-wallet:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-wallet-12.0.1.aar\c486f80b8b60ba62bea64d6849266a49\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-wallet:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-wallet-12.0.1.aar\c486f80b8b60ba62bea64d6849266a49\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-maps-12.0.1.aar\6f27854de968d38aa8d3d1ee916f0899\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-maps-12.0.1.aar\6f27854de968d38aa8d3d1ee916f0899\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-analytics:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-analytics-12.0.1.aar\3c50eb506c6aeac1567ddd35cff9eed5\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-analytics:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-analytics-12.0.1.aar\3c50eb506c6aeac1567ddd35cff9eed5\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tagmanager:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-tagmanager-12.0.1.aar\333d352b3d8e3ff82e0f52efde0b6a2c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tagmanager:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-tagmanager-12.0.1.aar\333d352b3d8e3ff82e0f52efde0b6a2c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-tagmanager-v4-impl-12.0.1.aar\50c7230bd8ecdcf619b0cb5d0c37d76d\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-tagmanager-v4-impl-12.0.1.aar\50c7230bd8ecdcf619b0cb5d0c37d76d\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-analytics-impl:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-analytics-impl-12.0.1.aar\727f16034a96df41c51e1a4f04c876db\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-analytics-impl:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-analytics-impl-12.0.1.aar\727f16034a96df41c51e1a4f04c876db\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-appinvite:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-appinvite-12.0.1.aar\29c1ae86cd67f074dc5235fb3dea68ad\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-appinvite:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-appinvite-12.0.1.aar\29c1ae86cd67f074dc5235fb3dea68ad\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-auth-12.0.1.aar\3970cfcbd4716bfd1491ee697322b7d4\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-auth-12.0.1.aar\3970cfcbd4716bfd1491ee697322b7d4\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-auth-api-phone-12.0.1.aar\8cc8a73f0e3da3665df7cb136c1a5a69\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-auth-api-phone-12.0.1.aar\8cc8a73f0e3da3665df7cb136c1a5a69\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-auth-base-12.0.1.aar\9015b504e90ea028468ceae22c13112c\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-auth-base-12.0.1.aar\9015b504e90ea028468ceae22c13112c\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-cast-framework:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-cast-framework-12.0.1.aar\70f844f356381869b931eb5a05849ac4\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-cast-framework:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-cast-framework-12.0.1.aar\70f844f356381869b931eb5a05849ac4\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-cast:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-cast-12.0.1.aar\3796bba2cf18e100c0b8e42a7fc01bce\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-cast:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-cast-12.0.1.aar\3796bba2cf18e100c0b8e42a7fc01bce\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-config:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-config-12.0.1.aar\c86ff8af15e97fe6fd558c5fa70ed5b1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-config:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-config-12.0.1.aar\c86ff8af15e97fe6fd558c5fa70ed5b1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-games:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-games-12.0.1.aar\9ebb397ddbc89677d67ac0d499841c64\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-games:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-games-12.0.1.aar\9ebb397ddbc89677d67ac0d499841c64\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-drive:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-drive-12.0.1.aar\9279b16c55cabd20208e397f4d481ba3\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-drive:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-drive-12.0.1.aar\9279b16c55cabd20208e397f4d481ba3\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-fido:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-fido-12.0.1.aar\a1028abe6d2be4c06903da8d21064ea3\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-fido-12.0.1.aar\a1028abe6d2be4c06903da8d21064ea3\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-auth-12.0.1.aar\90a507456c729cd32c57dc226d36d319\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-auth-12.0.1.aar\90a507456c729cd32c57dc226d36d319\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-dynamic-links:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-dynamic-links-12.0.1.aar\9e7efacb5db426623dec382d77ac6678\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-dynamic-links:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-dynamic-links-12.0.1.aar\9e7efacb5db426623dec382d77ac6678\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-gcm:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-gcm-12.0.1.aar\dd4090c0f789345d8a95d714c4395a66\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gcm:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-gcm-12.0.1.aar\dd4090c0f789345d8a95d714c4395a66\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-appindexing:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-appindexing-12.0.1.aar\9aada45400a12db1b32c2f77f3cb49d5\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-appindexing:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-appindexing-12.0.1.aar\9aada45400a12db1b32c2f77f3cb49d5\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-identity:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-identity-12.0.1.aar\b6a948af9987e49241347e6e4ddfe2f5\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-identity:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-identity-12.0.1.aar\b6a948af9987e49241347e6e4ddfe2f5\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-iid:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-iid-12.0.1.aar\9887dcaa5396d92a792e48a662cdec27\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-iid:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-iid-12.0.1.aar\9887dcaa5396d92a792e48a662cdec27\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-instantapps:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-instantapps-12.0.1.aar\38e501f2b21c2cb74850806840f4096c\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-instantapps:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-instantapps-12.0.1.aar\38e501f2b21c2cb74850806840f4096c\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-nearby:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-nearby-12.0.1.aar\102f4a6cbb93a99b7482911b890e4efd\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-nearby:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-nearby-12.0.1.aar\102f4a6cbb93a99b7482911b890e4efd\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-panorama:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-panorama-12.0.1.aar\3c9ee754b0d35c0ac66ef2559ebf395a\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-panorama:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-panorama-12.0.1.aar\3c9ee754b0d35c0ac66ef2559ebf395a\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-plus:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-plus-12.0.1.aar\0f50e79875caa9ce97b763062297c6cf\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-plus:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-plus-12.0.1.aar\0f50e79875caa9ce97b763062297c6cf\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-safetynet-12.0.1.aar\c62074e9e934ef513981804a3c9833b3\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-safetynet-12.0.1.aar\c62074e9e934ef513981804a3c9833b3\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-vision:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-vision-12.0.1.aar\cc5a2d2e8c3ee4bb1c30de9d60b77044\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-vision-12.0.1.aar\cc5a2d2e8c3ee4bb1c30de9d60b77044\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-vision-common-12.0.1.aar\2247713d9620a1b3d0faf75d39e06543\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-vision-common-12.0.1.aar\2247713d9620a1b3d0faf75d39e06543\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-wearable:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-wearable-12.0.1.aar\2668030904b9bb32666ebbbc3d90d19b\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-wearable:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-wearable-12.0.1.aar\2668030904b9bb32666ebbbc3d90d19b\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-base-12.0.1.aar\a738961baa70576d78f0aa22e4396f16\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-base-12.0.1.aar\a738961baa70576d78f0aa22e4396f16\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-database-12.0.1.aar\1bbbabd1f5c708d2b9358a1c55b3288a\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-database-12.0.1.aar\1bbbabd1f5c708d2b9358a1c55b3288a\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-crash:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-crash-12.0.1.aar\c3708f45110c7a8c067df8b73a67f896\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-crash:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-crash-12.0.1.aar\c3708f45110c7a8c067df8b73a67f896\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-messaging-12.0.1.aar\5ab5382152f2fb59df18cc3152a25a9c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-messaging-12.0.1.aar\5ab5382152f2fb59df18cc3152a25a9c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-tagmanager-api-12.0.1.aar\80f8fb797cc2374e203c70f9fcf7900b\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-tagmanager-api-12.0.1.aar\80f8fb797cc2374e203c70f9fcf7900b\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-analytics-12.0.1.aar\b75fcd1d3120658a88e5a11d836e84e1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-analytics-12.0.1.aar\b75fcd1d3120658a88e5a11d836e84e1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-analytics-impl-12.0.1.aar\08eef71b7c6eb9f38a9e62389d2ef0c9\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-analytics-impl-12.0.1.aar\08eef71b7c6eb9f38a9e62389d2ef0c9\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\9a8a84574bc1640a33ff92a5c37e1fa1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\9a8a84574bc1640a33ff92a5c37e1fa1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-storage:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-storage-12.0.1.aar\ed90333cc384b077bd58cd6204166347\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-storage:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-storage-12.0.1.aar\ed90333cc384b077bd58cd6204166347\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database-connection:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-database-connection-12.0.1.aar\1cd93dbf5bb1190b50fe7a2d01c36280\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database-connection:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-database-connection-12.0.1.aar\1cd93dbf5bb1190b50fe7a2d01c36280\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-common:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\ab4b4da1236284625b96d0b35b2e5219\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\ab4b4da1236284625b96d0b35b2e5219\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-tasks-12.0.1.aar\0580ba19fed2a661cd81b15066a0f07c\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-tasks-12.0.1.aar\0580ba19fed2a661cd81b15066a0f07c\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-ads-12.0.1.aar\b00fdfd244f6946c39664c82e43a7d4f\AndroidManifest.xml:21:5-23:62
+MERGED from [com.google.android.gms:play-services-ads:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-ads-12.0.1.aar\b00fdfd244f6946c39664c82e43a7d4f\AndroidManifest.xml:21:5-23:62
+MERGED from [com.google.android.gms:play-services-ads-lite:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-ads-lite-12.0.1.aar\270ff2a6e005cf7df4587097e61556e7\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-ads-lite-12.0.1.aar\270ff2a6e005cf7df4587097e61556e7\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-storage-common:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-storage-common-12.0.1.aar\a6ddfffbb17d56ee6bdcf2aca1d2732c\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-storage-common:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-storage-common-12.0.1.aar\a6ddfffbb17d56ee6bdcf2aca1d2732c\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-gass:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-gass-12.0.1.aar\55de49252f4c8c90fe503d1a092051c6\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-gass:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-gass-12.0.1.aar\55de49252f4c8c90fe503d1a092051c6\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-basement-12.0.1.aar\d77673db12046acaaddf1fd9cc45c598\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-basement-12.0.1.aar\d77673db12046acaaddf1fd9cc45c598\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\8963efa85842dbfc9dabe0b01da78ebd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\8963efa85842dbfc9dabe0b01da78ebd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\design-28.0.0.aar\ee4314f349afcb69741434a37604cd8a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\design-28.0.0.aar\ee4314f349afcb69741434a37604cd8a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:mediarouter-v7:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\mediarouter-v7-28.0.0.aar\8a23e069ca5fa86b2d0851bb6059ff2a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:mediarouter-v7:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\mediarouter-v7-28.0.0.aar\8a23e069ca5fa86b2d0851bb6059ff2a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\64692786b31b448890a0915f3e997604\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\64692786b31b448890a0915f3e997604\AndroidManifest.xml:20:5-44
+MERGED from [com.google.maps.android:android-maps-utils:0.4] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\android-maps-utils-0.4.aar\6d6adb1fec0875dac891f849cee2e12d\AndroidManifest.xml:5:5-43
+MERGED from [com.google.maps.android:android-maps-utils:0.4] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\android-maps-utils-0.4.aar\6d6adb1fec0875dac891f849cee2e12d\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\4423c229b2b15c98129aa5c30a404eb7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\4423c229b2b15c98129aa5c30a404eb7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\64ebd97d856009d701a54f507e63fddf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\64ebd97d856009d701a54f507e63fddf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\83f31c7d99e441a9de7bccba4ab16ef1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\83f31c7d99e441a9de7bccba4ab16ef1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\1540cdd9335fe23e4968ac6b53ce3571\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\1540cdd9335fe23e4968ac6b53ce3571\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\5736d6d95d4be0200cea5cd75e6e3534\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\5736d6d95d4be0200cea5cd75e6e3534\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:palette-v7:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\palette-v7-28.0.0.aar\a83d1ba1c8ecf6de1706ba81c2616e86\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:palette-v7:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\palette-v7-28.0.0.aar\a83d1ba1c8ecf6de1706ba81c2616e86\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\284966a97fcb694fe9284a8d3c6b86d8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\284966a97fcb694fe9284a8d3c6b86d8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\9f711570169985bcbc4bcdf0505bc9e7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\9f711570169985bcbc4bcdf0505bc9e7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\3b45dbcc87e79525017e5299630873cd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\3b45dbcc87e79525017e5299630873cd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\transition-28.0.0.aar\b19666f576ec132cf20efcd20d88e414\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\transition-28.0.0.aar\b19666f576ec132cf20efcd20d88e414\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\loader-28.0.0.aar\2c1824703777d6bf7db2743b5eb33632\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\loader-28.0.0.aar\2c1824703777d6bf7db2743b5eb33632\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\5e5d1fd8341638233711a21bda6b140c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\5e5d1fd8341638233711a21bda6b140c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\caba1c9828fabf7ad002d3f08d241515\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\caba1c9828fabf7ad002d3f08d241515\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\d0618a05885b43c94ed66844b9fccd5e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\d0618a05885b43c94ed66844b9fccd5e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\9df15ecb521240ba40aade63953cd9e1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\9df15ecb521240ba40aade63953cd9e1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\customview-28.0.0.aar\5550151fc357576ca99564f27243e370\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\customview-28.0.0.aar\5550151fc357576ca99564f27243e370\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\b850e3f491d3aab7a881778598651c2c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\b850e3f491d3aab7a881778598651c2c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\704bfd770ee669e001fb521371a76857\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\704bfd770ee669e001fb521371a76857\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\436b79979992c80eb8a51004e03d1d7d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\436b79979992c80eb8a51004e03d1d7d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\21602a8750d3c722f4fee42595dbf1a2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\21602a8750d3c722f4fee42595dbf1a2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\5809391ac931f27fc3c2f81841ca35bb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\5809391ac931f27fc3c2f81841ca35bb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\4eeb40cb5b2431f01dfe6af8366ed98b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\4eeb40cb5b2431f01dfe6af8366ed98b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\96edd6cc4d48b9e4f680328e0d822d2b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\96edd6cc4d48b9e4f680328e0d822d2b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\print-28.0.0.aar\3af9690bd79612f84c5a8980b5a5ca4b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\print-28.0.0.aar\3af9690bd79612f84c5a8980b5a5ca4b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\runtime-1.1.1.aar\476fa12afa7f3e8e67770baf20e941af\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\runtime-1.1.1.aar\476fa12afa7f3e8e67770baf20e941af\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\d7ae7a510b543610fc94b001a3e53e97\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\d7ae7a510b543610fc94b001a3e53e97\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\20816a7a37887597c43619faeebbef7e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\20816a7a37887597c43619faeebbef7e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\livedata-1.1.1.aar\723b787d770f83303e380b42f0766272\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\livedata-1.1.1.aar\723b787d770f83303e380b42f0766272\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\72d281b8d41a31d3a7b72b26ce5a2b97\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\72d281b8d41a31d3a7b72b26ce5a2b97\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\runtime-1.1.1.aar\1db060ab91d736198d124c0eab42ffaf\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\runtime-1.1.1.aar\1db060ab91d736198d124c0eab42ffaf\AndroidManifest.xml:20:5-44
+MERGED from [id.zelory:compressor:2.1.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\compressor-2.1.0.aar\94fbd45d7394f29396ecd9ce3830cba5\AndroidManifest.xml:8:5-10:41
+MERGED from [id.zelory:compressor:2.1.0] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\compressor-2.1.0.aar\94fbd45d7394f29396ecd9ce3830cba5\AndroidManifest.xml:8:5-10:41
+MERGED from [com.getkeepsafe.relinker:relinker:1.2.2] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\relinker-1.2.2.aar\dae06fa74a89285e52762df3963adb03\AndroidManifest.xml:7:5-43
+MERGED from [com.getkeepsafe.relinker:relinker:1.2.2] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\relinker-1.2.2.aar\dae06fa74a89285e52762df3963adb03\AndroidManifest.xml:7:5-43
+MERGED from [com.google.android.gms:play-services-location-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-location-license-12.0.1.aar\f95f490fe84af3f0a6d146bc3670014b\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-location-license-12.0.1.aar\f95f490fe84af3f0a6d146bc3670014b\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-maps-license-12.0.1.aar\55a285f2b518ba549d13007d288d01c0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-maps-license-12.0.1.aar\55a285f2b518ba549d13007d288d01c0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-base-license-12.0.1.aar\f05446ae6d3eccaa24656ee33e8a83c0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-base-license-12.0.1.aar\f05446ae6d3eccaa24656ee33e8a83c0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-basement-license-12.0.1.aar\c7b0cd34be782eaaceea1643157bc00a\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-basement-license-12.0.1.aar\c7b0cd34be782eaaceea1643157bc00a\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-tasks-license-12.0.1.aar\217ab6568730ee6f85ce5755e05737b7\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-tasks-license-12.0.1.aar\217ab6568730ee6f85ce5755e05737b7\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-ads-license-12.0.1.aar\87ebe15dfc7f7a13a50f0202cc96e018\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-ads-license-12.0.1.aar\87ebe15dfc7f7a13a50f0202cc96e018\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-ads-lite-license-12.0.1.aar\a4cb5042d781f5e811112680f8be234b\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-ads-lite-license-12.0.1.aar\a4cb5042d781f5e811112680f8be234b\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-analytics-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-analytics-license-12.0.1.aar\82e295377d92cac75ed0d39a0a9df7f3\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-analytics-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-analytics-license-12.0.1.aar\82e295377d92cac75ed0d39a0a9df7f3\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-analytics-impl-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-analytics-impl-license-12.0.1.aar\ef86d21622d67085c44f69a373a3b453\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-analytics-impl-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-analytics-impl-license-12.0.1.aar\ef86d21622d67085c44f69a373a3b453\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-appinvite-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-appinvite-license-12.0.1.aar\16eefe7804d3ed4926b8670c2f3606a8\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-appinvite-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-appinvite-license-12.0.1.aar\16eefe7804d3ed4926b8670c2f3606a8\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-auth-api-phone-license-12.0.1.aar\9fcebc2bf304ad12ce19cfdae558fe02\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-auth-api-phone-license-12.0.1.aar\9fcebc2bf304ad12ce19cfdae558fe02\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-base-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-auth-base-license-12.0.1.aar\f7e355e4b6447afae9ffdfc047f3ad6d\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-base-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-auth-base-license-12.0.1.aar\f7e355e4b6447afae9ffdfc047f3ad6d\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-cast-framework-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-cast-framework-license-12.0.1.aar\07eefffa9cd1c1fc4c75d653e10eb5c6\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-cast-framework-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-cast-framework-license-12.0.1.aar\07eefffa9cd1c1fc4c75d653e10eb5c6\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-cast-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-cast-license-12.0.1.aar\8775325c64c555ae384bf55f69890235\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-cast-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-cast-license-12.0.1.aar\8775325c64c555ae384bf55f69890235\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-config-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-config-license-12.0.1.aar\1b75ed94d055934d371e11d34c7323c8\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-config-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-config-license-12.0.1.aar\1b75ed94d055934d371e11d34c7323c8\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-awareness-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-awareness-license-12.0.1.aar\cc8aba56afc54577a2c90018c7603180\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-awareness-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-awareness-license-12.0.1.aar\cc8aba56afc54577a2c90018c7603180\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-crash-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-crash-license-12.0.1.aar\cbed77b0a42b30620a4fe3dde052e0b1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-crash-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-crash-license-12.0.1.aar\cbed77b0a42b30620a4fe3dde052e0b1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-drive-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-drive-license-12.0.1.aar\1ed1a06e8874a0e35e18228021fad7a8\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-drive-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-drive-license-12.0.1.aar\1ed1a06e8874a0e35e18228021fad7a8\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-fido-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-fido-license-12.0.1.aar\924b2e4df7801ef21deedac7965c6c93\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-fido-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-fido-license-12.0.1.aar\924b2e4df7801ef21deedac7965c6c93\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-auth-license-12.0.1.aar\1b68dce3ffbee7e9211488556db3e4e7\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-auth-license-12.0.1.aar\1b68dce3ffbee7e9211488556db3e4e7\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-connection-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-database-connection-license-12.0.1.aar\76d5bb1353bc0dd3965d87ffb54920b6\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-connection-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-database-connection-license-12.0.1.aar\76d5bb1353bc0dd3965d87ffb54920b6\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-database-license-12.0.1.aar\00b973560a3cb7004599341e3f83eb99\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-database-license-12.0.1.aar\00b973560a3cb7004599341e3f83eb99\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-dynamic-links-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-dynamic-links-license-12.0.1.aar\a4f65d47fdfd9639be58abaaeaebdb84\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-dynamic-links-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-dynamic-links-license-12.0.1.aar\a4f65d47fdfd9639be58abaaeaebdb84\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-iid-license-12.0.1.aar\8cb95c5da485f545f84db858b4cb83a1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-iid-license-12.0.1.aar\8cb95c5da485f545f84db858b4cb83a1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-messaging-license-12.0.1.aar\4e4ed3091a856e88c01c02c0a0561d95\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-messaging-license-12.0.1.aar\4e4ed3091a856e88c01c02c0a0561d95\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-storage-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-storage-license-12.0.1.aar\cdf7ab18e371e7a9bf757bf0e5db69c9\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-storage-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-storage-license-12.0.1.aar\cdf7ab18e371e7a9bf757bf0e5db69c9\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-storage-common-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-storage-common-license-12.0.1.aar\9ddfe5a271773b4f905f8dbe2932a633\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-storage-common-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-storage-common-license-12.0.1.aar\9ddfe5a271773b4f905f8dbe2932a633\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-common-license-12.0.1.aar\f907924f1b2b3149fca2ebd682bec306\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-common-license-12.0.1.aar\f907924f1b2b3149fca2ebd682bec306\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-fitness-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-fitness-license-12.0.1.aar\aea6654e949aff51f993e387feba0cac\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-fitness-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-fitness-license-12.0.1.aar\aea6654e949aff51f993e387feba0cac\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-games-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-games-license-12.0.1.aar\2626a6e98b8d3676aab89dc9d20e4667\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-games-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-games-license-12.0.1.aar\2626a6e98b8d3676aab89dc9d20e4667\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gass-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-gass-license-12.0.1.aar\88aed820620bc211243e600c879cc8be\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gass-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-gass-license-12.0.1.aar\88aed820620bc211243e600c879cc8be\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gcm-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-gcm-license-12.0.1.aar\b175c0f10cd47d3a7d875e4d690431b0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gcm-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-gcm-license-12.0.1.aar\b175c0f10cd47d3a7d875e4d690431b0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-appindexing-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-appindexing-license-12.0.1.aar\c022f1074f1c202afd187525b593f61d\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-appindexing-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-appindexing-license-12.0.1.aar\c022f1074f1c202afd187525b593f61d\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-identity-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-identity-license-12.0.1.aar\42d5ad1176d9b38aa2fc5725780295cf\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-identity-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-identity-license-12.0.1.aar\42d5ad1176d9b38aa2fc5725780295cf\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-iid-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-iid-license-12.0.1.aar\0baff32628988d14ca63c78054bca324\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-iid-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-iid-license-12.0.1.aar\0baff32628988d14ca63c78054bca324\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-instantapps-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-instantapps-license-12.0.1.aar\2314245201f75b9e05bf3a35d4329dcc\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-instantapps-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-instantapps-license-12.0.1.aar\2314245201f75b9e05bf3a35d4329dcc\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-analytics-license-12.0.1.aar\1eb0f4b6e6a5a1bc149c658ba98ea5b8\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-analytics-license-12.0.1.aar\1eb0f4b6e6a5a1bc149c658ba98ea5b8\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-analytics-impl-license-12.0.1.aar\7c53d6d1f949efd729f6dcee7ebd63d2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-analytics-impl-license-12.0.1.aar\7c53d6d1f949efd729f6dcee7ebd63d2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-nearby-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-nearby-license-12.0.1.aar\91c6cf88f658792684683f5876b948b2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-nearby-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-nearby-license-12.0.1.aar\91c6cf88f658792684683f5876b948b2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-panorama-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-panorama-license-12.0.1.aar\bc4d2e9f1f028c4431bf033f7e81acc4\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-panorama-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-panorama-license-12.0.1.aar\bc4d2e9f1f028c4431bf033f7e81acc4\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-places-license-12.0.1.aar\d9f4a7c50da5b065ed4061395ae2f155\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-places-license-12.0.1.aar\d9f4a7c50da5b065ed4061395ae2f155\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-plus-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-plus-license-12.0.1.aar\4bdf0ed225c1333c7a6a2ad05d347c38\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-plus-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-plus-license-12.0.1.aar\4bdf0ed225c1333c7a6a2ad05d347c38\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-safetynet-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-safetynet-license-12.0.1.aar\6724a943b6d342eadff836cbf86b416d\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-safetynet-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-safetynet-license-12.0.1.aar\6724a943b6d342eadff836cbf86b416d\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tagmanager-api-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-tagmanager-api-license-12.0.1.aar\3d076997b14d94ea07fba4849650472a\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tagmanager-api-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-tagmanager-api-license-12.0.1.aar\3d076997b14d94ea07fba4849650472a\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tagmanager-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-tagmanager-license-12.0.1.aar\4464297340c8c3a33cdd26f2c8c95212\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tagmanager-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-tagmanager-license-12.0.1.aar\4464297340c8c3a33cdd26f2c8c95212\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-tagmanager-v4-impl-license-12.0.1.aar\e30dc639787a486da838a05fdc82621a\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-tagmanager-v4-impl-license-12.0.1.aar\e30dc639787a486da838a05fdc82621a\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-vision-common-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-vision-common-license-12.0.1.aar\f4b01641be6f314799073c1ef91c66ab\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-vision-common-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-vision-common-license-12.0.1.aar\f4b01641be6f314799073c1ef91c66ab\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-vision-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-vision-license-12.0.1.aar\4b6e479e8024bc4b4a102057426a3572\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-vision-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-vision-license-12.0.1.aar\4b6e479e8024bc4b4a102057426a3572\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-wallet-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-wallet-license-12.0.1.aar\eb558b387081a937cae3344dd65ffe5c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-wallet-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-wallet-license-12.0.1.aar\eb558b387081a937cae3344dd65ffe5c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-wearable-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-wearable-license-12.0.1.aar\957b42d6e31efc2adbed06596c7eff41\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-wearable-license:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-wearable-license-12.0.1.aar\957b42d6e31efc2adbed06596c7eff41\AndroidManifest.xml:20:5-44
+INJECTED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml
+INJECTED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.google.android.gms:play-services-ads:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-ads-12.0.1.aar\b00fdfd244f6946c39664c82e43a7d4f\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml
+		INJECTED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml
+		INJECTED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:92:13-94:58
+	android:resource
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:94:17-55
+	android:name
+		ADDED from C:\WorkSpaces\Android Workspace\xmobile\app\src\main\AndroidManifest.xml:93:17-67
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-maps-12.0.1.aar\6f27854de968d38aa8d3d1ee916f0899\AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-maps-12.0.1.aar\6f27854de968d38aa8d3d1ee916f0899\AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-maps-12.0.1.aar\6f27854de968d38aa8d3d1ee916f0899\AndroidManifest.xml:28:9-32
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-analytics:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-analytics-12.0.1.aar\3c50eb506c6aeac1567ddd35cff9eed5\AndroidManifest.xml:27:5-68
+MERGED from [com.google.android.gms:play-services-analytics-impl:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-analytics-impl-12.0.1.aar\727f16034a96df41c51e1a4f04c876db\AndroidManifest.xml:27:5-68
+MERGED from [com.google.android.gms:play-services-analytics-impl:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-analytics-impl-12.0.1.aar\727f16034a96df41c51e1a4f04c876db\AndroidManifest.xml:27:5-68
+MERGED from [com.google.firebase:firebase-analytics:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-analytics-12.0.1.aar\b75fcd1d3120658a88e5a11d836e84e1\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-analytics-12.0.1.aar\b75fcd1d3120658a88e5a11d836e84e1\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-analytics-impl-12.0.1.aar\08eef71b7c6eb9f38a9e62389d2ef0c9\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-analytics-impl-12.0.1.aar\08eef71b7c6eb9f38a9e62389d2ef0c9\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\9a8a84574bc1640a33ff92a5c37e1fa1\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\9a8a84574bc1640a33ff92a5c37e1fa1\AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-analytics-12.0.1.aar\3c50eb506c6aeac1567ddd35cff9eed5\AndroidManifest.xml:27:22-65
+receiver#com.google.android.gms.analytics.AnalyticsReceiver
+ADDED from [com.google.android.gms:play-services-analytics:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-analytics-12.0.1.aar\3c50eb506c6aeac1567ddd35cff9eed5\AndroidManifest.xml:30:9-34:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-analytics:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-analytics-12.0.1.aar\3c50eb506c6aeac1567ddd35cff9eed5\AndroidManifest.xml:32:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-analytics:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-analytics-12.0.1.aar\3c50eb506c6aeac1567ddd35cff9eed5\AndroidManifest.xml:33:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-analytics-12.0.1.aar\3c50eb506c6aeac1567ddd35cff9eed5\AndroidManifest.xml:31:13-78
+service#com.google.android.gms.analytics.AnalyticsService
+ADDED from [com.google.android.gms:play-services-analytics:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-analytics-12.0.1.aar\3c50eb506c6aeac1567ddd35cff9eed5\AndroidManifest.xml:36:9-39:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-analytics:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-analytics-12.0.1.aar\3c50eb506c6aeac1567ddd35cff9eed5\AndroidManifest.xml:38:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-analytics:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-analytics-12.0.1.aar\3c50eb506c6aeac1567ddd35cff9eed5\AndroidManifest.xml:39:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-analytics-12.0.1.aar\3c50eb506c6aeac1567ddd35cff9eed5\AndroidManifest.xml:37:13-77
+service#com.google.android.gms.analytics.AnalyticsJobService
+ADDED from [com.google.android.gms:play-services-analytics:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-analytics-12.0.1.aar\3c50eb506c6aeac1567ddd35cff9eed5\AndroidManifest.xml:40:9-44:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-analytics:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-analytics-12.0.1.aar\3c50eb506c6aeac1567ddd35cff9eed5\AndroidManifest.xml:42:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-analytics:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-analytics-12.0.1.aar\3c50eb506c6aeac1567ddd35cff9eed5\AndroidManifest.xml:43:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-analytics:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-analytics-12.0.1.aar\3c50eb506c6aeac1567ddd35cff9eed5\AndroidManifest.xml:44:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-analytics-12.0.1.aar\3c50eb506c6aeac1567ddd35cff9eed5\AndroidManifest.xml:41:13-80
+activity#com.google.android.gms.appinvite.PreviewActivity
+ADDED from [com.google.android.gms:play-services-appinvite:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-appinvite-12.0.1.aar\29c1ae86cd67f074dc5235fb3dea68ad\AndroidManifest.xml:25:9-34:20
+	android:exported
+		ADDED from [com.google.android.gms:play-services-appinvite:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-appinvite-12.0.1.aar\29c1ae86cd67f074dc5235fb3dea68ad\AndroidManifest.xml:27:13-36
+	android:theme
+		ADDED from [com.google.android.gms:play-services-appinvite:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-appinvite-12.0.1.aar\29c1ae86cd67f074dc5235fb3dea68ad\AndroidManifest.xml:28:13-59
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-appinvite-12.0.1.aar\29c1ae86cd67f074dc5235fb3dea68ad\AndroidManifest.xml:26:13-76
+intent-filter#action:name:com.google.android.gms.appinvite.ACTION_PREVIEW+category:name:android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-appinvite:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-appinvite-12.0.1.aar\29c1ae86cd67f074dc5235fb3dea68ad\AndroidManifest.xml:29:13-33:29
+action#com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-appinvite-12.0.1.aar\29c1ae86cd67f074dc5235fb3dea68ad\AndroidManifest.xml:30:17-90
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-appinvite-12.0.1.aar\29c1ae86cd67f074dc5235fb3dea68ad\AndroidManifest.xml:30:25-87
+category#android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-appinvite:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-appinvite-12.0.1.aar\29c1ae86cd67f074dc5235fb3dea68ad\AndroidManifest.xml:32:17-76
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-appinvite-12.0.1.aar\29c1ae86cd67f074dc5235fb3dea68ad\AndroidManifest.xml:32:27-73
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-auth-12.0.1.aar\3970cfcbd4716bfd1491ee697322b7d4\AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-auth-12.0.1.aar\3970cfcbd4716bfd1491ee697322b7d4\AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-auth-12.0.1.aar\3970cfcbd4716bfd1491ee697322b7d4\AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-auth-12.0.1.aar\3970cfcbd4716bfd1491ee697322b7d4\AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-auth-12.0.1.aar\3970cfcbd4716bfd1491ee697322b7d4\AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-auth-12.0.1.aar\3970cfcbd4716bfd1491ee697322b7d4\AndroidManifest.xml:33:9-36:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-auth-12.0.1.aar\3970cfcbd4716bfd1491ee697322b7d4\AndroidManifest.xml:35:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-auth-12.0.1.aar\3970cfcbd4716bfd1491ee697322b7d4\AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-auth-12.0.1.aar\3970cfcbd4716bfd1491ee697322b7d4\AndroidManifest.xml:34:13-89
+receiver#com.google.android.gms.cast.framework.media.MediaIntentReceiver
+ADDED from [com.google.android.gms:play-services-cast-framework:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-cast-framework-12.0.1.aar\70f844f356381869b931eb5a05849ac4\AndroidManifest.xml:8:9-100
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-cast-framework-12.0.1.aar\70f844f356381869b931eb5a05849ac4\AndroidManifest.xml:8:19-97
+service#com.google.android.gms.cast.framework.media.MediaNotificationService
+ADDED from [com.google.android.gms:play-services-cast-framework:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-cast-framework-12.0.1.aar\70f844f356381869b931eb5a05849ac4\AndroidManifest.xml:10:9-104
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-cast-framework-12.0.1.aar\70f844f356381869b931eb5a05849ac4\AndroidManifest.xml:10:18-101
+service#com.google.android.gms.cast.framework.ReconnectionService
+ADDED from [com.google.android.gms:play-services-cast-framework:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-cast-framework-12.0.1.aar\70f844f356381869b931eb5a05849ac4\AndroidManifest.xml:11:9-93
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-cast-framework-12.0.1.aar\70f844f356381869b931eb5a05849ac4\AndroidManifest.xml:11:18-90
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-auth-12.0.1.aar\90a507456c729cd32c57dc226d36d319\AndroidManifest.xml:23:9-29:75
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-auth-12.0.1.aar\90a507456c729cd32c57dc226d36d319\AndroidManifest.xml:25:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-auth-12.0.1.aar\90a507456c729cd32c57dc226d36d319\AndroidManifest.xml:27:13-48
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-auth-12.0.1.aar\90a507456c729cd32c57dc226d36d319\AndroidManifest.xml:26:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-auth-12.0.1.aar\90a507456c729cd32c57dc226d36d319\AndroidManifest.xml:28:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-auth-12.0.1.aar\90a507456c729cd32c57dc226d36d319\AndroidManifest.xml:29:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-auth-12.0.1.aar\90a507456c729cd32c57dc226d36d319\AndroidManifest.xml:24:13-85
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-gcm:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-gcm-12.0.1.aar\dd4090c0f789345d8a95d714c4395a66\AndroidManifest.xml:23:5-82
+MERGED from [com.google.android.gms:play-services-iid:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-iid-12.0.1.aar\9887dcaa5396d92a792e48a662cdec27\AndroidManifest.xml:23:5-82
+MERGED from [com.google.android.gms:play-services-iid:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-iid-12.0.1.aar\9887dcaa5396d92a792e48a662cdec27\AndroidManifest.xml:23:5-82
+MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\9a8a84574bc1640a33ff92a5c37e1fa1\AndroidManifest.xml:26:5-82
+MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\9a8a84574bc1640a33ff92a5c37e1fa1\AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-gcm:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-gcm-12.0.1.aar\dd4090c0f789345d8a95d714c4395a66\AndroidManifest.xml:23:22-79
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-base-12.0.1.aar\a738961baa70576d78f0aa22e4396f16\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-base-12.0.1.aar\a738961baa70576d78f0aa22e4396f16\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-base-12.0.1.aar\a738961baa70576d78f0aa22e4396f16\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-base-12.0.1.aar\a738961baa70576d78f0aa22e4396f16\AndroidManifest.xml:24:13-79
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-messaging-12.0.1.aar\5ab5382152f2fb59df18cc3152a25a9c\AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-messaging-12.0.1.aar\5ab5382152f2fb59df18cc3152a25a9c\AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-messaging-12.0.1.aar\5ab5382152f2fb59df18cc3152a25a9c\AndroidManifest.xml:29:13-82
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-messaging-12.0.1.aar\5ab5382152f2fb59df18cc3152a25a9c\AndroidManifest.xml:31:13-33:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-messaging-12.0.1.aar\5ab5382152f2fb59df18cc3152a25a9c\AndroidManifest.xml:31:28-51
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-messaging-12.0.1.aar\5ab5382152f2fb59df18cc3152a25a9c\AndroidManifest.xml:32:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-messaging-12.0.1.aar\5ab5382152f2fb59df18cc3152a25a9c\AndroidManifest.xml:32:25-75
+service#com.google.android.gms.tagmanager.TagManagerService
+ADDED from [com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-tagmanager-api-12.0.1.aar\80f8fb797cc2374e203c70f9fcf7900b\AndroidManifest.xml:27:9-30:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-tagmanager-api-12.0.1.aar\80f8fb797cc2374e203c70f9fcf7900b\AndroidManifest.xml:29:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-tagmanager-api-12.0.1.aar\80f8fb797cc2374e203c70f9fcf7900b\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-tagmanager-api-12.0.1.aar\80f8fb797cc2374e203c70f9fcf7900b\AndroidManifest.xml:28:13-79
+activity#com.google.android.gms.tagmanager.TagManagerPreviewActivity
+ADDED from [com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-tagmanager-api-12.0.1.aar\80f8fb797cc2374e203c70f9fcf7900b\AndroidManifest.xml:32:9-44:20
+	android:noHistory
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-tagmanager-api-12.0.1.aar\80f8fb797cc2374e203c70f9fcf7900b\AndroidManifest.xml:35:13-37
+	android:exported
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-tagmanager-api-12.0.1.aar\80f8fb797cc2374e203c70f9fcf7900b\AndroidManifest.xml:34:13-36
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-tagmanager-api-12.0.1.aar\80f8fb797cc2374e203c70f9fcf7900b\AndroidManifest.xml:33:13-87
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:tagmanager.c.${applicationId}
+ADDED from [com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-tagmanager-api-12.0.1.aar\80f8fb797cc2374e203c70f9fcf7900b\AndroidManifest.xml:36:13-43:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:tagmanager.c.com.mobile.polux
+ADDED from [com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-tagmanager-api-12.0.1.aar\80f8fb797cc2374e203c70f9fcf7900b\AndroidManifest.xml:36:13-43:29
+data
+ADDED from [com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-tagmanager-api-12.0.1.aar\80f8fb797cc2374e203c70f9fcf7900b\AndroidManifest.xml:37:17-72
+	android:scheme
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-tagmanager-api-12.0.1.aar\80f8fb797cc2374e203c70f9fcf7900b\AndroidManifest.xml:37:23-69
+action#android.intent.action.VIEW
+ADDED from [com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-tagmanager-api-12.0.1.aar\80f8fb797cc2374e203c70f9fcf7900b\AndroidManifest.xml:39:17-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-tagmanager-api-12.0.1.aar\80f8fb797cc2374e203c70f9fcf7900b\AndroidManifest.xml:39:25-66
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-tagmanager-api-12.0.1.aar\80f8fb797cc2374e203c70f9fcf7900b\AndroidManifest.xml:42:17-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-tagmanager-api-12.0.1.aar\80f8fb797cc2374e203c70f9fcf7900b\AndroidManifest.xml:42:27-75
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-analytics-12.0.1.aar\b75fcd1d3120658a88e5a11d836e84e1\AndroidManifest.xml:28:9-32:20
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-analytics-impl-12.0.1.aar\08eef71b7c6eb9f38a9e62389d2ef0c9\AndroidManifest.xml:28:9-32:20
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-analytics-impl-12.0.1.aar\08eef71b7c6eb9f38a9e62389d2ef0c9\AndroidManifest.xml:28:9-32:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-analytics-12.0.1.aar\b75fcd1d3120658a88e5a11d836e84e1\AndroidManifest.xml:30:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-analytics-12.0.1.aar\b75fcd1d3120658a88e5a11d836e84e1\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-analytics-12.0.1.aar\b75fcd1d3120658a88e5a11d836e84e1\AndroidManifest.xml:29:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-analytics-12.0.1.aar\b75fcd1d3120658a88e5a11d836e84e1\AndroidManifest.xml:33:9-41:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-analytics-12.0.1.aar\b75fcd1d3120658a88e5a11d836e84e1\AndroidManifest.xml:35:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-analytics-12.0.1.aar\b75fcd1d3120658a88e5a11d836e84e1\AndroidManifest.xml:36:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-analytics-12.0.1.aar\b75fcd1d3120658a88e5a11d836e84e1\AndroidManifest.xml:37:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-analytics-12.0.1.aar\b75fcd1d3120658a88e5a11d836e84e1\AndroidManifest.xml:34:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-analytics-12.0.1.aar\b75fcd1d3120658a88e5a11d836e84e1\AndroidManifest.xml:38:13-40:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-analytics-12.0.1.aar\b75fcd1d3120658a88e5a11d836e84e1\AndroidManifest.xml:39:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-analytics-12.0.1.aar\b75fcd1d3120658a88e5a11d836e84e1\AndroidManifest.xml:39:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-analytics-12.0.1.aar\b75fcd1d3120658a88e5a11d836e84e1\AndroidManifest.xml:43:9-46:40
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-analytics-impl-12.0.1.aar\08eef71b7c6eb9f38a9e62389d2ef0c9\AndroidManifest.xml:34:9-37:40
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-analytics-impl-12.0.1.aar\08eef71b7c6eb9f38a9e62389d2ef0c9\AndroidManifest.xml:34:9-37:40
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-analytics-12.0.1.aar\b75fcd1d3120658a88e5a11d836e84e1\AndroidManifest.xml:45:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-analytics-12.0.1.aar\b75fcd1d3120658a88e5a11d836e84e1\AndroidManifest.xml:46:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-analytics-12.0.1.aar\b75fcd1d3120658a88e5a11d836e84e1\AndroidManifest.xml:44:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-analytics-12.0.1.aar\b75fcd1d3120658a88e5a11d836e84e1\AndroidManifest.xml:47:9-51:72
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-analytics-12.0.1.aar\b75fcd1d3120658a88e5a11d836e84e1\AndroidManifest.xml:49:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-analytics-12.0.1.aar\b75fcd1d3120658a88e5a11d836e84e1\AndroidManifest.xml:50:13-37
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-analytics-12.0.1.aar\b75fcd1d3120658a88e5a11d836e84e1\AndroidManifest.xml:51:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-analytics-12.0.1.aar\b75fcd1d3120658a88e5a11d836e84e1\AndroidManifest.xml:48:13-87
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\9a8a84574bc1640a33ff92a5c37e1fa1\AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\9a8a84574bc1640a33ff92a5c37e1fa1\AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\9a8a84574bc1640a33ff92a5c37e1fa1\AndroidManifest.xml:29:9-63
+permission#com.mobile.polux.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\9a8a84574bc1640a33ff92a5c37e1fa1\AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\9a8a84574bc1640a33ff92a5c37e1fa1\AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\9a8a84574bc1640a33ff92a5c37e1fa1\AndroidManifest.xml:29:9-63
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\9a8a84574bc1640a33ff92a5c37e1fa1\AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\9a8a84574bc1640a33ff92a5c37e1fa1\AndroidManifest.xml:32:22-76
+uses-permission#com.mobile.polux.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\9a8a84574bc1640a33ff92a5c37e1fa1\AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\9a8a84574bc1640a33ff92a5c37e1fa1\AndroidManifest.xml:32:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\9a8a84574bc1640a33ff92a5c37e1fa1\AndroidManifest.xml:35:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\9a8a84574bc1640a33ff92a5c37e1fa1\AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\9a8a84574bc1640a33ff92a5c37e1fa1\AndroidManifest.xml:38:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\9a8a84574bc1640a33ff92a5c37e1fa1\AndroidManifest.xml:36:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:${applicationId}
+ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\9a8a84574bc1640a33ff92a5c37e1fa1\AndroidManifest.xml:39:13-43:29
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.mobile.polux
+ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\9a8a84574bc1640a33ff92a5c37e1fa1\AndroidManifest.xml:39:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\9a8a84574bc1640a33ff92a5c37e1fa1\AndroidManifest.xml:40:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\9a8a84574bc1640a33ff92a5c37e1fa1\AndroidManifest.xml:40:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\9a8a84574bc1640a33ff92a5c37e1fa1\AndroidManifest.xml:42:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\9a8a84574bc1640a33ff92a5c37e1fa1\AndroidManifest.xml:42:27-58
+category#com.mobile.polux
+ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\9a8a84574bc1640a33ff92a5c37e1fa1\AndroidManifest.xml:42:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\9a8a84574bc1640a33ff92a5c37e1fa1\AndroidManifest.xml:42:27-58
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\9a8a84574bc1640a33ff92a5c37e1fa1\AndroidManifest.xml:50:9-56:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\9a8a84574bc1640a33ff92a5c37e1fa1\AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\9a8a84574bc1640a33ff92a5c37e1fa1\AndroidManifest.xml:51:13-77
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\9a8a84574bc1640a33ff92a5c37e1fa1\AndroidManifest.xml:53:13-55:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\9a8a84574bc1640a33ff92a5c37e1fa1\AndroidManifest.xml:53:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\9a8a84574bc1640a33ff92a5c37e1fa1\AndroidManifest.xml:54:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\9a8a84574bc1640a33ff92a5c37e1fa1\AndroidManifest.xml:54:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\ab4b4da1236284625b96d0b35b2e5219\AndroidManifest.xml:8:9-12:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\ab4b4da1236284625b96d0b35b2e5219\AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\ab4b4da1236284625b96d0b35b2e5219\AndroidManifest.xml:11:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\ab4b4da1236284625b96d0b35b2e5219\AndroidManifest.xml:12:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\ab4b4da1236284625b96d0b35b2e5219\AndroidManifest.xml:9:13-77
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-ads-lite-12.0.1.aar\270ff2a6e005cf7df4587097e61556e7\AndroidManifest.xml:29:9-33:64
+	android:exported
+		ADDED from [com.google.android.gms:play-services-ads-lite:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-ads-lite-12.0.1.aar\270ff2a6e005cf7df4587097e61556e7\AndroidManifest.xml:32:13-37
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads-lite:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-ads-lite-12.0.1.aar\270ff2a6e005cf7df4587097e61556e7\AndroidManifest.xml:31:13-122
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-ads-lite-12.0.1.aar\270ff2a6e005cf7df4587097e61556e7\AndroidManifest.xml:33:13-61
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-ads-lite-12.0.1.aar\270ff2a6e005cf7df4587097e61556e7\AndroidManifest.xml:30:13-65
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-basement-12.0.1.aar\d77673db12046acaaddf1fd9cc45c598\AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.maps.android:android-maps-utils:0.4] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\android-maps-utils-0.4.aar\6d6adb1fec0875dac891f849cee2e12d\AndroidManifest.xml:8:9-10:69
+MERGED from [com.google.maps.android:android-maps-utils:0.4] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\android-maps-utils-0.4.aar\6d6adb1fec0875dac891f849cee2e12d\AndroidManifest.xml:8:9-10:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-basement-12.0.1.aar\d77673db12046acaaddf1fd9cc45c598\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:12.0.1] C:\WorkSpaces\XVitales\caches\transforms-1\files-1.1\play-services-basement-12.0.1.aar\d77673db12046acaaddf1fd9cc45c598\AndroidManifest.xml:24:13-58

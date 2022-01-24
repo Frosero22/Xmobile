@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item_register_visit"
+        android:orderInCategory="100"
+        android:title="Registrar visita" />
+    <item
+        android:id="@+id/item_map"
+        android:orderInCategory="100"
+        android:title="Ver en el mapa" />
+    <item
+        android:id="@+id/item_view"
+        android:orderInCategory="100"
+        android:title="Ver cliente" />
+    <item
+        android:id="@+id/item_order"
+        android:orderInCategory="100"
+        android:title="Tomar pedido" />
+</menu>
