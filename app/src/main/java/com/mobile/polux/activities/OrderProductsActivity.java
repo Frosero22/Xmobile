@@ -72,6 +72,7 @@ public class OrderProductsActivity extends AbstractActivity implements View.OnCl
 
 
     public static RealmList<ProductOrder> productsOrder;
+
     private static Order orderAux;
     public static boolean isEdit;
     public static boolean isOff;
