@@ -1,6 +1,7 @@
 package com.mobile.polux.activities;
 
 
+import android.annotation.SuppressLint;
 import android.app.AlertDialog;
 import android.app.DatePickerDialog;
 import android.app.ProgressDialog;
@@ -33,6 +34,7 @@ import com.google.gson.TypeAdapter;
 import com.mobile.polux.R;
 import com.mobile.polux.adapters.ProductOrderAdapter;
 import com.mobile.polux.app.App;
+import com.mobile.polux.models.DiscountManualResponse;
 import com.mobile.polux.models.Order;
 import com.mobile.polux.models.OrderResponse;
 import com.mobile.polux.models.Product;
@@ -70,6 +72,7 @@ import retrofit2.Response;
 
 import static com.mobile.polux.app.App.KEY_DIAS_PEDIDO;
 import static com.mobile.polux.app.App.KEY_PROMOTION_ID;
+import static com.mobile.polux.app.App.companyCode;
 import static com.mobile.polux.app.App.getValueOfPreferencesUser;
 
 public class OrderProductsActivity extends AbstractActivity implements View.OnClickListener {
@@ -1658,6 +1661,8 @@ public class OrderProductsActivity extends AbstractActivity implements View.OnCl
         final AlertDialog alertDialog = new AlertDialog.Builder(OrderProductsActivity.this).create();
         alertDialog.setCancelable(false);
 
+
+
         final TextView txvNombreProducto = (TextView) view.findViewById(R.id.txvNombreProducto);
         txvNombreProducto.setText(productSelect.getName());
 
@@ -1689,6 +1694,10 @@ public class OrderProductsActivity extends AbstractActivity implements View.OnCl
         final LinearLayout llTotalDiscounts = (LinearLayout) view.findViewById(R.id.ll_total_discount);
         final EditText edtTotalDiscounts = (EditText) view.findViewById(R.id.edt_total_discounts);
 
+
+        edtDiscountsManual.setEnabled(false);
+        calculateManualDiscout(productOrderSelect, edtDiscountsManual);
+
         if(!mostrarValoresXRulesOrdenesPedidos.equalsIgnoreCase("S")){
             llDiscountsRules.setVisibility(View.GONE);
             llValueRules.setVisibility(View.GONE);
@@ -1700,6 +1709,10 @@ public class OrderProductsActivity extends AbstractActivity implements View.OnCl
 
         edtRulesDiscount.setEnabled(false);
         edtValueRules.setEnabled(false);
+
+
+
+
 
         checkApplyRules.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
@@ -1752,11 +1765,48 @@ public class OrderProductsActivity extends AbstractActivity implements View.OnCl
 
     }
 
-    private double format(double value, int decimals){
-        BigDecimal decimal = new BigDecimal(String.valueOf(value));
-        BigDecimal newDecimal = decimal.setScale(decimals, RoundingMode.HALF_UP);
-        return newDecimal.doubleValue();
+    private void calculateManualDiscout(ProductOrder productOrder, final EditText edtDiscountsManual){
+
+        Call<DiscountManualResponse> response = App.servicesOrder.discountResponse(companyCode,productOrder.getCodigoPrestacion(),OrderClientActivity.client.getId(),App.userSequence);
+        progressDialog = Util.barraCargando(this, "Calculando...");
+        final DiscountManualResponse discountManual = new DiscountManualResponse();
+
+        response.enqueue(new Callback<DiscountManualResponse>() {
+            @Override
+            public void onResponse(Call<DiscountManualResponse> call, Response<DiscountManualResponse> response) {
+                progressDialog.dismiss();
+                DiscountManualResponse discountManualResponse = response.body();
+                if (discountManualResponse == null) {
+                    Gson gson = new Gson();
+                    TypeAdapter<DiscountManualResponse> adapter = gson.getAdapter(DiscountManualResponse.class);
+                    try {
+                        if (response.errorBody() != null)
+                            discountManualResponse =
+                                    adapter.fromJson(
+                                            response.errorBody().string());
+                    } catch (IOException e) {
+                    }
+                }
+
+                assert discountManualResponse != null;
+                discountManual.setValorDescuento(discountManualResponse.getValorDescuento());
+                discountManual.setMensaje(discountManualResponse.getMensaje());
+
+                edtDiscountsManual.setText(String.valueOf(discountManual.getValorDescuento()));
+
+            }
+
+            @Override
+            public void onFailure(Call<DiscountManualResponse> call, Throwable t) {
+                progressDialog.dismiss();
+                showToast("Ocurrió un error, por favor verifique su acceso a internet");
+            }
+        });
+
+
+
     }
+
 
     private void showDialogProduct(final Product productSelect, final int positionProduct) {
 
@@ -2176,6 +2226,7 @@ public class OrderProductsActivity extends AbstractActivity implements View.OnCl
         }
     }
 
+    @SuppressLint("NonConstantResourceId")
     @Override
     public boolean onContextItemSelected(MenuItem item) {
 
@@ -2237,8 +2288,6 @@ public class OrderProductsActivity extends AbstractActivity implements View.OnCl
                 discount = discount - po.getValorDescuento();
             }
         }
-
-        Log.e("PRODUCTO","ES PROMOCION "+po.getEsPromocion());
 
 
         int id = po.getCodigoPrestacion();
@@ -2316,9 +2365,7 @@ public class OrderProductsActivity extends AbstractActivity implements View.OnCl
 
 
         for(ProductOrder productOrder1: productsOrder){
-            Log.e("LOG","VALOR IVA QUE ENTRA "+productOrder1.getValorIva());
             iva += productOrder1.getValorIva();
-
 
             if(!productOrder1.getEsPromocion().equalsIgnoreCase("S")){
                 subtotal += productOrder1.getSubtotalBaseImponible();
@@ -2430,7 +2477,7 @@ public class OrderProductsActivity extends AbstractActivity implements View.OnCl
         int bandera = 0;
 
         for(ProductOrder productOrder: productsOrder){
-            if(productOrder.getEsPromocion().equalsIgnoreCase("S") || productOrder.getValorDescuento() > 0){
+            if((productOrder.getEsPromocion() != null && productOrder.getEsPromocion().equalsIgnoreCase("S")) || productOrder.getValorDescuento() > 0){
                 bandera++;
             }
         }

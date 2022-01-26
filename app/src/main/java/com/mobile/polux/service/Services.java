@@ -5,6 +5,7 @@ import com.mobile.polux.models.AplicaDescuentoResponse;
 import com.mobile.polux.models.BankResponse;
 import com.mobile.polux.models.ClientsResponse;
 import com.mobile.polux.models.CreditHistoryResponse;
+import com.mobile.polux.models.DiscountManualResponse;
 import com.mobile.polux.models.FinalizeResponse;
 import com.mobile.polux.models.GeolocationResponse;
 import com.mobile.polux.models.GetOrderResponse;
@@ -114,6 +115,9 @@ public interface Services {
 
     @GET("Pedidos/obtenerPedidosXVendedor")
     Call<OrdersResponse> orders(@Query("arg0") int companyCode, @Query("arg1") int personalSequence);
+
+    @GET("Pedidos/obtenerDescuentoManual")
+    Call<DiscountManualResponse> discountResponse(@Query("arg0") int companyCode, @Query("arg1") int productId, @Query("arg2") int clientId, @Query("arg3") int personalSequence);
 
     @PUT("Liquidacion/insertarGuia")
     Call<LiquidationResponse> liquidation(@Body GuideLiquidation liquidation);
