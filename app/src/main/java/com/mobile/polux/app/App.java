@@ -52,6 +52,9 @@ public class App extends MultiDexApplication {
     public static final String KEY_API_RULES = "apiKeyRules";
     public static final String KEY_APLICA_EDICION_XRULES = "usaXRulesAlHacerPedido";
     public static final String KEY_ELIM_PROM_AUTO = "elimPromAutOrdenPedido";
+    public static final String KEY_MOSTRAR_VAL_DESC_MANUAL_VEND = "mostrarValorDescuentoManual";
+    public static final String KEY_MOSTRAR_VAL_XRULES_ORD_PED = "mostrarValoresXRulesOrdenesPedidos";
+    public static final String KEY_MOST_CHECK_APL_XRULES_ORD_PED = "mostrarCheckAplicaRulesOrdenesPedido";
 
     public static final String KEY_USE_EQUIV = "useEquivalencias";
     public static final String KEY_USE_PROMOTION = "usePromotion";

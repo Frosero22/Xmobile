@@ -197,7 +197,7 @@ public class Promotions {
                                            String applyIva, double percentIva, int serviceCode, int version, double unitCost,
                                            double percentDiscount,
                                            boolean isPromotion,
-                                           boolean isFree) {
+                                           boolean isFree, double percentDiscountXRules, double valueDiscountXRules, double percentDiscountManual, double valueDiscountManual) {
         double total;
         double iva = 0;
         double subtotal;
@@ -236,17 +236,28 @@ public class Promotions {
         ProductOrder productOrder = new ProductOrder(code, name, boxes, units, cant,
                 price, subtotal, applyIva, percentIva,
                 iva, total, App.userCode, App.subCompanyCode,
-                serviceCode, version, unitCost);
+                serviceCode, version, unitCost,percentDiscountXRules,valueDiscountXRules,percentDiscountManual,valueDiscountManual);
 
         productOrder.setSubtotalBaseImponible(subtotal - discount);
         productOrder.setPorcentajeDescuento(percentDiscount);
+        //*** para pruebas ****//
+        productOrder.setValorDescuentoXRules(discount);
+        //*** para pruebas ****//
         productOrder.setValorDescuento(discount);
+
+
 
         if (isPromotion) {
             productOrder.setEsPromocionAutomatica("S");
+            productOrder.setAplicaXRules("S");
         }
         if (isFree) {
             productOrder.setEsPromocion("S");
+            productOrder.setAplicaXRules("N");
+
+            productOrder.setValorDescuentoXRules(0);
+            productOrder.setPorcentajeDescuentoXRules(0);
+
         }
 
 
@@ -262,6 +273,28 @@ public class Promotions {
         BigDecimal decimal = new BigDecimal(String.valueOf(value));
         BigDecimal newDecimal = decimal.setScale(decimals, RoundingMode.HALF_UP);
         return newDecimal.doubleValue();
+    }
+
+    public void setPromotions(Order order) {
+        message = "";
+
+        for(ProductOrder productOrder: order.getLsDafDetallesOrdens()){
+            if(productOrder.getEsPromocion().equalsIgnoreCase("S")){
+                message += "Regla #   "  +productOrder.getCodigoReglaNegocio() +  "  GRATIS  " + productOrder.getCantidad() + " " + getName(productOrder.getName()) + "\n";
+            }else if(productOrder.getLstDafDetallesOrden() != null && productOrder.getLstDafDetallesOrden().size() > 0){
+                for(ProductOrder productOrder1 : productOrder.getLstDafDetallesOrden()){
+                    if(productOrder1.getEsPromocion().equalsIgnoreCase("S")){
+                        message += "Regla #   "  +productOrder1.getCodigoReglaNegocio() +  "  GRATIS  " + productOrder1.getCantidad() + " " + getName(productOrder1.getName()) + "\n";
+                    }
+                }
+            }
+
+            if(productOrder.getPorcentajeDescuento()  != null && productOrder.getPorcentajeDescuento() > 0){
+                message += "Regla #  " +productOrder.getCodigoReglaNegocio() +  " " + productOrder.getPorcentajeDescuento() + " % DE DESCUENTO EN " + getName(productOrder.getName()) + "\n";
+            }
+
+        }
+
     }
 
     public Order setPromotionOrder(Order order, PromotionResponse promotionResponse) {
@@ -292,7 +325,7 @@ public class Promotions {
                         product.getBoxes(), product.getUnits(),
                         product.getAplicaIva(), product.getPorcentajeIva(),
                         product.getCodigoServicio(), product.getNumeroVersion(),
-                        product.getCostoUnitario(), percentDiscount, false, false
+                        product.getCostoUnitario(), percentDiscount, false, false,product.getPorcentajeDescuentoXRules(),product.getValorDescuentoXRules(),product.getPorcentajeDescuentoManual(),product.getValorDescuentoManual()
                 );
                 if (percentDiscount > 0) {
                     productOrder.setCodigoReglaNegocio(ruleId);
@@ -336,7 +369,8 @@ public class Promotions {
                                 productFree.getPrice(), promotion.getCantidad_item_regalo(), 0, promotion.getCantidad_item_regalo(),
                                 productFree.getAplicaIva(), productFree.getPorcentajeIva(),
                                 productFree.getServiceCode(), productFree.getVersion(),
-                                productFree.getCost(), 100, true, true
+                                productFree.getCost(), 100, true, true,
+                                0,0,0,0
                         );
                         free.setProductRelation(productId);
                         free.setCodigoReglaNegocio(promotion.getRule_id());
@@ -366,6 +400,10 @@ public class Promotions {
 
     public String getMessage() {
         return message;
+    }
+
+    public void setMessage(String message) {
+        this.message = message;
     }
 
 

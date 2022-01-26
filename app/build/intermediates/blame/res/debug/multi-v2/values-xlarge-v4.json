@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\WorkSpaces\\Android Workspace\\xmobile\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xlarge-v4\\values-xlarge-v4.xml",
+            "outputFile": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xlarge-v4\\values-xlarge-v4.xml",
             "map": [
                 {
-                    "source": "C:\\WorkSpaces\\Android Workspace\\xmobile\\app\\src\\main\\res\\values-xlarge\\dimens.xml",
+                    "source": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\src\\main\\res\\values-xlarge\\dimens.xml",
                     "from": {
                         "startLines": "3,10,9,5,6,8",
                         "startColumns": "4,4,4,4,4,4",

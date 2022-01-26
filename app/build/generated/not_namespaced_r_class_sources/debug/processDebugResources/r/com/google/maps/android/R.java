@@ -89,26 +89,26 @@ public final class R {
         public static final int buyButton = 0x7f090057;
         public static final int buy_now = 0x7f090058;
         public static final int buy_with_google = 0x7f09005a;
-        public static final int classic = 0x7f090073;
-        public static final int donate_with_google = 0x7f090094;
-        public static final int grayscale = 0x7f0900c0;
-        public static final int holo_dark = 0x7f0900c4;
-        public static final int holo_light = 0x7f0900c5;
-        public static final int hybrid = 0x7f0900c9;
-        public static final int match_parent = 0x7f090136;
-        public static final int monochrome = 0x7f09013c;
-        public static final int none = 0x7f090177;
-        public static final int normal = 0x7f090178;
-        public static final int production = 0x7f09018f;
-        public static final int sandbox = 0x7f09019c;
-        public static final int satellite = 0x7f09019d;
-        public static final int selectionDetails = 0x7f0901b7;
-        public static final int strict_sandbox = 0x7f0901d3;
-        public static final int terrain = 0x7f0901dc;
-        public static final int text = 0x7f0901de;
-        public static final int webview = 0x7f090265;
-        public static final int window = 0x7f090267;
-        public static final int wrap_content = 0x7f09026a;
+        public static final int classic = 0x7f090074;
+        public static final int donate_with_google = 0x7f090095;
+        public static final int grayscale = 0x7f0900c7;
+        public static final int holo_dark = 0x7f0900cb;
+        public static final int holo_light = 0x7f0900cc;
+        public static final int hybrid = 0x7f0900d0;
+        public static final int match_parent = 0x7f090146;
+        public static final int monochrome = 0x7f09014c;
+        public static final int none = 0x7f090187;
+        public static final int normal = 0x7f090188;
+        public static final int production = 0x7f09019f;
+        public static final int sandbox = 0x7f0901ac;
+        public static final int satellite = 0x7f0901ad;
+        public static final int selectionDetails = 0x7f0901c7;
+        public static final int strict_sandbox = 0x7f0901e3;
+        public static final int terrain = 0x7f0901ec;
+        public static final int text = 0x7f0901ee;
+        public static final int webview = 0x7f090277;
+        public static final int window = 0x7f090279;
+        public static final int wrap_content = 0x7f09027c;
     }
     public static final class integer {
         private integer() {}
@@ -119,8 +119,8 @@ public final class R {
         private layout() {}
 
         public static final int info_window = 0x7f0c004d;
-        public static final int text_bubble = 0x7f0c008e;
-        public static final int webview = 0x7f0c0093;
+        public static final int text_bubble = 0x7f0c008f;
+        public static final int webview = 0x7f0c0094;
     }
     public static final class raw {
         private raw() {}

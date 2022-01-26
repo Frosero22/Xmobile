@@ -237,8 +237,10 @@ public class LoginActivity extends AppCompatActivity {
                             App.saveValueOnPreferencesUser(App.KEY_API_RULES,response.body().getDafSucursales().get(0).getApiKeyRules());
                             App.saveValueOnPreferencesUser(App.KEY_APLICA_EDICION_XRULES,response.body().getDafSucursales().get(0).getAplicaEdicionXRules());
                             App.saveValueOnPreferencesUser(App.KEY_ELIM_PROM_AUTO,response.body().getDafSucursales().get(0).getElimPromAutOrdenPedido());
+                            App.saveValueOnPreferencesUser(App.KEY_MOSTRAR_VAL_DESC_MANUAL_VEND,response.body().getDafSucursales().get(0).getMostrarValorDescuentoManual());
+                            App.saveValueOnPreferencesUser(App.KEY_MOSTRAR_VAL_XRULES_ORD_PED,response.body().getDafSucursales().get(0).getMostrarValoresXRulesOrdenesPedidos());
+                            App.saveValueOnPreferencesUser(App.KEY_MOST_CHECK_APL_XRULES_ORD_PED,response.body().getDafSucursales().get(0).getMostrarCheckAplicaRulesOrdenesPedido());
 
-                            Log.e("API","RULES KEY "+response.body().getDafSucursales().get(0).getApiKeyRules());
 
                             goToMain();
                         } else {
@@ -308,6 +310,9 @@ public class LoginActivity extends AppCompatActivity {
                     App.saveValueOnPreferencesUser(App.KEY_API_RULES,sub.getApiKeyRules());
                     App.saveValueOnPreferencesUser(App.KEY_APLICA_EDICION_XRULES,sub.getAplicaEdicionXRules());
                     App.saveValueOnPreferencesUser(App.KEY_ELIM_PROM_AUTO,sub.getElimPromAutOrdenPedido());
+                    App.saveValueOnPreferencesUser(App.KEY_MOSTRAR_VAL_DESC_MANUAL_VEND,sub.getMostrarValorDescuentoManual());
+                    App.saveValueOnPreferencesUser(App.KEY_MOSTRAR_VAL_XRULES_ORD_PED,sub.getMostrarValoresXRulesOrdenesPedidos());
+                    App.saveValueOnPreferencesUser(App.KEY_MOST_CHECK_APL_XRULES_ORD_PED,sub.getMostrarCheckAplicaRulesOrdenesPedido());
 
 
 

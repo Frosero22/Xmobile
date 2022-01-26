@@ -2,8 +2,15 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
+        android:id="@+id/item_discounts"
+        android:orderInCategory="100"
+        android:title="Editar Descuentos" />
+
+    <item
         android:id="@+id/item_remove"
         android:orderInCategory="100"
         android:title="Quitar" />
+
+
 
 </menu>

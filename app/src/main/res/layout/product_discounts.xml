@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="12dp"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="12dp">
+
+    <TextView
+        android:id="@+id/txvNombreProducto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="textStart"
+        android:textColor="@color/colorAccent"
+        android:text="MR POLLO"
+        android:textSize="17dp"
+        android:gravity="center_horizontal"
+        tools:ignore="RtlCompat" />
+
+    <LinearLayout
+        android:id="@+id/ll_rules_id"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+
+
+        <LinearLayout
+            android:id="@+id/ll_check_rules"
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:padding="10dp">
+
+            <CheckBox
+                android:id="@+id/ch_apply_rules"
+                android:layout_width="144dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:backgroundTint="@color/colorPrimary"
+                android:text="Aplica X-Rules"
+                android:textColor="@color/colorText"
+                android:textSize="@dimen/content" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_weight="1"
+                android:text="Código Regla: "
+                android:textColor="@color/colorLabel"
+                android:textSize="@dimen/content" />
+
+            <TextView
+                android:id="@+id/tv_rule_id"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="34"
+                android:textColor="@color/colorText"
+                android:textSize="@dimen/content"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/ll_discounts_xrules"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="% Descuento X-Rules:"
+            android:enabled="false"
+            android:textColor="@color/colorLabel"
+            android:textSize="@dimen/content" />
+
+        <EditText
+            android:id="@+id/edt_rules_discount"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:enabled="false"
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:textColor="@color/colorText"
+            android:textSize="@dimen/content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_value_xrules"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="$ Descuento X-Rules:"
+            android:textColor="@color/colorLabel"
+            android:textSize="@dimen/content" />
+
+        <EditText
+            android:id="@+id/edt_rules_values"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:enabled="false"
+            android:textAlignment="center"
+            android:inputType="numberDecimal"
+            android:textColor="@color/colorText"
+            android:textSize="@dimen/content" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll_discounts_manual"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="% Descuento Manual:"
+            android:textColor="@color/colorLabel"
+            android:textSize="@dimen/content" />
+
+        <EditText
+            android:id="@+id/edt_manual_discounts"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+
+            android:textAlignment="center"
+            android:inputType="numberDecimal"
+            android:textColor="@color/colorText"
+            android:textSize="@dimen/content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_value_manual"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="$ Descuento Manual:"
+            android:textColor="@color/colorLabel"
+            android:textSize="@dimen/content" />
+
+        <EditText
+            android:id="@+id/edt_manual_value"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:textAlignment="center"
+            android:inputType="numberDecimal"
+            android:textColor="@color/colorText"
+            android:textSize="@dimen/content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_total_discount_percent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="% Total Descuentos:"
+            android:textColor="@color/colorLabel"
+            android:textSize="@dimen/content" />
+
+        <EditText
+            android:id="@+id/edt_total_discounts_percent"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:textColor="@color/colorText"
+            android:textSize="@dimen/content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_total_discount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="$ Total Descuentos:"
+            android:textColor="@color/colorLabel"
+            android:textSize="@dimen/content" />
+
+        <EditText
+            android:id="@+id/edt_total_discounts"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:textColor="@color/colorText"
+            android:textSize="@dimen/content" />
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

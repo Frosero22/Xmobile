@@ -32,6 +32,15 @@ public class DafSucursal {
     @SerializedName("elimPromAutOrdenPedido")
     private String elimPromAutOrdenPedido;
 
+    @SerializedName("mostrarValorDescuentoManual")
+    private String mostrarValorDescuentoManual;
+
+    @SerializedName("mostrarValoresXRulesOrdenesPedidos")
+    private String mostrarValoresXRulesOrdenesPedidos;
+
+    @SerializedName("mostrarCheckAplicaRulesOrdenesPedido")
+    private String mostrarCheckAplicaRulesOrdenesPedido;
+
     public Integer getCodigoSucursal() {
         return codigoSucursal;
     }
@@ -94,6 +103,30 @@ public class DafSucursal {
 
     public void setElimPromAutOrdenPedido(String elimPromAutOrdenPedido) {
         this.elimPromAutOrdenPedido = elimPromAutOrdenPedido;
+    }
+
+    public String getMostrarValorDescuentoManual() {
+        return mostrarValorDescuentoManual;
+    }
+
+    public void setMostrarValorDescuentoManual(String mostrarValorDescuentoManual) {
+        this.mostrarValorDescuentoManual = mostrarValorDescuentoManual;
+    }
+
+    public String getMostrarValoresXRulesOrdenesPedidos() {
+        return mostrarValoresXRulesOrdenesPedidos;
+    }
+
+    public void setMostrarValoresXRulesOrdenesPedidos(String mostrarValoresXRulesOrdenesPedidos) {
+        this.mostrarValoresXRulesOrdenesPedidos = mostrarValoresXRulesOrdenesPedidos;
+    }
+
+    public String getMostrarCheckAplicaRulesOrdenesPedido() {
+        return mostrarCheckAplicaRulesOrdenesPedido;
+    }
+
+    public void setMostrarCheckAplicaRulesOrdenesPedido(String mostrarCheckAplicaRulesOrdenesPedido) {
+        this.mostrarCheckAplicaRulesOrdenesPedido = mostrarCheckAplicaRulesOrdenesPedido;
     }
 
     public String toString() {

@@ -1772,6 +1772,7 @@ id cb_selected
 id center
 id center_horizontal
 id center_vertical
+id ch_apply_rules
 id chains
 id check
 id checkbox
@@ -1812,6 +1813,12 @@ id donate_with
 id donate_with_google
 id drawer_layout
 id edit_query
+id edt_manual_discounts
+id edt_manual_value
+id edt_rules_discount
+id edt_rules_values
+id edt_total_discounts
+id edt_total_discounts_percent
 id email
 id email_login_form
 id end
@@ -1884,6 +1891,7 @@ id italic
 id item_all
 id item_cancel
 id item_delete
+id item_discounts
 id item_download
 id item_edit
 id item_map
@@ -1918,6 +1926,7 @@ id ll_accounts_client
 id ll_balance
 id ll_boxes
 id ll_cashing
+id ll_check_rules
 id ll_client
 id ll_clients
 id ll_content
@@ -1925,6 +1934,8 @@ id ll_content_sp
 id ll_credit_history
 id ll_delivery
 id ll_discounts
+id ll_discounts_manual
+id ll_discounts_xrules
 id ll_image
 id ll_info
 id ll_info_cheque
@@ -1944,10 +1955,15 @@ id ll_pending
 id ll_phone
 id ll_products
 id ll_promotion
+id ll_rules_id
 id ll_search
 id ll_stock
 id ll_total
 id ll_total_c
+id ll_total_discount
+id ll_total_discount_percent
+id ll_value_manual
+id ll_value_xrules
 id lnlValidaXRules
 id loading
 id loading_indicator
@@ -2235,6 +2251,7 @@ id tv_retained
 id tv_retained_count
 id tv_rs
 id tv_ruc
+id tv_rule_id
 id tv_select
 id tv_state
 id tv_stock
@@ -2265,6 +2282,7 @@ id tv_version
 id tv_visits
 id tv_zone
 id txt_sucursal
+id txvNombreProducto
 id uniform
 id unlabeled
 id up
@@ -2439,6 +2457,7 @@ layout place_autocomplete_fragment
 layout place_autocomplete_item_powered_by_google
 layout place_autocomplete_item_prediction
 layout place_autocomplete_progress
+layout product_discounts
 layout product_select
 layout promotion
 layout save_payments

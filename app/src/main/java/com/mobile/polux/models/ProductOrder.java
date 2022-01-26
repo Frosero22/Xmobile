@@ -71,6 +71,20 @@ public class ProductOrder extends RealmObject {
     private Integer codigoReglaNegocio;
     @Expose
     private Integer lineaDetalle;
+    @Expose
+    private String aplicaXRules;
+    @Expose
+    private double porcentajeDescuentoXRules;
+    @Expose
+    private double valorDescuentoXRules;
+    @Expose
+    private double porcentajeDescuentoManual;
+    @Expose
+    private double valorDescuentoManual;
+    @Expose
+    private Integer cantidadEnCajas;
+    @Expose
+    private Integer cantidadEnUnidades;
 
 
 
@@ -86,10 +100,12 @@ public class ProductOrder extends RealmObject {
     public ProductOrder() {
     }
 
+
+
     public ProductOrder(int code,String name, int boxes, int units,
                         Integer cant, double price, double subtotal, String applyIva,
                         double percentIva, double iva, double total, String user,
-                        Integer codeSubCompany, int serviceCode, int version, double unitCost) {
+                        Integer codeSubCompany, int serviceCode, int version, double unitCost, double percentXRules, double valueXRules, double percentManual, double valueManual) {
         this.name = name;
         this.boxes = boxes;
         this.units = units;
@@ -107,6 +123,10 @@ public class ProductOrder extends RealmObject {
         this.codigoServicio = serviceCode;
         this.numeroVersion = version;
         this.costoUnitario = unitCost;
+        this.porcentajeDescuentoXRules = percentXRules;
+        this.valorDescuentoXRules = valueXRules;
+        this.porcentajeDescuentoManual = percentManual;
+        this.valorDescuentoManual = valueManual;
         costoTotal = unitCost * cant;
         esPromocion = "N";
         esActivo = "S";
@@ -114,6 +134,9 @@ public class ProductOrder extends RealmObject {
         tieneStockDisponible = "S";
         porcentajeDescuento = 0.0;
         valorDescuento = 0.0;
+        aplicaXRules = "N";
+        this.cantidadEnUnidades = units;
+        this.cantidadEnCajas = boxes;
         esPromocionAutomatica = esPromocion;
     }
 
@@ -397,5 +420,61 @@ public class ProductOrder extends RealmObject {
 
     public void setProvider(int provider) {
         this.provider = provider;
+    }
+
+    public String getAplicaXRules() {
+        return aplicaXRules;
+    }
+
+    public void setAplicaXRules(String aplicaXRules) {
+        this.aplicaXRules = aplicaXRules;
+    }
+
+    public double getPorcentajeDescuentoXRules() {
+        return porcentajeDescuentoXRules;
+    }
+
+    public void setPorcentajeDescuentoXRules(double porcentajeDescuentoXRules) {
+        this.porcentajeDescuentoXRules = porcentajeDescuentoXRules;
+    }
+
+    public double getValorDescuentoXRules() {
+        return valorDescuentoXRules;
+    }
+
+    public void setValorDescuentoXRules(double valorDescuentoXRules) {
+        this.valorDescuentoXRules = valorDescuentoXRules;
+    }
+
+    public double getPorcentajeDescuentoManual() {
+        return porcentajeDescuentoManual;
+    }
+
+    public void setPorcentajeDescuentoManual(double porcentajeDescuentoManual) {
+        this.porcentajeDescuentoManual = porcentajeDescuentoManual;
+    }
+
+    public double getValorDescuentoManual() {
+        return valorDescuentoManual;
+    }
+
+    public void setValorDescuentoManual(double valorDescuentoManual) {
+        this.valorDescuentoManual = valorDescuentoManual;
+    }
+
+    public Integer getCantidadEnCajas() {
+        return cantidadEnCajas;
+    }
+
+    public void setCantidadEnCajas(Integer cantidadEnCajas) {
+        this.cantidadEnCajas = cantidadEnCajas;
+    }
+
+    public Integer getCantidadEnUnidades() {
+        return cantidadEnUnidades;
+    }
+
+    public void setCantidadEnUnidades(Integer cantidadEnUnidades) {
+        this.cantidadEnUnidades = cantidadEnUnidades;
     }
 }
