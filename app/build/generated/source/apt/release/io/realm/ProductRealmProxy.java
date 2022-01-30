@@ -52,9 +52,10 @@ public class ProductRealmProxy extends com.mobile.polux.models.Product
         long providerIndex;
         long subGroupIndex;
         long articleIndex;
+        long aplicaDescuentoManualIndex;
 
         ProductColumnInfo(SharedRealm realm, Table table) {
-            super(19);
+            super(20);
             this.pkIdIndex = addColumnDetails(table, "pkId", RealmFieldType.STRING);
             this.idIndex = addColumnDetails(table, "id", RealmFieldType.INTEGER);
             this.codigoEmpresaIndex = addColumnDetails(table, "codigoEmpresa", RealmFieldType.INTEGER);
@@ -74,6 +75,7 @@ public class ProductRealmProxy extends com.mobile.polux.models.Product
             this.providerIndex = addColumnDetails(table, "provider", RealmFieldType.INTEGER);
             this.subGroupIndex = addColumnDetails(table, "subGroup", RealmFieldType.INTEGER);
             this.articleIndex = addColumnDetails(table, "article", RealmFieldType.INTEGER);
+            this.aplicaDescuentoManualIndex = addColumnDetails(table, "aplicaDescuentoManual", RealmFieldType.STRING);
         }
 
         ProductColumnInfo(ColumnInfo src, boolean mutable) {
@@ -109,6 +111,7 @@ public class ProductRealmProxy extends com.mobile.polux.models.Product
             dst.providerIndex = src.providerIndex;
             dst.subGroupIndex = src.subGroupIndex;
             dst.articleIndex = src.articleIndex;
+            dst.aplicaDescuentoManualIndex = src.aplicaDescuentoManualIndex;
         }
     }
 
@@ -136,6 +139,7 @@ public class ProductRealmProxy extends com.mobile.polux.models.Product
         fieldNames.add("provider");
         fieldNames.add("subGroup");
         fieldNames.add("article");
+        fieldNames.add("aplicaDescuentoManual");
         FIELD_NAMES = Collections.unmodifiableList(fieldNames);
     }
 
@@ -680,6 +684,36 @@ public class ProductRealmProxy extends com.mobile.polux.models.Product
         proxyState.getRow$realm().setLong(columnInfo.articleIndex, value);
     }
 
+    @Override
+    @SuppressWarnings("cast")
+    public String realmGet$aplicaDescuentoManual() {
+        proxyState.getRealm$realm().checkIfValid();
+        return (java.lang.String) proxyState.getRow$realm().getString(columnInfo.aplicaDescuentoManualIndex);
+    }
+
+    @Override
+    public void realmSet$aplicaDescuentoManual(String value) {
+        if (proxyState.isUnderConstruction()) {
+            if (!proxyState.getAcceptDefaultValue$realm()) {
+                return;
+            }
+            final Row row = proxyState.getRow$realm();
+            if (value == null) {
+                row.getTable().setNull(columnInfo.aplicaDescuentoManualIndex, row.getIndex(), true);
+                return;
+            }
+            row.getTable().setString(columnInfo.aplicaDescuentoManualIndex, row.getIndex(), value, true);
+            return;
+        }
+
+        proxyState.getRealm$realm().checkIfValid();
+        if (value == null) {
+            proxyState.getRow$realm().setNull(columnInfo.aplicaDescuentoManualIndex);
+            return;
+        }
+        proxyState.getRow$realm().setString(columnInfo.aplicaDescuentoManualIndex, value);
+    }
+
     public static RealmObjectSchema createRealmObjectSchema(RealmSchema realmSchema) {
         if (!realmSchema.contains("Product")) {
             RealmObjectSchema realmObjectSchema = realmSchema.create("Product");
@@ -702,6 +736,7 @@ public class ProductRealmProxy extends com.mobile.polux.models.Product
             realmObjectSchema.add("provider", RealmFieldType.INTEGER, !Property.PRIMARY_KEY, !Property.INDEXED, Property.REQUIRED);
             realmObjectSchema.add("subGroup", RealmFieldType.INTEGER, !Property.PRIMARY_KEY, !Property.INDEXED, Property.REQUIRED);
             realmObjectSchema.add("article", RealmFieldType.INTEGER, !Property.PRIMARY_KEY, !Property.INDEXED, Property.REQUIRED);
+            realmObjectSchema.add("aplicaDescuentoManual", RealmFieldType.STRING, !Property.PRIMARY_KEY, !Property.INDEXED, !Property.REQUIRED);
             return realmObjectSchema;
         }
         return realmSchema.get("Product");
@@ -713,14 +748,14 @@ public class ProductRealmProxy extends com.mobile.polux.models.Product
         }
         Table table = sharedRealm.getTable("class_Product");
         final long columnCount = table.getColumnCount();
-        if (columnCount != 19) {
-            if (columnCount < 19) {
-                throw new RealmMigrationNeededException(sharedRealm.getPath(), "Field count is less than expected - expected 19 but was " + columnCount);
+        if (columnCount != 20) {
+            if (columnCount < 20) {
+                throw new RealmMigrationNeededException(sharedRealm.getPath(), "Field count is less than expected - expected 20 but was " + columnCount);
             }
             if (allowExtraColumns) {
-                RealmLog.debug("Field count is more than expected - expected 19 but was %1$d", columnCount);
+                RealmLog.debug("Field count is more than expected - expected 20 but was %1$d", columnCount);
             } else {
-                throw new RealmMigrationNeededException(sharedRealm.getPath(), "Field count is more than expected - expected 19 but was " + columnCount);
+                throw new RealmMigrationNeededException(sharedRealm.getPath(), "Field count is more than expected - expected 20 but was " + columnCount);
             }
         }
         Map<String, RealmFieldType> columnTypes = new HashMap<String, RealmFieldType>();
@@ -912,6 +947,15 @@ public class ProductRealmProxy extends com.mobile.polux.models.Product
         if (table.isColumnNullable(columnInfo.articleIndex)) {
             throw new RealmMigrationNeededException(sharedRealm.getPath(), "Field 'article' does support null values in the existing Realm file. Use corresponding boxed type for field 'article' or migrate using RealmObjectSchema.setNullable().");
         }
+        if (!columnTypes.containsKey("aplicaDescuentoManual")) {
+            throw new RealmMigrationNeededException(sharedRealm.getPath(), "Missing field 'aplicaDescuentoManual' in existing Realm file. Either remove field or migrate using io.realm.internal.Table.addColumn().");
+        }
+        if (columnTypes.get("aplicaDescuentoManual") != RealmFieldType.STRING) {
+            throw new RealmMigrationNeededException(sharedRealm.getPath(), "Invalid type 'String' for field 'aplicaDescuentoManual' in existing Realm file.");
+        }
+        if (!table.isColumnNullable(columnInfo.aplicaDescuentoManualIndex)) {
+            throw new RealmMigrationNeededException(sharedRealm.getPath(), "Field 'aplicaDescuentoManual' is required. Either set @Required to field 'aplicaDescuentoManual' or migrate using RealmObjectSchema.setNullable().");
+        }
 
         return columnInfo;
     }
@@ -1085,6 +1129,13 @@ public class ProductRealmProxy extends com.mobile.polux.models.Product
                 ((ProductRealmProxyInterface) obj).realmSet$article((int) json.getInt("article"));
             }
         }
+        if (json.has("aplicaDescuentoManual")) {
+            if (json.isNull("aplicaDescuentoManual")) {
+                ((ProductRealmProxyInterface) obj).realmSet$aplicaDescuentoManual(null);
+            } else {
+                ((ProductRealmProxyInterface) obj).realmSet$aplicaDescuentoManual((String) json.getString("aplicaDescuentoManual"));
+            }
+        }
         return obj;
     }
 
@@ -1232,6 +1283,13 @@ public class ProductRealmProxy extends com.mobile.polux.models.Product
                 } else {
                     ((ProductRealmProxyInterface) obj).realmSet$article((int) reader.nextInt());
                 }
+            } else if (name.equals("aplicaDescuentoManual")) {
+                if (reader.peek() == JsonToken.NULL) {
+                    reader.skipValue();
+                    ((ProductRealmProxyInterface) obj).realmSet$aplicaDescuentoManual(null);
+                } else {
+                    ((ProductRealmProxyInterface) obj).realmSet$aplicaDescuentoManual((String) reader.nextString());
+                }
             } else {
                 reader.skipValue();
             }
@@ -1315,6 +1373,7 @@ public class ProductRealmProxy extends com.mobile.polux.models.Product
             ((ProductRealmProxyInterface) realmObject).realmSet$provider(((ProductRealmProxyInterface) newObject).realmGet$provider());
             ((ProductRealmProxyInterface) realmObject).realmSet$subGroup(((ProductRealmProxyInterface) newObject).realmGet$subGroup());
             ((ProductRealmProxyInterface) realmObject).realmSet$article(((ProductRealmProxyInterface) newObject).realmGet$article());
+            ((ProductRealmProxyInterface) realmObject).realmSet$aplicaDescuentoManual(((ProductRealmProxyInterface) newObject).realmGet$aplicaDescuentoManual());
             return realmObject;
         }
     }
@@ -1391,6 +1450,10 @@ public class ProductRealmProxy extends com.mobile.polux.models.Product
         Table.nativeSetLong(tableNativePtr, columnInfo.providerIndex, rowIndex, ((ProductRealmProxyInterface)object).realmGet$provider(), false);
         Table.nativeSetLong(tableNativePtr, columnInfo.subGroupIndex, rowIndex, ((ProductRealmProxyInterface)object).realmGet$subGroup(), false);
         Table.nativeSetLong(tableNativePtr, columnInfo.articleIndex, rowIndex, ((ProductRealmProxyInterface)object).realmGet$article(), false);
+        String realmGet$aplicaDescuentoManual = ((ProductRealmProxyInterface)object).realmGet$aplicaDescuentoManual();
+        if (realmGet$aplicaDescuentoManual != null) {
+            Table.nativeSetString(tableNativePtr, columnInfo.aplicaDescuentoManualIndex, rowIndex, realmGet$aplicaDescuentoManual, false);
+        }
         return rowIndex;
     }
 
@@ -1471,6 +1534,10 @@ public class ProductRealmProxy extends com.mobile.polux.models.Product
                 Table.nativeSetLong(tableNativePtr, columnInfo.providerIndex, rowIndex, ((ProductRealmProxyInterface)object).realmGet$provider(), false);
                 Table.nativeSetLong(tableNativePtr, columnInfo.subGroupIndex, rowIndex, ((ProductRealmProxyInterface)object).realmGet$subGroup(), false);
                 Table.nativeSetLong(tableNativePtr, columnInfo.articleIndex, rowIndex, ((ProductRealmProxyInterface)object).realmGet$article(), false);
+                String realmGet$aplicaDescuentoManual = ((ProductRealmProxyInterface)object).realmGet$aplicaDescuentoManual();
+                if (realmGet$aplicaDescuentoManual != null) {
+                    Table.nativeSetString(tableNativePtr, columnInfo.aplicaDescuentoManualIndex, rowIndex, realmGet$aplicaDescuentoManual, false);
+                }
             }
         }
     }
@@ -1567,6 +1634,12 @@ public class ProductRealmProxy extends com.mobile.polux.models.Product
         Table.nativeSetLong(tableNativePtr, columnInfo.providerIndex, rowIndex, ((ProductRealmProxyInterface)object).realmGet$provider(), false);
         Table.nativeSetLong(tableNativePtr, columnInfo.subGroupIndex, rowIndex, ((ProductRealmProxyInterface)object).realmGet$subGroup(), false);
         Table.nativeSetLong(tableNativePtr, columnInfo.articleIndex, rowIndex, ((ProductRealmProxyInterface)object).realmGet$article(), false);
+        String realmGet$aplicaDescuentoManual = ((ProductRealmProxyInterface)object).realmGet$aplicaDescuentoManual();
+        if (realmGet$aplicaDescuentoManual != null) {
+            Table.nativeSetString(tableNativePtr, columnInfo.aplicaDescuentoManualIndex, rowIndex, realmGet$aplicaDescuentoManual, false);
+        } else {
+            Table.nativeSetNull(tableNativePtr, columnInfo.aplicaDescuentoManualIndex, rowIndex, false);
+        }
         return rowIndex;
     }
 
@@ -1667,6 +1740,12 @@ public class ProductRealmProxy extends com.mobile.polux.models.Product
                 Table.nativeSetLong(tableNativePtr, columnInfo.providerIndex, rowIndex, ((ProductRealmProxyInterface)object).realmGet$provider(), false);
                 Table.nativeSetLong(tableNativePtr, columnInfo.subGroupIndex, rowIndex, ((ProductRealmProxyInterface)object).realmGet$subGroup(), false);
                 Table.nativeSetLong(tableNativePtr, columnInfo.articleIndex, rowIndex, ((ProductRealmProxyInterface)object).realmGet$article(), false);
+                String realmGet$aplicaDescuentoManual = ((ProductRealmProxyInterface)object).realmGet$aplicaDescuentoManual();
+                if (realmGet$aplicaDescuentoManual != null) {
+                    Table.nativeSetString(tableNativePtr, columnInfo.aplicaDescuentoManualIndex, rowIndex, realmGet$aplicaDescuentoManual, false);
+                } else {
+                    Table.nativeSetNull(tableNativePtr, columnInfo.aplicaDescuentoManualIndex, rowIndex, false);
+                }
             }
         }
     }
@@ -1708,6 +1787,7 @@ public class ProductRealmProxy extends com.mobile.polux.models.Product
         ((ProductRealmProxyInterface) unmanagedObject).realmSet$provider(((ProductRealmProxyInterface) realmObject).realmGet$provider());
         ((ProductRealmProxyInterface) unmanagedObject).realmSet$subGroup(((ProductRealmProxyInterface) realmObject).realmGet$subGroup());
         ((ProductRealmProxyInterface) unmanagedObject).realmSet$article(((ProductRealmProxyInterface) realmObject).realmGet$article());
+        ((ProductRealmProxyInterface) unmanagedObject).realmSet$aplicaDescuentoManual(((ProductRealmProxyInterface) realmObject).realmGet$aplicaDescuentoManual());
         return unmanagedObject;
     }
 
@@ -1730,6 +1810,7 @@ public class ProductRealmProxy extends com.mobile.polux.models.Product
         ((ProductRealmProxyInterface) realmObject).realmSet$provider(((ProductRealmProxyInterface) newObject).realmGet$provider());
         ((ProductRealmProxyInterface) realmObject).realmSet$subGroup(((ProductRealmProxyInterface) newObject).realmGet$subGroup());
         ((ProductRealmProxyInterface) realmObject).realmSet$article(((ProductRealmProxyInterface) newObject).realmGet$article());
+        ((ProductRealmProxyInterface) realmObject).realmSet$aplicaDescuentoManual(((ProductRealmProxyInterface) newObject).realmGet$aplicaDescuentoManual());
         return realmObject;
     }
 
@@ -1814,6 +1895,10 @@ public class ProductRealmProxy extends com.mobile.polux.models.Product
         stringBuilder.append(",");
         stringBuilder.append("{article:");
         stringBuilder.append(realmGet$article());
+        stringBuilder.append("}");
+        stringBuilder.append(",");
+        stringBuilder.append("{aplicaDescuentoManual:");
+        stringBuilder.append(realmGet$aplicaDescuentoManual() != null ? realmGet$aplicaDescuentoManual() : "null");
         stringBuilder.append("}");
         stringBuilder.append("]");
         return stringBuilder.toString();

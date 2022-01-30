@@ -49,6 +49,8 @@ public class Product extends RealmObject {
     private int subGroup;
     @SerializedName("codigoArticulo")
     private int article;
+    @SerializedName("aplicaDescuentoManual")
+    private String aplicaDescuentoManual;
 
     public Product() {
     }
@@ -211,5 +213,13 @@ public class Product extends RealmObject {
 
     public void setGroup(int group) {
         this.group = group;
+    }
+
+    public String getAplicaDescuentoManual() {
+        return aplicaDescuentoManual;
+    }
+
+    public void setAplicaDescuentoManual(String aplicaDescuentoManual) {
+        this.aplicaDescuentoManual = aplicaDescuentoManual;
     }
 }

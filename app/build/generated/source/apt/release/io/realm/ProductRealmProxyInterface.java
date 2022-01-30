@@ -40,4 +40,6 @@ public interface ProductRealmProxyInterface {
     public void realmSet$subGroup(int value);
     public int realmGet$article();
     public void realmSet$article(int value);
+    public String realmGet$aplicaDescuentoManual();
+    public void realmSet$aplicaDescuentoManual(String value);
 }

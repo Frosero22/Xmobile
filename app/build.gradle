@@ -15,14 +15,14 @@ repositories {
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 29
+    compileSdkVersion 30
     buildToolsVersion "29.0.3"
     defaultConfig {
         applicationId "com.mobile.polux"
         minSdkVersion 16
-        targetSdkVersion 29
+        targetSdkVersion 30
         multiDexEnabled true
-        versionCode 74
+        versionCode 76
         versionName "1.7.3"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }

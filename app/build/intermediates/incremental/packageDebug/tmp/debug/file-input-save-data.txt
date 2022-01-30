@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon Jan 24 23:01:07 COT 2022
+#Sun Jan 30 14:47:54 COT 2022
 7.path=classes.dex
 2.base=C\:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
 5.set=NATIVE_RESOURCE

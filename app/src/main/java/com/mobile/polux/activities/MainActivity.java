@@ -37,6 +37,7 @@ import com.mobile.polux.models.GeoLocation;
 import com.mobile.polux.models.GeolocationResponse;
 import com.mobile.polux.models.OrdersResponse;
 import com.mobile.polux.models.Parameter;
+import com.mobile.polux.models.Product;
 import com.mobile.polux.models.ProductsResponse;
 import com.mobile.polux.utils.Dialog;
 import com.mobile.polux.utils.Synchronize;
@@ -387,12 +388,12 @@ public class MainActivity extends AppCompatActivity
             DateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
             String date = dateFormat.format(new Date());
             if (lastUpdateDay == null || lastUpdateDay.getValue() == null || !date.equals(lastUpdateDay.getValue())) {
-                progress = new ProgressDialog(this);
+              /*  progress = new ProgressDialog(this);
                 progress.setMessage("Obteniendo clientes a visitar para hoy, por favor espere...");
-                progress.show();
+                progress.show(); */
                 deleteAllVisits();
                 callVisits();
-                progress.dismiss();
+                //progress.dismiss();
             }
         }
     }

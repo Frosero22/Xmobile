@@ -61,7 +61,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="34"
+                android:text=""
                 android:textColor="@color/colorText"
                 android:textSize="@dimen/content"
                 tools:ignore="RtlCompat" />
@@ -193,6 +193,7 @@
             android:layout_weight="1"
             android:background="@drawable/border"
             android:textAlignment="center"
+            android:enabled="false"
             android:inputType="numberDecimal"
             android:textColor="@color/colorText"
             android:textSize="@dimen/content" />
@@ -224,6 +225,7 @@
             android:background="@drawable/border"
             android:inputType="numberDecimal"
             android:textAlignment="center"
+            android:enabled="false"
             android:textColor="@color/colorText"
             android:textSize="@dimen/content" />
 
@@ -245,6 +247,7 @@
             android:textColor="@color/colorLabel"
             android:textSize="@dimen/content" />
 
+
         <EditText
             android:id="@+id/edt_total_discounts"
             android:layout_width="0dp"
@@ -254,6 +257,7 @@
             android:background="@drawable/border"
             android:inputType="numberDecimal"
             android:textAlignment="center"
+            android:enabled="false"
             android:textColor="@color/colorText"
             android:textSize="@dimen/content" />
 

@@ -454,11 +454,11 @@ public class ProductOrder extends RealmObject {
         this.porcentajeDescuentoManual = porcentajeDescuentoManual;
     }
 
-    public double getValorDescuentoManual() {
+    public Double getValorDescuentoManual() {
         return valorDescuentoManual;
     }
 
-    public void setValorDescuentoManual(double valorDescuentoManual) {
+    public void setValorDescuentoManual(Double valorDescuentoManual) {
         this.valorDescuentoManual = valorDescuentoManual;
     }
 

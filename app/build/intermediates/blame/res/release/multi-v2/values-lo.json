@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\WorkSpaces\\Android Workspace\\xmobile\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-lo\\values-lo.xml",
+            "outputFile": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-lo\\values-lo.xml",
             "map": [
                 {
                     "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\64692786b31b448890a0915f3e997604\\res\\values-lo\\values-lo.xml",
