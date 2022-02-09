@@ -867,13 +867,16 @@ public class OrderProductsActivity extends AbstractActivity implements View.OnCl
         }
 
 
-        if (strIDPromotion.equals("PROMOCIONES_SURTITODO"))
-        {
-            res = App.services.promotionsSurtitodo(promotionRequest);
-        }
-        else if (strIDPromotion.equals("PROMOCIONES_COMIDESA"))
-        {
-            res = App.services.promotionsComidesa(promotionRequest);
+        switch (strIDPromotion) {
+            case "PROMOCIONES_SURTITODO":
+                res = App.services.promotionsSurtitodo(promotionRequest);
+                break;
+            case "PROMOCIONES_COMIDESA":
+                res = App.services.promotionsComidesa(promotionRequest);
+                break;
+            case "PROMOCIONES_PRODUVENTAS":
+                res = App.services.promotionsProduventas(promotionRequest);
+                break;
         }
 
 
@@ -1136,22 +1139,24 @@ public class OrderProductsActivity extends AbstractActivity implements View.OnCl
 
 
             if(strValidaXRules.equalsIgnoreCase("S")){
+
+                List<String> lsErrores = new ArrayList<>();
+
                 for(ProductOrder productOrder : productsOrder){
                     if(productOrder.getCodigoPrestacion() == productId){
 
 
 
                         if (discountPromotion > 0) {
-                         //   if(productOrder.getCodigoReglaNegocio() == null){
+                            //   if(productOrder.getCodigoReglaNegocio() == null){
 
-                                productOrder.setCodigoReglaNegocio(ruleId);
-                                productOrder.setPorcentajeDescuento(discountPercent);
-                                productOrder.setPorcentajeDescuentoXRules(discountPercent);
+                            productOrder.setCodigoReglaNegocio(ruleId);
+                            productOrder.setAplicaXRules("S");
 
-                                productOrder.setAplicaXRules("S");
+                            productOrder.setValorDescuento(null);
+                            productOrder.setPorcentajeDescuento(null);
 
-                                productOrder.setPorcentajeDescuentoManual(0.00);
-                                productOrder.setValorDescuentoManual(0.00);
+
 
                                 Product p = UtilDB.getProduct(realm, productId, OrderClientActivity.account.getnDivision(), OrderClientActivity.client.getVersion());
                                 ProductOrder proO = this.promotions.prepareAddProduct(productId,
@@ -1172,24 +1177,81 @@ public class OrderProductsActivity extends AbstractActivity implements View.OnCl
 
 
 
-                                double subTotal = 0;
-                                double subTotalBase = 0;
-                                double total = 0;
 
-                                subTotal = proO.getPrecioUnitarioVenta() * proO.getCantidad();
-                                subTotalBase = subTotal - proO.getValorDescuento();
-
-
-
-
-                                productOrder.setValorIva(proO.getValorIva());
-
-                                productOrder.setValorDescuento(proO.getValorDescuento());
-                                productOrder.setValorDescuentoXRules(proO.getValorDescuento());
-
-                                productOrder.setSubtotalVenta(subTotal);
-                                productOrder.setSubtotalBaseImponible(subTotalBase);
                               //  productOrder.setLineaDetalle(null);
+
+
+                                double descuentoTotal = 0.00;
+                                double porcentajeDescuentoTotal = 0.00;
+
+
+                                String strErrorProducto = "";
+
+
+                                if(productOrder.getPorcentajeDescuentoManual() != null){
+
+                                    if(productOrder.getPorcentajeDescuentoManual() > 0){
+
+                                        porcentajeDescuentoTotal = discountPercent + productOrder.getPorcentajeDescuentoManual();
+                                        descuentoTotal = proO.getValorDescuento() + productOrder.getValorDescuentoManual();
+
+                                        if(porcentajeDescuentoTotal < 100){
+
+                                            productOrder.setPorcentajeDescuento(porcentajeDescuentoTotal);
+                                            productOrder.setValorDescuento(descuentoTotal);
+
+                                            productOrder.setPorcentajeDescuentoXRules(discountPercent);
+                                            productOrder.setValorDescuentoXRules(proO.getValorDescuento());
+
+                                        }else{
+                                            strErrorProducto = productOrder.getName()+" - %X-Rules: "+proO.getPorcentajeDescuentoXRules()+" y Descuento Manual: "+productOrder.getPorcentajeDescuentoManual()+" es igual a "+porcentajeDescuentoTotal+"\n";
+                                            lsErrores.add(strErrorProducto);
+
+                                            productOrder.setPorcentajeDescuento(discountPercent);
+                                            productOrder.setValorDescuento(proO.getValorDescuento());
+
+                                            productOrder.setPorcentajeDescuentoXRules(discountPercent);
+                                            productOrder.setValorDescuentoXRules(proO.getValorDescuento());
+
+                                            productOrder.setPorcentajeDescuentoManual(0.00);
+                                            productOrder.setValorDescuentoManual(0.00);
+
+                                        }
+                                    }else{
+
+                                        productOrder.setPorcentajeDescuento(discountPercent);
+                                        productOrder.setValorDescuento(proO.getValorDescuento());
+
+                                        productOrder.setPorcentajeDescuentoXRules(discountPercent);
+                                        productOrder.setValorDescuentoXRules(proO.getValorDescuento());
+
+                                    }
+                                }else{
+
+                                    productOrder.setPorcentajeDescuento(discountPercent);
+                                    productOrder.setValorDescuento(proO.getValorDescuento());
+
+                                    productOrder.setPorcentajeDescuentoXRules(discountPercent);
+                                    productOrder.setValorDescuentoXRules(proO.getValorDescuento());
+
+
+                                }
+
+                            double subTotal = 0;
+                            double subTotalBase = 0;
+                            double total = 0;
+
+                            subTotal = proO.getPrecioUnitarioVenta() * proO.getCantidad();
+                            subTotalBase = subTotal - productOrder.getValorDescuento();
+
+
+
+
+                            productOrder.setValorIva(proO.getValorIva());
+                            productOrder.setSubtotalVenta(subTotal);
+                            productOrder.setSubtotalBaseImponible(subTotalBase);
+
+
 
                                 total = subTotalBase + proO.getValorIva();
 
@@ -1197,7 +1259,8 @@ public class OrderProductsActivity extends AbstractActivity implements View.OnCl
 
                                 productOrder.setValorTotal(total);
 
-                                discount += proO.getValorDescuento();
+                            discount = 0;
+                            //discount += productOrder.getValorDescuento();
 
 
                                 subtotal = 0;
@@ -1210,8 +1273,14 @@ public class OrderProductsActivity extends AbstractActivity implements View.OnCl
                                 for(ProductOrder productOrder1: productsOrder){
                                     iva += productOrder1.getValorIva();
                                     subBaseImponible += productOrder1.getSubtotalBaseImponible();
+
                                     if(!productOrder1.getEsPromocion().equalsIgnoreCase("S")){
                                         subtotal += productOrder1.getSubtotalVenta();
+                                        if(productOrder1.getValorDescuento() != null){
+                                            if(productOrder1.getValorDescuento() > 0){
+                                                discount += productOrder1.getValorDescuento();
+                                            }
+                                        }
                                     }
 
 
@@ -1220,6 +1289,23 @@ public class OrderProductsActivity extends AbstractActivity implements View.OnCl
 
 
                                 this.total = subBaseImponible + iva;
+
+
+
+
+
+                                 StringBuilder strM = new StringBuilder("El total de descuento por producto no puede ser igual o sobrepasar el 100%: \n\n");
+                                if(lsErrores != null){
+                                     if(lsErrores.size() > 0){
+                                        for(String index: lsErrores){
+                                            strM.append(index.trim());
+                                        }
+
+                                         productosConProblemas(strM.toString());
+
+                                    }
+                                }
+
 
 
 
@@ -1680,6 +1766,12 @@ public class OrderProductsActivity extends AbstractActivity implements View.OnCl
         }
 
 
+        Integer prom = searchPromotions();
+        if(prom < 1){
+            checkApplyRules.setEnabled(false);
+        }
+
+
         final LinearLayout llRulesId = (LinearLayout) view.findViewById(R.id.ll_rules_id);
         final TextView txvRuleId = (TextView) view.findViewById(R.id.tv_rule_id);
 
@@ -1779,7 +1871,25 @@ public class OrderProductsActivity extends AbstractActivity implements View.OnCl
                 if(edtDiscountsManual.getText() != null && !edtDiscountsManual.getText().toString().equalsIgnoreCase("") && !edtDiscountsManual.getText().toString().equalsIgnoreCase("0.00")){
                     if(Double.parseDouble(edtDiscountsManual.getText().toString()) > discountForProduct){
                         errorMessage(discountForProduct);
+
                         edtDiscountsManual.setText("");
+                        edtValueManual.setText("");
+
+                        if(edtValueRules.getText() != null && !edtValueRules.getText().toString().equalsIgnoreCase("")){
+                            douTotal = douTotal + Double.parseDouble(edtValueRules.getText().toString());
+                            douTotalDiscount = Double.parseDouble(edtRulesDiscount.getText().toString());
+
+                            edtTotalDiscounts.setText(String.valueOf(douTotal));
+                            edtTotalPercent.setText(String.valueOf(format(douTotalDiscount,6)));
+                        }else{
+
+                            edtTotalDiscounts.setText("");
+                            edtTotalPercent.setText("");
+
+                        }
+
+
+
                     }else{
                         double douDisc;
                         double douSubTotal = productOrderSelect.getCantidad() * productSelect.getPrice();
@@ -1893,7 +2003,7 @@ public class OrderProductsActivity extends AbstractActivity implements View.OnCl
                         if (edtTotalDiscounts.getText() != null && !edtTotalDiscounts.getText().toString().equalsIgnoreCase("")) {
                             if (Double.parseDouble(edtTotalDiscounts.getText().toString()) > 100) {
                                 errorMessage(discountForProduct);
-                            } else if (Double.parseDouble(edtTotalDiscounts.getText().toString()) > discountForProduct && productSelect.getAplicaDescuentoManual().equalsIgnoreCase("S")) {
+                            } else if (Double.parseDouble(edtDiscountsManual.getText().toString()) > discountForProduct && productSelect.getAplicaDescuentoManual().equalsIgnoreCase("S")) {
                                 errorMessage(discountForProduct);
                             } else {
                                 productsOrder.get(positionProduct).setPorcentajeDescuento(Double.parseDouble(edtTotalPercent.getText().toString()));
@@ -2481,7 +2591,7 @@ public class OrderProductsActivity extends AbstractActivity implements View.OnCl
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.options_product, menu);
 
-       // int badder = searchPromotions();
+
         if(mostrarValorDescuentoManual.equalsIgnoreCase("N")){
             menu.getItem(0).setVisible(false);
         }
@@ -2717,6 +2827,31 @@ public class OrderProductsActivity extends AbstractActivity implements View.OnCl
     }
 
 
+    public void productosConProblemas(String strMensaje){
+
+        AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(OrderProductsActivity.this);
+        alertDialogBuilder.setTitle("Promociónes");
+        alertDialogBuilder.setIcon(R.drawable.error);
+        alertDialogBuilder.setMessage(strMensaje);
+        alertDialogBuilder.setPositiveButton("Aceptar",
+                new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        dialog.dismiss();
+                    }
+                }).setNegativeButton("Cancelar", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                dialogInterface.dismiss();
+            }
+        });
+
+        AlertDialog alertDialog = alertDialogBuilder.create();
+        alertDialog.show();
+        alertDialog.setCancelable(true);
+    }
+
+
     public void callPromotionsV2(){
         Order order = prepareOrder();
 
@@ -2780,9 +2915,9 @@ public class OrderProductsActivity extends AbstractActivity implements View.OnCl
                     productOrder.setValorDescuento(null);
                     productOrder.setPorcentajeDescuento(null);
                     productOrder.setCodigoReglaNegocio(null);
-                    productOrder.setPorcentajeDescuentoXRules(0);
+                    productOrder.setPorcentajeDescuentoXRules(0.00);
                     productOrder.setValorDescuentoXRules(0);
-                    productOrder.setPorcentajeDescuentoManual(0);
+                    productOrder.setPorcentajeDescuentoManual(0.00);
                     productOrder.setValorDescuentoManual(0.00);
                     productOrder.setAplicaXRules("N");
 

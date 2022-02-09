@@ -1098,89 +1098,133 @@ public class ProductOrderRealmProxy extends com.mobile.polux.models.ProductOrder
 
     @Override
     @SuppressWarnings("cast")
-    public double realmGet$porcentajeDescuentoXRules() {
+    public Double realmGet$porcentajeDescuentoXRules() {
         proxyState.getRealm$realm().checkIfValid();
+        if (proxyState.getRow$realm().isNull(columnInfo.porcentajeDescuentoXRulesIndex)) {
+            return null;
+        }
         return (double) proxyState.getRow$realm().getDouble(columnInfo.porcentajeDescuentoXRulesIndex);
     }
 
     @Override
-    public void realmSet$porcentajeDescuentoXRules(double value) {
+    public void realmSet$porcentajeDescuentoXRules(Double value) {
         if (proxyState.isUnderConstruction()) {
             if (!proxyState.getAcceptDefaultValue$realm()) {
                 return;
             }
             final Row row = proxyState.getRow$realm();
+            if (value == null) {
+                row.getTable().setNull(columnInfo.porcentajeDescuentoXRulesIndex, row.getIndex(), true);
+                return;
+            }
             row.getTable().setDouble(columnInfo.porcentajeDescuentoXRulesIndex, row.getIndex(), value, true);
             return;
         }
 
         proxyState.getRealm$realm().checkIfValid();
+        if (value == null) {
+            proxyState.getRow$realm().setNull(columnInfo.porcentajeDescuentoXRulesIndex);
+            return;
+        }
         proxyState.getRow$realm().setDouble(columnInfo.porcentajeDescuentoXRulesIndex, value);
     }
 
     @Override
     @SuppressWarnings("cast")
-    public double realmGet$valorDescuentoXRules() {
+    public Double realmGet$valorDescuentoXRules() {
         proxyState.getRealm$realm().checkIfValid();
+        if (proxyState.getRow$realm().isNull(columnInfo.valorDescuentoXRulesIndex)) {
+            return null;
+        }
         return (double) proxyState.getRow$realm().getDouble(columnInfo.valorDescuentoXRulesIndex);
     }
 
     @Override
-    public void realmSet$valorDescuentoXRules(double value) {
+    public void realmSet$valorDescuentoXRules(Double value) {
         if (proxyState.isUnderConstruction()) {
             if (!proxyState.getAcceptDefaultValue$realm()) {
                 return;
             }
             final Row row = proxyState.getRow$realm();
+            if (value == null) {
+                row.getTable().setNull(columnInfo.valorDescuentoXRulesIndex, row.getIndex(), true);
+                return;
+            }
             row.getTable().setDouble(columnInfo.valorDescuentoXRulesIndex, row.getIndex(), value, true);
             return;
         }
 
         proxyState.getRealm$realm().checkIfValid();
+        if (value == null) {
+            proxyState.getRow$realm().setNull(columnInfo.valorDescuentoXRulesIndex);
+            return;
+        }
         proxyState.getRow$realm().setDouble(columnInfo.valorDescuentoXRulesIndex, value);
     }
 
     @Override
     @SuppressWarnings("cast")
-    public double realmGet$porcentajeDescuentoManual() {
+    public Double realmGet$porcentajeDescuentoManual() {
         proxyState.getRealm$realm().checkIfValid();
+        if (proxyState.getRow$realm().isNull(columnInfo.porcentajeDescuentoManualIndex)) {
+            return null;
+        }
         return (double) proxyState.getRow$realm().getDouble(columnInfo.porcentajeDescuentoManualIndex);
     }
 
     @Override
-    public void realmSet$porcentajeDescuentoManual(double value) {
+    public void realmSet$porcentajeDescuentoManual(Double value) {
         if (proxyState.isUnderConstruction()) {
             if (!proxyState.getAcceptDefaultValue$realm()) {
                 return;
             }
             final Row row = proxyState.getRow$realm();
+            if (value == null) {
+                row.getTable().setNull(columnInfo.porcentajeDescuentoManualIndex, row.getIndex(), true);
+                return;
+            }
             row.getTable().setDouble(columnInfo.porcentajeDescuentoManualIndex, row.getIndex(), value, true);
             return;
         }
 
         proxyState.getRealm$realm().checkIfValid();
+        if (value == null) {
+            proxyState.getRow$realm().setNull(columnInfo.porcentajeDescuentoManualIndex);
+            return;
+        }
         proxyState.getRow$realm().setDouble(columnInfo.porcentajeDescuentoManualIndex, value);
     }
 
     @Override
     @SuppressWarnings("cast")
-    public double realmGet$valorDescuentoManual() {
+    public Double realmGet$valorDescuentoManual() {
         proxyState.getRealm$realm().checkIfValid();
+        if (proxyState.getRow$realm().isNull(columnInfo.valorDescuentoManualIndex)) {
+            return null;
+        }
         return (double) proxyState.getRow$realm().getDouble(columnInfo.valorDescuentoManualIndex);
     }
 
     @Override
-    public void realmSet$valorDescuentoManual(double value) {
+    public void realmSet$valorDescuentoManual(Double value) {
         if (proxyState.isUnderConstruction()) {
             if (!proxyState.getAcceptDefaultValue$realm()) {
                 return;
             }
             final Row row = proxyState.getRow$realm();
+            if (value == null) {
+                row.getTable().setNull(columnInfo.valorDescuentoManualIndex, row.getIndex(), true);
+                return;
+            }
             row.getTable().setDouble(columnInfo.valorDescuentoManualIndex, row.getIndex(), value, true);
             return;
         }
 
         proxyState.getRealm$realm().checkIfValid();
+        if (value == null) {
+            proxyState.getRow$realm().setNull(columnInfo.valorDescuentoManualIndex);
+            return;
+        }
         proxyState.getRow$realm().setDouble(columnInfo.valorDescuentoManualIndex, value);
     }
 
@@ -1458,10 +1502,10 @@ public class ProductOrderRealmProxy extends com.mobile.polux.models.ProductOrder
             realmObjectSchema.add("codigoReglaNegocio", RealmFieldType.INTEGER, !Property.PRIMARY_KEY, !Property.INDEXED, !Property.REQUIRED);
             realmObjectSchema.add("lineaDetalle", RealmFieldType.INTEGER, !Property.PRIMARY_KEY, !Property.INDEXED, !Property.REQUIRED);
             realmObjectSchema.add("aplicaXRules", RealmFieldType.STRING, !Property.PRIMARY_KEY, !Property.INDEXED, !Property.REQUIRED);
-            realmObjectSchema.add("porcentajeDescuentoXRules", RealmFieldType.DOUBLE, !Property.PRIMARY_KEY, !Property.INDEXED, Property.REQUIRED);
-            realmObjectSchema.add("valorDescuentoXRules", RealmFieldType.DOUBLE, !Property.PRIMARY_KEY, !Property.INDEXED, Property.REQUIRED);
-            realmObjectSchema.add("porcentajeDescuentoManual", RealmFieldType.DOUBLE, !Property.PRIMARY_KEY, !Property.INDEXED, Property.REQUIRED);
-            realmObjectSchema.add("valorDescuentoManual", RealmFieldType.DOUBLE, !Property.PRIMARY_KEY, !Property.INDEXED, Property.REQUIRED);
+            realmObjectSchema.add("porcentajeDescuentoXRules", RealmFieldType.DOUBLE, !Property.PRIMARY_KEY, !Property.INDEXED, !Property.REQUIRED);
+            realmObjectSchema.add("valorDescuentoXRules", RealmFieldType.DOUBLE, !Property.PRIMARY_KEY, !Property.INDEXED, !Property.REQUIRED);
+            realmObjectSchema.add("porcentajeDescuentoManual", RealmFieldType.DOUBLE, !Property.PRIMARY_KEY, !Property.INDEXED, !Property.REQUIRED);
+            realmObjectSchema.add("valorDescuentoManual", RealmFieldType.DOUBLE, !Property.PRIMARY_KEY, !Property.INDEXED, !Property.REQUIRED);
             realmObjectSchema.add("cantidadEnCajas", RealmFieldType.INTEGER, !Property.PRIMARY_KEY, !Property.INDEXED, !Property.REQUIRED);
             realmObjectSchema.add("cantidadEnUnidades", RealmFieldType.INTEGER, !Property.PRIMARY_KEY, !Property.INDEXED, !Property.REQUIRED);
             realmObjectSchema.add("productRelation", RealmFieldType.INTEGER, !Property.PRIMARY_KEY, !Property.INDEXED, !Property.REQUIRED);
@@ -1788,37 +1832,37 @@ public class ProductOrderRealmProxy extends com.mobile.polux.models.ProductOrder
             throw new RealmMigrationNeededException(sharedRealm.getPath(), "Missing field 'porcentajeDescuentoXRules' in existing Realm file. Either remove field or migrate using io.realm.internal.Table.addColumn().");
         }
         if (columnTypes.get("porcentajeDescuentoXRules") != RealmFieldType.DOUBLE) {
-            throw new RealmMigrationNeededException(sharedRealm.getPath(), "Invalid type 'double' for field 'porcentajeDescuentoXRules' in existing Realm file.");
+            throw new RealmMigrationNeededException(sharedRealm.getPath(), "Invalid type 'Double' for field 'porcentajeDescuentoXRules' in existing Realm file.");
         }
-        if (table.isColumnNullable(columnInfo.porcentajeDescuentoXRulesIndex)) {
-            throw new RealmMigrationNeededException(sharedRealm.getPath(), "Field 'porcentajeDescuentoXRules' does support null values in the existing Realm file. Use corresponding boxed type for field 'porcentajeDescuentoXRules' or migrate using RealmObjectSchema.setNullable().");
+        if (!table.isColumnNullable(columnInfo.porcentajeDescuentoXRulesIndex)) {
+            throw new RealmMigrationNeededException(sharedRealm.getPath(),"Field 'porcentajeDescuentoXRules' does not support null values in the existing Realm file. Either set @Required, use the primitive type for field 'porcentajeDescuentoXRules' or migrate using RealmObjectSchema.setNullable().");
         }
         if (!columnTypes.containsKey("valorDescuentoXRules")) {
             throw new RealmMigrationNeededException(sharedRealm.getPath(), "Missing field 'valorDescuentoXRules' in existing Realm file. Either remove field or migrate using io.realm.internal.Table.addColumn().");
         }
         if (columnTypes.get("valorDescuentoXRules") != RealmFieldType.DOUBLE) {
-            throw new RealmMigrationNeededException(sharedRealm.getPath(), "Invalid type 'double' for field 'valorDescuentoXRules' in existing Realm file.");
+            throw new RealmMigrationNeededException(sharedRealm.getPath(), "Invalid type 'Double' for field 'valorDescuentoXRules' in existing Realm file.");
         }
-        if (table.isColumnNullable(columnInfo.valorDescuentoXRulesIndex)) {
-            throw new RealmMigrationNeededException(sharedRealm.getPath(), "Field 'valorDescuentoXRules' does support null values in the existing Realm file. Use corresponding boxed type for field 'valorDescuentoXRules' or migrate using RealmObjectSchema.setNullable().");
+        if (!table.isColumnNullable(columnInfo.valorDescuentoXRulesIndex)) {
+            throw new RealmMigrationNeededException(sharedRealm.getPath(),"Field 'valorDescuentoXRules' does not support null values in the existing Realm file. Either set @Required, use the primitive type for field 'valorDescuentoXRules' or migrate using RealmObjectSchema.setNullable().");
         }
         if (!columnTypes.containsKey("porcentajeDescuentoManual")) {
             throw new RealmMigrationNeededException(sharedRealm.getPath(), "Missing field 'porcentajeDescuentoManual' in existing Realm file. Either remove field or migrate using io.realm.internal.Table.addColumn().");
         }
         if (columnTypes.get("porcentajeDescuentoManual") != RealmFieldType.DOUBLE) {
-            throw new RealmMigrationNeededException(sharedRealm.getPath(), "Invalid type 'double' for field 'porcentajeDescuentoManual' in existing Realm file.");
+            throw new RealmMigrationNeededException(sharedRealm.getPath(), "Invalid type 'Double' for field 'porcentajeDescuentoManual' in existing Realm file.");
         }
-        if (table.isColumnNullable(columnInfo.porcentajeDescuentoManualIndex)) {
-            throw new RealmMigrationNeededException(sharedRealm.getPath(), "Field 'porcentajeDescuentoManual' does support null values in the existing Realm file. Use corresponding boxed type for field 'porcentajeDescuentoManual' or migrate using RealmObjectSchema.setNullable().");
+        if (!table.isColumnNullable(columnInfo.porcentajeDescuentoManualIndex)) {
+            throw new RealmMigrationNeededException(sharedRealm.getPath(),"Field 'porcentajeDescuentoManual' does not support null values in the existing Realm file. Either set @Required, use the primitive type for field 'porcentajeDescuentoManual' or migrate using RealmObjectSchema.setNullable().");
         }
         if (!columnTypes.containsKey("valorDescuentoManual")) {
             throw new RealmMigrationNeededException(sharedRealm.getPath(), "Missing field 'valorDescuentoManual' in existing Realm file. Either remove field or migrate using io.realm.internal.Table.addColumn().");
         }
         if (columnTypes.get("valorDescuentoManual") != RealmFieldType.DOUBLE) {
-            throw new RealmMigrationNeededException(sharedRealm.getPath(), "Invalid type 'double' for field 'valorDescuentoManual' in existing Realm file.");
+            throw new RealmMigrationNeededException(sharedRealm.getPath(), "Invalid type 'Double' for field 'valorDescuentoManual' in existing Realm file.");
         }
-        if (table.isColumnNullable(columnInfo.valorDescuentoManualIndex)) {
-            throw new RealmMigrationNeededException(sharedRealm.getPath(), "Field 'valorDescuentoManual' does support null values in the existing Realm file. Use corresponding boxed type for field 'valorDescuentoManual' or migrate using RealmObjectSchema.setNullable().");
+        if (!table.isColumnNullable(columnInfo.valorDescuentoManualIndex)) {
+            throw new RealmMigrationNeededException(sharedRealm.getPath(),"Field 'valorDescuentoManual' does not support null values in the existing Realm file. Either set @Required, use the primitive type for field 'valorDescuentoManual' or migrate using RealmObjectSchema.setNullable().");
         }
         if (!columnTypes.containsKey("cantidadEnCajas")) {
             throw new RealmMigrationNeededException(sharedRealm.getPath(), "Missing field 'cantidadEnCajas' in existing Realm file. Either remove field or migrate using io.realm.internal.Table.addColumn().");
@@ -2135,28 +2179,28 @@ public class ProductOrderRealmProxy extends com.mobile.polux.models.ProductOrder
         }
         if (json.has("porcentajeDescuentoXRules")) {
             if (json.isNull("porcentajeDescuentoXRules")) {
-                throw new IllegalArgumentException("Trying to set non-nullable field 'porcentajeDescuentoXRules' to null.");
+                ((ProductOrderRealmProxyInterface) obj).realmSet$porcentajeDescuentoXRules(null);
             } else {
                 ((ProductOrderRealmProxyInterface) obj).realmSet$porcentajeDescuentoXRules((double) json.getDouble("porcentajeDescuentoXRules"));
             }
         }
         if (json.has("valorDescuentoXRules")) {
             if (json.isNull("valorDescuentoXRules")) {
-                throw new IllegalArgumentException("Trying to set non-nullable field 'valorDescuentoXRules' to null.");
+                ((ProductOrderRealmProxyInterface) obj).realmSet$valorDescuentoXRules(null);
             } else {
                 ((ProductOrderRealmProxyInterface) obj).realmSet$valorDescuentoXRules((double) json.getDouble("valorDescuentoXRules"));
             }
         }
         if (json.has("porcentajeDescuentoManual")) {
             if (json.isNull("porcentajeDescuentoManual")) {
-                throw new IllegalArgumentException("Trying to set non-nullable field 'porcentajeDescuentoManual' to null.");
+                ((ProductOrderRealmProxyInterface) obj).realmSet$porcentajeDescuentoManual(null);
             } else {
                 ((ProductOrderRealmProxyInterface) obj).realmSet$porcentajeDescuentoManual((double) json.getDouble("porcentajeDescuentoManual"));
             }
         }
         if (json.has("valorDescuentoManual")) {
             if (json.isNull("valorDescuentoManual")) {
-                throw new IllegalArgumentException("Trying to set non-nullable field 'valorDescuentoManual' to null.");
+                ((ProductOrderRealmProxyInterface) obj).realmSet$valorDescuentoManual(null);
             } else {
                 ((ProductOrderRealmProxyInterface) obj).realmSet$valorDescuentoManual((double) json.getDouble("valorDescuentoManual"));
             }
@@ -2454,28 +2498,28 @@ public class ProductOrderRealmProxy extends com.mobile.polux.models.ProductOrder
             } else if (name.equals("porcentajeDescuentoXRules")) {
                 if (reader.peek() == JsonToken.NULL) {
                     reader.skipValue();
-                    throw new IllegalArgumentException("Trying to set non-nullable field 'porcentajeDescuentoXRules' to null.");
+                    ((ProductOrderRealmProxyInterface) obj).realmSet$porcentajeDescuentoXRules(null);
                 } else {
                     ((ProductOrderRealmProxyInterface) obj).realmSet$porcentajeDescuentoXRules((double) reader.nextDouble());
                 }
             } else if (name.equals("valorDescuentoXRules")) {
                 if (reader.peek() == JsonToken.NULL) {
                     reader.skipValue();
-                    throw new IllegalArgumentException("Trying to set non-nullable field 'valorDescuentoXRules' to null.");
+                    ((ProductOrderRealmProxyInterface) obj).realmSet$valorDescuentoXRules(null);
                 } else {
                     ((ProductOrderRealmProxyInterface) obj).realmSet$valorDescuentoXRules((double) reader.nextDouble());
                 }
             } else if (name.equals("porcentajeDescuentoManual")) {
                 if (reader.peek() == JsonToken.NULL) {
                     reader.skipValue();
-                    throw new IllegalArgumentException("Trying to set non-nullable field 'porcentajeDescuentoManual' to null.");
+                    ((ProductOrderRealmProxyInterface) obj).realmSet$porcentajeDescuentoManual(null);
                 } else {
                     ((ProductOrderRealmProxyInterface) obj).realmSet$porcentajeDescuentoManual((double) reader.nextDouble());
                 }
             } else if (name.equals("valorDescuentoManual")) {
                 if (reader.peek() == JsonToken.NULL) {
                     reader.skipValue();
-                    throw new IllegalArgumentException("Trying to set non-nullable field 'valorDescuentoManual' to null.");
+                    ((ProductOrderRealmProxyInterface) obj).realmSet$valorDescuentoManual(null);
                 } else {
                     ((ProductOrderRealmProxyInterface) obj).realmSet$valorDescuentoManual((double) reader.nextDouble());
                 }
@@ -2726,10 +2770,22 @@ public class ProductOrderRealmProxy extends com.mobile.polux.models.ProductOrder
         if (realmGet$aplicaXRules != null) {
             Table.nativeSetString(tableNativePtr, columnInfo.aplicaXRulesIndex, rowIndex, realmGet$aplicaXRules, false);
         }
-        Table.nativeSetDouble(tableNativePtr, columnInfo.porcentajeDescuentoXRulesIndex, rowIndex, ((ProductOrderRealmProxyInterface)object).realmGet$porcentajeDescuentoXRules(), false);
-        Table.nativeSetDouble(tableNativePtr, columnInfo.valorDescuentoXRulesIndex, rowIndex, ((ProductOrderRealmProxyInterface)object).realmGet$valorDescuentoXRules(), false);
-        Table.nativeSetDouble(tableNativePtr, columnInfo.porcentajeDescuentoManualIndex, rowIndex, ((ProductOrderRealmProxyInterface)object).realmGet$porcentajeDescuentoManual(), false);
-        Table.nativeSetDouble(tableNativePtr, columnInfo.valorDescuentoManualIndex, rowIndex, ((ProductOrderRealmProxyInterface)object).realmGet$valorDescuentoManual(), false);
+        Double realmGet$porcentajeDescuentoXRules = ((ProductOrderRealmProxyInterface)object).realmGet$porcentajeDescuentoXRules();
+        if (realmGet$porcentajeDescuentoXRules != null) {
+            Table.nativeSetDouble(tableNativePtr, columnInfo.porcentajeDescuentoXRulesIndex, rowIndex, realmGet$porcentajeDescuentoXRules, false);
+        }
+        Double realmGet$valorDescuentoXRules = ((ProductOrderRealmProxyInterface)object).realmGet$valorDescuentoXRules();
+        if (realmGet$valorDescuentoXRules != null) {
+            Table.nativeSetDouble(tableNativePtr, columnInfo.valorDescuentoXRulesIndex, rowIndex, realmGet$valorDescuentoXRules, false);
+        }
+        Double realmGet$porcentajeDescuentoManual = ((ProductOrderRealmProxyInterface)object).realmGet$porcentajeDescuentoManual();
+        if (realmGet$porcentajeDescuentoManual != null) {
+            Table.nativeSetDouble(tableNativePtr, columnInfo.porcentajeDescuentoManualIndex, rowIndex, realmGet$porcentajeDescuentoManual, false);
+        }
+        Double realmGet$valorDescuentoManual = ((ProductOrderRealmProxyInterface)object).realmGet$valorDescuentoManual();
+        if (realmGet$valorDescuentoManual != null) {
+            Table.nativeSetDouble(tableNativePtr, columnInfo.valorDescuentoManualIndex, rowIndex, realmGet$valorDescuentoManual, false);
+        }
         Number realmGet$cantidadEnCajas = ((ProductOrderRealmProxyInterface)object).realmGet$cantidadEnCajas();
         if (realmGet$cantidadEnCajas != null) {
             Table.nativeSetLong(tableNativePtr, columnInfo.cantidadEnCajasIndex, rowIndex, realmGet$cantidadEnCajas.longValue(), false);
@@ -2858,10 +2914,22 @@ public class ProductOrderRealmProxy extends com.mobile.polux.models.ProductOrder
                 if (realmGet$aplicaXRules != null) {
                     Table.nativeSetString(tableNativePtr, columnInfo.aplicaXRulesIndex, rowIndex, realmGet$aplicaXRules, false);
                 }
-                Table.nativeSetDouble(tableNativePtr, columnInfo.porcentajeDescuentoXRulesIndex, rowIndex, ((ProductOrderRealmProxyInterface)object).realmGet$porcentajeDescuentoXRules(), false);
-                Table.nativeSetDouble(tableNativePtr, columnInfo.valorDescuentoXRulesIndex, rowIndex, ((ProductOrderRealmProxyInterface)object).realmGet$valorDescuentoXRules(), false);
-                Table.nativeSetDouble(tableNativePtr, columnInfo.porcentajeDescuentoManualIndex, rowIndex, ((ProductOrderRealmProxyInterface)object).realmGet$porcentajeDescuentoManual(), false);
-                Table.nativeSetDouble(tableNativePtr, columnInfo.valorDescuentoManualIndex, rowIndex, ((ProductOrderRealmProxyInterface)object).realmGet$valorDescuentoManual(), false);
+                Double realmGet$porcentajeDescuentoXRules = ((ProductOrderRealmProxyInterface)object).realmGet$porcentajeDescuentoXRules();
+                if (realmGet$porcentajeDescuentoXRules != null) {
+                    Table.nativeSetDouble(tableNativePtr, columnInfo.porcentajeDescuentoXRulesIndex, rowIndex, realmGet$porcentajeDescuentoXRules, false);
+                }
+                Double realmGet$valorDescuentoXRules = ((ProductOrderRealmProxyInterface)object).realmGet$valorDescuentoXRules();
+                if (realmGet$valorDescuentoXRules != null) {
+                    Table.nativeSetDouble(tableNativePtr, columnInfo.valorDescuentoXRulesIndex, rowIndex, realmGet$valorDescuentoXRules, false);
+                }
+                Double realmGet$porcentajeDescuentoManual = ((ProductOrderRealmProxyInterface)object).realmGet$porcentajeDescuentoManual();
+                if (realmGet$porcentajeDescuentoManual != null) {
+                    Table.nativeSetDouble(tableNativePtr, columnInfo.porcentajeDescuentoManualIndex, rowIndex, realmGet$porcentajeDescuentoManual, false);
+                }
+                Double realmGet$valorDescuentoManual = ((ProductOrderRealmProxyInterface)object).realmGet$valorDescuentoManual();
+                if (realmGet$valorDescuentoManual != null) {
+                    Table.nativeSetDouble(tableNativePtr, columnInfo.valorDescuentoManualIndex, rowIndex, realmGet$valorDescuentoManual, false);
+                }
                 Number realmGet$cantidadEnCajas = ((ProductOrderRealmProxyInterface)object).realmGet$cantidadEnCajas();
                 if (realmGet$cantidadEnCajas != null) {
                     Table.nativeSetLong(tableNativePtr, columnInfo.cantidadEnCajasIndex, rowIndex, realmGet$cantidadEnCajas.longValue(), false);
@@ -3020,10 +3088,30 @@ public class ProductOrderRealmProxy extends com.mobile.polux.models.ProductOrder
         } else {
             Table.nativeSetNull(tableNativePtr, columnInfo.aplicaXRulesIndex, rowIndex, false);
         }
-        Table.nativeSetDouble(tableNativePtr, columnInfo.porcentajeDescuentoXRulesIndex, rowIndex, ((ProductOrderRealmProxyInterface)object).realmGet$porcentajeDescuentoXRules(), false);
-        Table.nativeSetDouble(tableNativePtr, columnInfo.valorDescuentoXRulesIndex, rowIndex, ((ProductOrderRealmProxyInterface)object).realmGet$valorDescuentoXRules(), false);
-        Table.nativeSetDouble(tableNativePtr, columnInfo.porcentajeDescuentoManualIndex, rowIndex, ((ProductOrderRealmProxyInterface)object).realmGet$porcentajeDescuentoManual(), false);
-        Table.nativeSetDouble(tableNativePtr, columnInfo.valorDescuentoManualIndex, rowIndex, ((ProductOrderRealmProxyInterface)object).realmGet$valorDescuentoManual(), false);
+        Double realmGet$porcentajeDescuentoXRules = ((ProductOrderRealmProxyInterface)object).realmGet$porcentajeDescuentoXRules();
+        if (realmGet$porcentajeDescuentoXRules != null) {
+            Table.nativeSetDouble(tableNativePtr, columnInfo.porcentajeDescuentoXRulesIndex, rowIndex, realmGet$porcentajeDescuentoXRules, false);
+        } else {
+            Table.nativeSetNull(tableNativePtr, columnInfo.porcentajeDescuentoXRulesIndex, rowIndex, false);
+        }
+        Double realmGet$valorDescuentoXRules = ((ProductOrderRealmProxyInterface)object).realmGet$valorDescuentoXRules();
+        if (realmGet$valorDescuentoXRules != null) {
+            Table.nativeSetDouble(tableNativePtr, columnInfo.valorDescuentoXRulesIndex, rowIndex, realmGet$valorDescuentoXRules, false);
+        } else {
+            Table.nativeSetNull(tableNativePtr, columnInfo.valorDescuentoXRulesIndex, rowIndex, false);
+        }
+        Double realmGet$porcentajeDescuentoManual = ((ProductOrderRealmProxyInterface)object).realmGet$porcentajeDescuentoManual();
+        if (realmGet$porcentajeDescuentoManual != null) {
+            Table.nativeSetDouble(tableNativePtr, columnInfo.porcentajeDescuentoManualIndex, rowIndex, realmGet$porcentajeDescuentoManual, false);
+        } else {
+            Table.nativeSetNull(tableNativePtr, columnInfo.porcentajeDescuentoManualIndex, rowIndex, false);
+        }
+        Double realmGet$valorDescuentoManual = ((ProductOrderRealmProxyInterface)object).realmGet$valorDescuentoManual();
+        if (realmGet$valorDescuentoManual != null) {
+            Table.nativeSetDouble(tableNativePtr, columnInfo.valorDescuentoManualIndex, rowIndex, realmGet$valorDescuentoManual, false);
+        } else {
+            Table.nativeSetNull(tableNativePtr, columnInfo.valorDescuentoManualIndex, rowIndex, false);
+        }
         Number realmGet$cantidadEnCajas = ((ProductOrderRealmProxyInterface)object).realmGet$cantidadEnCajas();
         if (realmGet$cantidadEnCajas != null) {
             Table.nativeSetLong(tableNativePtr, columnInfo.cantidadEnCajasIndex, rowIndex, realmGet$cantidadEnCajas.longValue(), false);
@@ -3193,10 +3281,30 @@ public class ProductOrderRealmProxy extends com.mobile.polux.models.ProductOrder
                 } else {
                     Table.nativeSetNull(tableNativePtr, columnInfo.aplicaXRulesIndex, rowIndex, false);
                 }
-                Table.nativeSetDouble(tableNativePtr, columnInfo.porcentajeDescuentoXRulesIndex, rowIndex, ((ProductOrderRealmProxyInterface)object).realmGet$porcentajeDescuentoXRules(), false);
-                Table.nativeSetDouble(tableNativePtr, columnInfo.valorDescuentoXRulesIndex, rowIndex, ((ProductOrderRealmProxyInterface)object).realmGet$valorDescuentoXRules(), false);
-                Table.nativeSetDouble(tableNativePtr, columnInfo.porcentajeDescuentoManualIndex, rowIndex, ((ProductOrderRealmProxyInterface)object).realmGet$porcentajeDescuentoManual(), false);
-                Table.nativeSetDouble(tableNativePtr, columnInfo.valorDescuentoManualIndex, rowIndex, ((ProductOrderRealmProxyInterface)object).realmGet$valorDescuentoManual(), false);
+                Double realmGet$porcentajeDescuentoXRules = ((ProductOrderRealmProxyInterface)object).realmGet$porcentajeDescuentoXRules();
+                if (realmGet$porcentajeDescuentoXRules != null) {
+                    Table.nativeSetDouble(tableNativePtr, columnInfo.porcentajeDescuentoXRulesIndex, rowIndex, realmGet$porcentajeDescuentoXRules, false);
+                } else {
+                    Table.nativeSetNull(tableNativePtr, columnInfo.porcentajeDescuentoXRulesIndex, rowIndex, false);
+                }
+                Double realmGet$valorDescuentoXRules = ((ProductOrderRealmProxyInterface)object).realmGet$valorDescuentoXRules();
+                if (realmGet$valorDescuentoXRules != null) {
+                    Table.nativeSetDouble(tableNativePtr, columnInfo.valorDescuentoXRulesIndex, rowIndex, realmGet$valorDescuentoXRules, false);
+                } else {
+                    Table.nativeSetNull(tableNativePtr, columnInfo.valorDescuentoXRulesIndex, rowIndex, false);
+                }
+                Double realmGet$porcentajeDescuentoManual = ((ProductOrderRealmProxyInterface)object).realmGet$porcentajeDescuentoManual();
+                if (realmGet$porcentajeDescuentoManual != null) {
+                    Table.nativeSetDouble(tableNativePtr, columnInfo.porcentajeDescuentoManualIndex, rowIndex, realmGet$porcentajeDescuentoManual, false);
+                } else {
+                    Table.nativeSetNull(tableNativePtr, columnInfo.porcentajeDescuentoManualIndex, rowIndex, false);
+                }
+                Double realmGet$valorDescuentoManual = ((ProductOrderRealmProxyInterface)object).realmGet$valorDescuentoManual();
+                if (realmGet$valorDescuentoManual != null) {
+                    Table.nativeSetDouble(tableNativePtr, columnInfo.valorDescuentoManualIndex, rowIndex, realmGet$valorDescuentoManual, false);
+                } else {
+                    Table.nativeSetNull(tableNativePtr, columnInfo.valorDescuentoManualIndex, rowIndex, false);
+                }
                 Number realmGet$cantidadEnCajas = ((ProductOrderRealmProxyInterface)object).realmGet$cantidadEnCajas();
                 if (realmGet$cantidadEnCajas != null) {
                     Table.nativeSetLong(tableNativePtr, columnInfo.cantidadEnCajasIndex, rowIndex, realmGet$cantidadEnCajas.longValue(), false);
@@ -3447,19 +3555,19 @@ public class ProductOrderRealmProxy extends com.mobile.polux.models.ProductOrder
         stringBuilder.append("}");
         stringBuilder.append(",");
         stringBuilder.append("{porcentajeDescuentoXRules:");
-        stringBuilder.append(realmGet$porcentajeDescuentoXRules());
+        stringBuilder.append(realmGet$porcentajeDescuentoXRules() != null ? realmGet$porcentajeDescuentoXRules() : "null");
         stringBuilder.append("}");
         stringBuilder.append(",");
         stringBuilder.append("{valorDescuentoXRules:");
-        stringBuilder.append(realmGet$valorDescuentoXRules());
+        stringBuilder.append(realmGet$valorDescuentoXRules() != null ? realmGet$valorDescuentoXRules() : "null");
         stringBuilder.append("}");
         stringBuilder.append(",");
         stringBuilder.append("{porcentajeDescuentoManual:");
-        stringBuilder.append(realmGet$porcentajeDescuentoManual());
+        stringBuilder.append(realmGet$porcentajeDescuentoManual() != null ? realmGet$porcentajeDescuentoManual() : "null");
         stringBuilder.append("}");
         stringBuilder.append(",");
         stringBuilder.append("{valorDescuentoManual:");
-        stringBuilder.append(realmGet$valorDescuentoManual());
+        stringBuilder.append(realmGet$valorDescuentoManual() != null ? realmGet$valorDescuentoManual() : "null");
         stringBuilder.append("}");
         stringBuilder.append(",");
         stringBuilder.append("{cantidadEnCajas:");

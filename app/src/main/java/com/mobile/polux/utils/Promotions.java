@@ -256,7 +256,7 @@ public class Promotions {
             productOrder.setAplicaXRules("N");
 
             productOrder.setValorDescuentoXRules(0);
-            productOrder.setPorcentajeDescuentoXRules(0);
+            productOrder.setPorcentajeDescuentoXRules(0.00);
 
         }
 
@@ -279,8 +279,9 @@ public class Promotions {
         message = "";
 
         for(ProductOrder productOrder: order.getLsDafDetallesOrdens()){
+
             if(productOrder.getEsPromocion().equalsIgnoreCase("S")){
-                message += "Regla #   "  +productOrder.getCodigoReglaNegocio() +  "  GRATIS  " + productOrder.getCantidad() + " " + getName(productOrder.getName()) + "\n";
+                message += "Regla #   "  +productOrder.getCodigoReglaNegocio()+  "  GRATIS  " + productOrder.getCantidad() + " " + getName(productOrder.getName()) + "\n";
             }else if(productOrder.getLstDafDetallesOrden() != null && productOrder.getLstDafDetallesOrden().size() > 0){
                 for(ProductOrder productOrder1 : productOrder.getLstDafDetallesOrden()){
                     if(productOrder1.getEsPromocion().equalsIgnoreCase("S")){
@@ -290,12 +291,25 @@ public class Promotions {
             }
 
             if(productOrder.getPorcentajeDescuento()  != null && productOrder.getPorcentajeDescuento() > 0){
-                message += "Regla #  " +productOrder.getCodigoReglaNegocio() +  " " + productOrder.getPorcentajeDescuento() + " % DE DESCUENTO EN " + getName(productOrder.getName()) + "\n";
+                if(productOrder.getValorDescuentoManual() != null){
+                    if(productOrder.getValorDescuentoManual() > 0){
+                        message += "Desc. Manual "+  " " + productOrder.getPorcentajeDescuentoManual() + " % DE DESCUENTO EN " + getName(productOrder.getName()) + "\n";
+                    }
+
+                    if(productOrder.getPorcentajeDescuentoXRules() != null){
+                        if(productOrder.getPorcentajeDescuentoXRules() > 0){
+                            message += "Regla #  " +productOrder.getCodigoReglaNegocio()+  " " + productOrder.getPorcentajeDescuentoXRules() + " % DE DESCUENTO EN " + getName(productOrder.getName()) + "\n";
+                        }
+                    }
+
+                }
+
             }
 
         }
 
     }
+
 
     public Order setPromotionOrder(Order order, PromotionResponse promotionResponse) {
         message = "";

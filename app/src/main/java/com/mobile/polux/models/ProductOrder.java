@@ -74,13 +74,13 @@ public class ProductOrder extends RealmObject {
     @Expose
     private String aplicaXRules;
     @Expose
-    private double porcentajeDescuentoXRules;
+    private Double porcentajeDescuentoXRules;
     @Expose
-    private double valorDescuentoXRules;
+    private Double valorDescuentoXRules;
     @Expose
-    private double porcentajeDescuentoManual;
+    private Double porcentajeDescuentoManual;
     @Expose
-    private double valorDescuentoManual;
+    private Double valorDescuentoManual;
     @Expose
     private Integer cantidadEnCajas;
     @Expose
@@ -105,7 +105,7 @@ public class ProductOrder extends RealmObject {
     public ProductOrder(int code,String name, int boxes, int units,
                         Integer cant, double price, double subtotal, String applyIva,
                         double percentIva, double iva, double total, String user,
-                        Integer codeSubCompany, int serviceCode, int version, double unitCost, double percentXRules, double valueXRules, double percentManual, double valueManual) {
+                        Integer codeSubCompany, int serviceCode, int version, double unitCost, Double percentXRules, Double valueXRules, Double percentManual, Double valueManual) {
         this.name = name;
         this.boxes = boxes;
         this.units = units;
@@ -430,15 +430,15 @@ public class ProductOrder extends RealmObject {
         this.aplicaXRules = aplicaXRules;
     }
 
-    public double getPorcentajeDescuentoXRules() {
+    public Double getPorcentajeDescuentoXRules() {
         return porcentajeDescuentoXRules;
     }
 
-    public void setPorcentajeDescuentoXRules(double porcentajeDescuentoXRules) {
+    public void setPorcentajeDescuentoXRules(Double porcentajeDescuentoXRules) {
         this.porcentajeDescuentoXRules = porcentajeDescuentoXRules;
     }
 
-    public double getValorDescuentoXRules() {
+    public Double getValorDescuentoXRules() {
         return valorDescuentoXRules;
     }
 
@@ -446,11 +446,11 @@ public class ProductOrder extends RealmObject {
         this.valorDescuentoXRules = valorDescuentoXRules;
     }
 
-    public double getPorcentajeDescuentoManual() {
+    public Double getPorcentajeDescuentoManual() {
         return porcentajeDescuentoManual;
     }
 
-    public void setPorcentajeDescuentoManual(double porcentajeDescuentoManual) {
+    public void setPorcentajeDescuentoManual(Double porcentajeDescuentoManual) {
         this.porcentajeDescuentoManual = porcentajeDescuentoManual;
     }
 

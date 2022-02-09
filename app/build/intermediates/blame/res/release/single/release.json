@@ -4,12 +4,12 @@
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\64692786b31b448890a0915f3e997604\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
     },
     {
-        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\layout-watch-v20_abc_alert_dialog_title_material.xml.flat",
-        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\64692786b31b448890a0915f3e997604\\res\\layout-watch-v20\\abc_alert_dialog_title_material.xml"
-    },
-    {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\64692786b31b448890a0915f3e997604\\res\\drawable-xhdpi-v4\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\layout-watch-v20_abc_alert_dialog_title_material.xml.flat",
+        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\64692786b31b448890a0915f3e997604\\res\\layout-watch-v20\\abc_alert_dialog_title_material.xml"
     },
     {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_ic_plusone_small_off_client.png.flat",
@@ -100,12 +100,12 @@
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\64692786b31b448890a0915f3e997604\\res\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
-        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable_mr_media_pause_dark.xml.flat",
-        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\mediarouter-v7-28.0.0.aar\\8a23e069ca5fa86b2d0851bb6059ff2a\\res\\drawable\\mr_media_pause_dark.xml"
-    },
-    {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_ic_mr_button_connected_22_dark.png.flat",
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\mediarouter-v7-28.0.0.aar\\8a23e069ca5fa86b2d0851bb6059ff2a\\res\\drawable-xhdpi-v4\\ic_mr_button_connected_22_dark.png"
+    },
+    {
+        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable_mr_media_pause_dark.xml.flat",
+        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\mediarouter-v7-28.0.0.aar\\8a23e069ca5fa86b2d0851bb6059ff2a\\res\\drawable\\mr_media_pause_dark.xml"
     },
     {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_ic_mr_button_connecting_07_light.png.flat",
@@ -152,20 +152,20 @@
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\mediarouter-v7-28.0.0.aar\\8a23e069ca5fa86b2d0851bb6059ff2a\\res\\drawable-hdpi-v4\\ic_vol_type_tv_dark.png"
     },
     {
-        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable_cast_ic_expanded_controller_stop.xml.flat",
-        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\play-services-cast-framework-12.0.1.aar\\70f844f356381869b931eb5a05849ac4\\res\\drawable\\cast_ic_expanded_controller_stop.xml"
-    },
-    {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\layout_design_bottom_sheet_dialog.xml.flat",
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\ee4314f349afcb69741434a37604cd8a\\res\\layout\\design_bottom_sheet_dialog.xml"
     },
     {
-        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4_quantum_ic_pause_white_24.png.flat",
-        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\play-services-cast-framework-12.0.1.aar\\70f844f356381869b931eb5a05849ac4\\res\\drawable-xxxhdpi-v4\\quantum_ic_pause_white_24.png"
+        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable_cast_ic_expanded_controller_stop.xml.flat",
+        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\play-services-cast-framework-12.0.1.aar\\70f844f356381869b931eb5a05849ac4\\res\\drawable\\cast_ic_expanded_controller_stop.xml"
     },
     {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\64692786b31b448890a0915f3e997604\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_middle_mtrl_light.png"
+    },
+    {
+        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4_quantum_ic_pause_white_24.png.flat",
+        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\play-services-cast-framework-12.0.1.aar\\70f844f356381869b931eb5a05849ac4\\res\\drawable-xxxhdpi-v4\\quantum_ic_pause_white_24.png"
     },
     {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4_quantum_ic_play_arrow_grey600_48.png.flat",
@@ -204,20 +204,20 @@
         "source": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\generated\\res\\pngs\\release\\drawable-xhdpi\\ic_cash.png"
     },
     {
-        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_ic_sync.png.flat",
-        "source": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\generated\\res\\pngs\\release\\drawable-hdpi\\ic_sync.png"
-    },
-    {
-        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
-        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\64692786b31b448890a0915f3e997604\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
+        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_ic_mr_button_connected_17_dark.png.flat",
+        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\mediarouter-v7-28.0.0.aar\\8a23e069ca5fa86b2d0851bb6059ff2a\\res\\drawable-xhdpi-v4\\ic_mr_button_connected_17_dark.png"
     },
     {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_cast_ic_notification_on.png.flat",
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\play-services-cast-12.0.1.aar\\3796bba2cf18e100c0b8e42a7fc01bce\\res\\drawable-xhdpi-v4\\cast_ic_notification_on.png"
     },
     {
-        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_ic_mr_button_connected_17_dark.png.flat",
-        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\mediarouter-v7-28.0.0.aar\\8a23e069ca5fa86b2d0851bb6059ff2a\\res\\drawable-xhdpi-v4\\ic_mr_button_connected_17_dark.png"
+        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
+        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\64692786b31b448890a0915f3e997604\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_ic_sync.png.flat",
+        "source": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\generated\\res\\pngs\\release\\drawable-hdpi\\ic_sync.png"
     },
     {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_ic_mr_button_connecting_10_light.png.flat",
@@ -260,12 +260,12 @@
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\mediarouter-v7-28.0.0.aar\\8a23e069ca5fa86b2d0851bb6059ff2a\\res\\drawable-xhdpi-v4\\ic_media_play_dark.png"
     },
     {
-        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_ic_vol_type_tv_dark.png.flat",
-        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\mediarouter-v7-28.0.0.aar\\8a23e069ca5fa86b2d0851bb6059ff2a\\res\\drawable-mdpi-v4\\ic_vol_type_tv_dark.png"
-    },
-    {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable_cast_ic_mini_controller_rewind30.xml.flat",
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\play-services-cast-framework-12.0.1.aar\\70f844f356381869b931eb5a05849ac4\\res\\drawable\\cast_ic_mini_controller_rewind30.xml"
+    },
+    {
+        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_ic_vol_type_tv_dark.png.flat",
+        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\mediarouter-v7-28.0.0.aar\\8a23e069ca5fa86b2d0851bb6059ff2a\\res\\drawable-mdpi-v4\\ic_vol_type_tv_dark.png"
     },
     {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi_ic_menu_manage.png.flat",
@@ -320,12 +320,12 @@
         "source": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\src\\main\\res\\drawable\\btn_b_icon.xml"
     },
     {
-        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
-        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\64692786b31b448890a0915f3e997604\\res\\drawable-xhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
-    },
-    {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_cast_ic_notification_1.png.flat",
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\play-services-cast-12.0.1.aar\\3796bba2cf18e100c0b8e42a7fc01bce\\res\\drawable-xxhdpi-v4\\cast_ic_notification_1.png"
+    },
+    {
+        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
+        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\64692786b31b448890a0915f3e997604\\res\\drawable-xhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
     },
     {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_ic_mr_button_connected_12_light.png.flat",
@@ -388,12 +388,12 @@
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\mediarouter-v7-28.0.0.aar\\8a23e069ca5fa86b2d0851bb6059ff2a\\res\\drawable-xxhdpi-v4\\ic_mr_button_connected_02_light.png"
     },
     {
-        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi_ic_sync.png.flat",
-        "source": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\generated\\res\\pngs\\release\\drawable-ldpi\\ic_sync.png"
-    },
-    {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_ic_mr_button_connected_08_light.png.flat",
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\mediarouter-v7-28.0.0.aar\\8a23e069ca5fa86b2d0851bb6059ff2a\\res\\drawable-xxhdpi-v4\\ic_mr_button_connected_08_light.png"
+    },
+    {
+        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi_ic_sync.png.flat",
+        "source": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\generated\\res\\pngs\\release\\drawable-ldpi\\ic_sync.png"
     },
     {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_ic_mr_button_connecting_30_dark.png.flat",
@@ -432,12 +432,12 @@
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\64692786b31b448890a0915f3e997604\\res\\drawable\\tooltip_frame_light.xml"
     },
     {
-        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\layout_webview.xml.flat",
-        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\android-maps-utils-0.4.aar\\6d6adb1fec0875dac891f849cee2e12d\\res\\layout\\webview.xml"
-    },
-    {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_ic_mr_button_connecting_27_light.png.flat",
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\mediarouter-v7-28.0.0.aar\\8a23e069ca5fa86b2d0851bb6059ff2a\\res\\drawable-xxhdpi-v4\\ic_mr_button_connecting_27_light.png"
+    },
+    {
+        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\layout_webview.xml.flat",
+        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\android-maps-utils-0.4.aar\\6d6adb1fec0875dac891f849cee2e12d\\res\\layout\\webview.xml"
     },
     {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_notification_bg_normal.9.png.flat",
@@ -452,12 +452,12 @@
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\mediarouter-v7-28.0.0.aar\\8a23e069ca5fa86b2d0851bb6059ff2a\\res\\drawable-xxhdpi-v4\\ic_mr_button_connecting_18_light.png"
     },
     {
-        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
-        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\64692786b31b448890a0915f3e997604\\res\\drawable-hdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
-    },
-    {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable_abc_ic_clear_material.xml.flat",
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\64692786b31b448890a0915f3e997604\\res\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
+        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\64692786b31b448890a0915f3e997604\\res\\drawable-hdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable_mr_dialog_material_background_dark.xml.flat",
@@ -472,20 +472,20 @@
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\play-services-cast-framework-12.0.1.aar\\70f844f356381869b931eb5a05849ac4\\res\\drawable-mdpi-v4\\quantum_ic_keyboard_arrow_down_white_36.png"
     },
     {
-        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_quantum_ic_pause_grey600_48.png.flat",
-        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\play-services-cast-framework-12.0.1.aar\\70f844f356381869b931eb5a05849ac4\\res\\drawable-hdpi-v4\\quantum_ic_pause_grey600_48.png"
-    },
-    {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_ic_mr_button_connecting_26_dark.png.flat",
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\mediarouter-v7-28.0.0.aar\\8a23e069ca5fa86b2d0851bb6059ff2a\\res\\drawable-xhdpi-v4\\ic_mr_button_connecting_26_dark.png"
     },
     {
-        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_advertencia.png.flat",
-        "source": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\src\\main\\res\\drawable-hdpi\\advertencia.png"
+        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_quantum_ic_pause_grey600_48.png.flat",
+        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\play-services-cast-framework-12.0.1.aar\\70f844f356381869b931eb5a05849ac4\\res\\drawable-hdpi-v4\\quantum_ic_pause_grey600_48.png"
     },
     {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_ic_mr_button_connecting_12_light.png.flat",
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\mediarouter-v7-28.0.0.aar\\8a23e069ca5fa86b2d0851bb6059ff2a\\res\\drawable-xxhdpi-v4\\ic_mr_button_connecting_12_light.png"
+    },
+    {
+        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_advertencia.png.flat",
+        "source": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\src\\main\\res\\drawable-hdpi\\advertencia.png"
     },
     {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_cast_ic_notification_2.png.flat",
@@ -536,12 +536,12 @@
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\support-media-compat-28.0.0.aar\\9f711570169985bcbc4bcdf0505bc9e7\\res\\layout\\notification_template_big_media_custom.xml"
     },
     {
-        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_ic_logout.png.flat",
-        "source": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\generated\\res\\pngs\\release\\drawable-hdpi\\ic_logout.png"
-    },
-    {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_quantum_ic_closed_caption_white_36.png.flat",
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\play-services-cast-framework-12.0.1.aar\\70f844f356381869b931eb5a05849ac4\\res\\drawable-hdpi-v4\\quantum_ic_closed_caption_white_36.png"
+    },
+    {
+        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_ic_logout.png.flat",
+        "source": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\generated\\res\\pngs\\release\\drawable-hdpi\\ic_logout.png"
     },
     {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
@@ -568,12 +568,12 @@
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\play-services-cast-framework-12.0.1.aar\\70f844f356381869b931eb5a05849ac4\\res\\drawable-xhdpi-v4\\quantum_ic_replay_30_white_36.png"
     },
     {
-        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\layout_mr_controller_material_dialog_b.xml.flat",
-        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\mediarouter-v7-28.0.0.aar\\8a23e069ca5fa86b2d0851bb6059ff2a\\res\\layout\\mr_controller_material_dialog_b.xml"
-    },
-    {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_quantum_ic_pause_circle_filled_white_36.png.flat",
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\play-services-cast-framework-12.0.1.aar\\70f844f356381869b931eb5a05849ac4\\res\\drawable-xhdpi-v4\\quantum_ic_pause_circle_filled_white_36.png"
+    },
+    {
+        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\layout_mr_controller_material_dialog_b.xml.flat",
+        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\mediarouter-v7-28.0.0.aar\\8a23e069ca5fa86b2d0851bb6059ff2a\\res\\layout\\mr_controller_material_dialog_b.xml"
     },
     {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\layout_item_product_order.xml.flat",
@@ -676,32 +676,32 @@
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\mediarouter-v7-28.0.0.aar\\8a23e069ca5fa86b2d0851bb6059ff2a\\res\\drawable-xxhdpi-v4\\ic_mr_button_connecting_03_light.png"
     },
     {
-        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4_quantum_ic_forward_30_grey600_36.png.flat",
-        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\play-services-cast-framework-12.0.1.aar\\70f844f356381869b931eb5a05849ac4\\res\\drawable-xxxhdpi-v4\\quantum_ic_forward_30_grey600_36.png"
-    },
-    {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_ic_mr_button_disconnected_dark.png.flat",
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\mediarouter-v7-28.0.0.aar\\8a23e069ca5fa86b2d0851bb6059ff2a\\res\\drawable-hdpi-v4\\ic_mr_button_disconnected_dark.png"
     },
     {
-        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_places_ic_search.png.flat",
-        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\play-services-places-12.0.1.aar\\13bd39b655f5ede470666b0990bc2a4f\\res\\drawable-xxhdpi-v4\\places_ic_search.png"
+        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4_quantum_ic_forward_30_grey600_36.png.flat",
+        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\play-services-cast-framework-12.0.1.aar\\70f844f356381869b931eb5a05849ac4\\res\\drawable-xxxhdpi-v4\\quantum_ic_forward_30_grey600_36.png"
     },
     {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_ic_mr_button_connecting_30_light.png.flat",
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\mediarouter-v7-28.0.0.aar\\8a23e069ca5fa86b2d0851bb6059ff2a\\res\\drawable-xxhdpi-v4\\ic_mr_button_connecting_30_light.png"
     },
     {
+        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_places_ic_search.png.flat",
+        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\play-services-places-12.0.1.aar\\13bd39b655f5ede470666b0990bc2a4f\\res\\drawable-xxhdpi-v4\\places_ic_search.png"
+    },
+    {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable_mr_group_expand.xml.flat",
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\mediarouter-v7-28.0.0.aar\\8a23e069ca5fa86b2d0851bb6059ff2a\\res\\drawable\\mr_group_expand.xml"
     },
     {
-        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_abc_list_longpressed_holo.9.png.flat",
-        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\64692786b31b448890a0915f3e997604\\res\\drawable-xhdpi-v4\\abc_list_longpressed_holo.9.png"
-    },
-    {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_ic_mr_button_connecting_09_light.png.flat",
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\mediarouter-v7-28.0.0.aar\\8a23e069ca5fa86b2d0851bb6059ff2a\\res\\drawable-xxhdpi-v4\\ic_mr_button_connecting_09_light.png"
+    },
+    {
+        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_abc_list_longpressed_holo.9.png.flat",
+        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\64692786b31b448890a0915f3e997604\\res\\drawable-xhdpi-v4\\abc_list_longpressed_holo.9.png"
     },
     {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\raw_unsupported.kml.flat",
@@ -824,12 +824,12 @@
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\mediarouter-v7-28.0.0.aar\\8a23e069ca5fa86b2d0851bb6059ff2a\\res\\drawable-xhdpi-v4\\ic_mr_button_connecting_20_light.png"
     },
     {
-        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldrtl-xxxhdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
-        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\64692786b31b448890a0915f3e997604\\res\\drawable-ldrtl-xxxhdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
-    },
-    {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable_common_google_signin_btn_icon_dark_normal.xml.flat",
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\play-services-base-12.0.1.aar\\a738961baa70576d78f0aa22e4396f16\\res\\drawable\\common_google_signin_btn_icon_dark_normal.xml"
+    },
+    {
+        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldrtl-xxxhdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\64692786b31b448890a0915f3e997604\\res\\drawable-ldrtl-xxxhdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\layout_notification_template_media.xml.flat",
@@ -932,12 +932,12 @@
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\64692786b31b448890a0915f3e997604\\res\\layout\\select_dialog_singlechoice_material.xml"
     },
     {
-        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
-        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\64692786b31b448890a0915f3e997604\\res\\drawable-mdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
-    },
-    {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_ic_cash.png.flat",
         "source": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\generated\\res\\pngs\\release\\drawable-hdpi\\ic_cash.png"
+    },
+    {
+        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
+        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\64692786b31b448890a0915f3e997604\\res\\drawable-mdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
     },
     {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\layout_notification_template_lines_media.xml.flat",
@@ -980,12 +980,12 @@
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\mediarouter-v7-28.0.0.aar\\8a23e069ca5fa86b2d0851bb6059ff2a\\res\\drawable-xxhdpi-v4\\ic_mr_button_connected_10_dark.png"
     },
     {
-        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_bubble_mask.9.png.flat",
-        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\android-maps-utils-0.4.aar\\6d6adb1fec0875dac891f849cee2e12d\\res\\drawable-xhdpi\\bubble_mask.9.png"
-    },
-    {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\layout_abc_screen_content_include.xml.flat",
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\64692786b31b448890a0915f3e997604\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_bubble_mask.9.png.flat",
+        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\android-maps-utils-0.4.aar\\6d6adb1fec0875dac891f849cee2e12d\\res\\drawable-xhdpi\\bubble_mask.9.png"
     },
     {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4_quantum_ic_replay_30_grey600_36.png.flat",
@@ -1032,12 +1032,12 @@
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\play-services-cast-framework-12.0.1.aar\\70f844f356381869b931eb5a05849ac4\\res\\drawable-xhdpi-v4\\quantum_ic_volume_up_white_36.png"
     },
     {
-        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable_common_google_signin_btn_icon_light.xml.flat",
-        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\play-services-base-12.0.1.aar\\a738961baa70576d78f0aa22e4396f16\\res\\drawable\\common_google_signin_btn_icon_light.xml"
-    },
-    {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4_ic_group_expand_15.png.flat",
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\mediarouter-v7-28.0.0.aar\\8a23e069ca5fa86b2d0851bb6059ff2a\\res\\drawable-xxxhdpi-v4\\ic_group_expand_15.png"
+    },
+    {
+        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable_common_google_signin_btn_icon_light.xml.flat",
+        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\play-services-base-12.0.1.aar\\a738961baa70576d78f0aa22e4396f16\\res\\drawable\\common_google_signin_btn_icon_light.xml"
     },
     {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_quantum_ic_skip_next_white_24.png.flat",
@@ -1048,12 +1048,12 @@
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\64692786b31b448890a0915f3e997604\\res\\drawable-xhdpi-v4\\abc_list_pressed_holo_light.9.png"
     },
     {
-        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_ic_mr_button_connected_05_dark.png.flat",
-        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\mediarouter-v7-28.0.0.aar\\8a23e069ca5fa86b2d0851bb6059ff2a\\res\\drawable-xxhdpi-v4\\ic_mr_button_connected_05_dark.png"
-    },
-    {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_cast_ic_notification_on.png.flat",
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\play-services-cast-12.0.1.aar\\3796bba2cf18e100c0b8e42a7fc01bce\\res\\drawable-hdpi-v4\\cast_ic_notification_on.png"
+    },
+    {
+        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_ic_mr_button_connected_05_dark.png.flat",
+        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\mediarouter-v7-28.0.0.aar\\8a23e069ca5fa86b2d0851bb6059ff2a\\res\\drawable-xxhdpi-v4\\ic_mr_button_connected_05_dark.png"
     },
     {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\interpolator_mr_linear_out_slow_in.xml.flat",
@@ -1064,20 +1064,20 @@
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\play-services-cast-framework-12.0.1.aar\\70f844f356381869b931eb5a05849ac4\\res\\drawable\\cast_ic_mini_controller_play.xml"
     },
     {
-        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_ic_media_stop_light.png.flat",
-        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\mediarouter-v7-28.0.0.aar\\8a23e069ca5fa86b2d0851bb6059ff2a\\res\\drawable-xhdpi-v4\\ic_media_stop_light.png"
-    },
-    {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\layout-v21_notification_template_icon_group.xml.flat",
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\436b79979992c80eb8a51004e03d1d7d\\res\\layout-v21\\notification_template_icon_group.xml"
     },
     {
-        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\layout_view_order.xml.flat",
-        "source": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\src\\main\\res\\layout\\view_order.xml"
+        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_ic_media_stop_light.png.flat",
+        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\mediarouter-v7-28.0.0.aar\\8a23e069ca5fa86b2d0851bb6059ff2a\\res\\drawable-xhdpi-v4\\ic_media_stop_light.png"
     },
     {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_quantum_ic_play_arrow_grey600_36.png.flat",
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\play-services-cast-framework-12.0.1.aar\\70f844f356381869b931eb5a05849ac4\\res\\drawable-xhdpi-v4\\quantum_ic_play_arrow_grey600_36.png"
+    },
+    {
+        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\layout_view_order.xml.flat",
+        "source": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\src\\main\\res\\layout\\view_order.xml"
     },
     {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi_ic_menu_order.png.flat",
@@ -1140,12 +1140,12 @@
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\64692786b31b448890a0915f3e997604\\res\\color-v23\\abc_color_highlight_material.xml"
     },
     {
-        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_invoice.xml.flat",
-        "source": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\src\\main\\res\\layout\\activity_invoice.xml"
-    },
-    {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_ic_mr_button_connecting_00_light.png.flat",
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\mediarouter-v7-28.0.0.aar\\8a23e069ca5fa86b2d0851bb6059ff2a\\res\\drawable-xhdpi-v4\\ic_mr_button_connecting_00_light.png"
+    },
+    {
+        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_invoice.xml.flat",
+        "source": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\src\\main\\res\\layout\\activity_invoice.xml"
     },
     {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_ic_settings.png.flat",
@@ -1164,12 +1164,12 @@
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\play-services-cast-framework-12.0.1.aar\\70f844f356381869b931eb5a05849ac4\\res\\drawable-xxhdpi-v4\\cast_abc_scrubber_primary_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
-        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\64692786b31b448890a0915f3e997604\\res\\drawable-xhdpi-v4\\abc_popup_background_mtrl_mult.9.png"
-    },
-    {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_ic_mr_button_connected_20_dark.png.flat",
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\mediarouter-v7-28.0.0.aar\\8a23e069ca5fa86b2d0851bb6059ff2a\\res\\drawable-xxhdpi-v4\\ic_mr_button_connected_20_dark.png"
+    },
+    {
+        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
+        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\64692786b31b448890a0915f3e997604\\res\\drawable-xhdpi-v4\\abc_popup_background_mtrl_mult.9.png"
     },
     {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_ic_mr_button_connecting_02_dark.png.flat",
@@ -1204,12 +1204,12 @@
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\mediarouter-v7-28.0.0.aar\\8a23e069ca5fa86b2d0851bb6059ff2a\\res\\drawable-xhdpi-v4\\ic_mr_button_connected_20_light.png"
     },
     {
-        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\xml_provider_paths.xml.flat",
-        "source": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\src\\main\\res\\xml\\provider_paths.xml"
-    },
-    {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4_quantum_ic_pause_circle_filled_grey600_36.png.flat",
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\play-services-cast-framework-12.0.1.aar\\70f844f356381869b931eb5a05849ac4\\res\\drawable-xxxhdpi-v4\\quantum_ic_pause_circle_filled_grey600_36.png"
+    },
+    {
+        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\xml_provider_paths.xml.flat",
+        "source": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\src\\main\\res\\xml\\provider_paths.xml"
     },
     {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable_abc_list_selector_background_transition_holo_light.xml.flat",
@@ -1248,12 +1248,12 @@
         "source": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\generated\\res\\pngs\\release\\drawable-xhdpi\\ic_person_add.png"
     },
     {
-        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4_abc_ic_star_black_36dp.png.flat",
-        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\64692786b31b448890a0915f3e997604\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_36dp.png"
-    },
-    {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_campana.png.flat",
         "source": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\src\\main\\res\\drawable-mdpi\\campana.png"
+    },
+    {
+        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4_abc_ic_star_black_36dp.png.flat",
+        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\64692786b31b448890a0915f3e997604\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_36dp.png"
     },
     {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_pedidos.png.flat",
@@ -1284,12 +1284,12 @@
         "source": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\generated\\res\\pngs\\release\\drawable-anydpi-v21\\ic_update.xml"
     },
     {
-        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-anydpi-v21_ic_delivery.xml.flat",
-        "source": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\generated\\res\\pngs\\release\\drawable-anydpi-v21\\ic_delivery.xml"
-    },
-    {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_ic_mr_button_connecting_12_dark.png.flat",
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\mediarouter-v7-28.0.0.aar\\8a23e069ca5fa86b2d0851bb6059ff2a\\res\\drawable-xxhdpi-v4\\ic_mr_button_connecting_12_dark.png"
+    },
+    {
+        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-anydpi-v21_ic_delivery.xml.flat",
+        "source": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\generated\\res\\pngs\\release\\drawable-anydpi-v21\\ic_delivery.xml"
     },
     {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
@@ -1404,24 +1404,24 @@
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\mediarouter-v7-28.0.0.aar\\8a23e069ca5fa86b2d0851bb6059ff2a\\res\\drawable-xhdpi-v4\\ic_mr_button_connected_02_light.png"
     },
     {
-        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
-        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\64692786b31b448890a0915f3e997604\\res\\drawable-xxhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
-    },
-    {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_location.xml.flat",
         "source": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\src\\main\\res\\layout\\activity_location.xml"
+    },
+    {
+        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
+        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\64692786b31b448890a0915f3e997604\\res\\drawable-xxhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
     },
     {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\64692786b31b448890a0915f3e997604\\res\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
     },
     {
-        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-anydpi-v21_ic_settings.xml.flat",
-        "source": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\generated\\res\\pngs\\release\\drawable-anydpi-v21\\ic_settings.xml"
-    },
-    {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_ic_mr_button_connected_11_light.png.flat",
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\mediarouter-v7-28.0.0.aar\\8a23e069ca5fa86b2d0851bb6059ff2a\\res\\drawable-xhdpi-v4\\ic_mr_button_connected_11_light.png"
+    },
+    {
+        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-anydpi-v21_ic_settings.xml.flat",
+        "source": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\generated\\res\\pngs\\release\\drawable-anydpi-v21\\ic_settings.xml"
     },
     {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4_quantum_ic_skip_previous_white_36.png.flat",
@@ -1484,12 +1484,12 @@
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\64692786b31b448890a0915f3e997604\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_left_mtrl_light.png"
     },
     {
-        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldrtl-mdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
-        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\64692786b31b448890a0915f3e997604\\res\\drawable-ldrtl-mdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
-    },
-    {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_design_ic_visibility.png.flat",
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\ee4314f349afcb69741434a37604cd8a\\res\\drawable-xxhdpi-v4\\design_ic_visibility.png"
+    },
+    {
+        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldrtl-mdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\64692786b31b448890a0915f3e997604\\res\\drawable-ldrtl-mdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\color_abc_secondary_text_material_dark.xml.flat",
@@ -1604,12 +1604,12 @@
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\play-services-cast-framework-12.0.1.aar\\70f844f356381869b931eb5a05849ac4\\res\\drawable-mdpi-v4\\cast_ic_stop_circle_filled_grey600.png"
     },
     {
-        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
-        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\64692786b31b448890a0915f3e997604\\res\\drawable-xxhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
-    },
-    {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_ic_vol_type_speaker_group_dark.png.flat",
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\mediarouter-v7-28.0.0.aar\\8a23e069ca5fa86b2d0851bb6059ff2a\\res\\drawable-hdpi-v4\\ic_vol_type_speaker_group_dark.png"
+    },
+    {
+        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
+        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\64692786b31b448890a0915f3e997604\\res\\drawable-xxhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
     {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_quantum_ic_skip_next_white_24.png.flat",
@@ -1660,16 +1660,16 @@
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\mediarouter-v7-28.0.0.aar\\8a23e069ca5fa86b2d0851bb6059ff2a\\res\\drawable-hdpi-v4\\ic_dialog_close_dark.png"
     },
     {
-        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_finish_installation.xml.flat",
-        "source": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\src\\main\\res\\layout\\activity_finish_installation.xml"
+        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_info.xml.flat",
+        "source": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\src\\main\\res\\layout\\activity_info.xml"
     },
     {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_ic_mr_button_connected_23_dark.png.flat",
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\mediarouter-v7-28.0.0.aar\\8a23e069ca5fa86b2d0851bb6059ff2a\\res\\drawable-xxhdpi-v4\\ic_mr_button_connected_23_dark.png"
     },
     {
-        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_info.xml.flat",
-        "source": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\src\\main\\res\\layout\\activity_info.xml"
+        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_finish_installation.xml.flat",
+        "source": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\src\\main\\res\\layout\\activity_finish_installation.xml"
     },
     {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_ic_mr_button_connecting_17_dark.png.flat",
@@ -1816,12 +1816,12 @@
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\mediarouter-v7-28.0.0.aar\\8a23e069ca5fa86b2d0851bb6059ff2a\\res\\drawable-xxhdpi-v4\\ic_mr_button_connected_16_dark.png"
     },
     {
-        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_notification_bg_normal.9.png.flat",
-        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\436b79979992c80eb8a51004e03d1d7d\\res\\drawable-mdpi-v4\\notification_bg_normal.9.png"
-    },
-    {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-nodpi-v4_cast_album_art_placeholder_large.png.flat",
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\play-services-cast-framework-12.0.1.aar\\70f844f356381869b931eb5a05849ac4\\res\\drawable-nodpi-v4\\cast_album_art_placeholder_large.png"
+    },
+    {
+        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\436b79979992c80eb8a51004e03d1d7d\\res\\drawable-mdpi-v4\\notification_bg_normal.9.png"
     },
     {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi_ic_target.png.flat",
@@ -1856,16 +1856,16 @@
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\64692786b31b448890a0915f3e997604\\res\\drawable-xxhdpi-v4\\abc_ic_star_half_black_36dp.png"
     },
     {
-        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_design_ic_visibility.png.flat",
-        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\ee4314f349afcb69741434a37604cd8a\\res\\drawable-mdpi-v4\\design_ic_visibility.png"
+        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_cast_abc_scrubber_control_off_mtrl_alpha.png.flat",
+        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\play-services-cast-framework-12.0.1.aar\\70f844f356381869b931eb5a05849ac4\\res\\drawable-xxhdpi-v4\\cast_abc_scrubber_control_off_mtrl_alpha.png"
     },
     {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\layout_nav_header_main.xml.flat",
         "source": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\src\\main\\res\\layout\\nav_header_main.xml"
     },
     {
-        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_cast_abc_scrubber_control_off_mtrl_alpha.png.flat",
-        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\play-services-cast-framework-12.0.1.aar\\70f844f356381869b931eb5a05849ac4\\res\\drawable-xxhdpi-v4\\cast_abc_scrubber_control_off_mtrl_alpha.png"
+        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_design_ic_visibility.png.flat",
+        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\ee4314f349afcb69741434a37604cd8a\\res\\drawable-mdpi-v4\\design_ic_visibility.png"
     },
     {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_ic_mr_button_connecting_26_light.png.flat",
@@ -1876,52 +1876,52 @@
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\mediarouter-v7-28.0.0.aar\\8a23e069ca5fa86b2d0851bb6059ff2a\\res\\drawable-hdpi-v4\\ic_media_play_dark.png"
     },
     {
-        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_cast_ic_stop_circle_filled_white.png.flat",
-        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\play-services-cast-framework-12.0.1.aar\\70f844f356381869b931eb5a05849ac4\\res\\drawable-xhdpi-v4\\cast_ic_stop_circle_filled_white.png"
+        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
+        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\64692786b31b448890a0915f3e997604\\res\\drawable-mdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
     },
     {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-anydpi-v21_design_ic_visibility_off.xml.flat",
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\ee4314f349afcb69741434a37604cd8a\\res\\drawable-anydpi-v21\\design_ic_visibility_off.xml"
     },
     {
-        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
-        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\64692786b31b448890a0915f3e997604\\res\\drawable-mdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
+        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_cast_ic_stop_circle_filled_white.png.flat",
+        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\play-services-cast-framework-12.0.1.aar\\70f844f356381869b931eb5a05849ac4\\res\\drawable-xhdpi-v4\\cast_ic_stop_circle_filled_white.png"
     },
     {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_quantum_ic_closed_caption_grey600_36.png.flat",
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\play-services-cast-framework-12.0.1.aar\\70f844f356381869b931eb5a05849ac4\\res\\drawable-xhdpi-v4\\quantum_ic_closed_caption_grey600_36.png"
     },
     {
-        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_cast_ic_notification_0.png.flat",
-        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\play-services-cast-12.0.1.aar\\3796bba2cf18e100c0b8e42a7fc01bce\\res\\drawable-xhdpi-v4\\cast_ic_notification_0.png"
-    },
-    {
-        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable_notification_bg_low.xml.flat",
-        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\436b79979992c80eb8a51004e03d1d7d\\res\\drawable\\notification_bg_low.xml"
+        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\color_abc_background_cache_hint_selector_material_dark.xml.flat",
+        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\64692786b31b448890a0915f3e997604\\res\\color\\abc_background_cache_hint_selector_material_dark.xml"
     },
     {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_cast_ic_notification_0.png.flat",
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\play-services-cast-12.0.1.aar\\3796bba2cf18e100c0b8e42a7fc01bce\\res\\drawable-mdpi-v4\\cast_ic_notification_0.png"
     },
     {
-        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\color_abc_background_cache_hint_selector_material_dark.xml.flat",
-        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\64692786b31b448890a0915f3e997604\\res\\color\\abc_background_cache_hint_selector_material_dark.xml"
+        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable_notification_bg_low.xml.flat",
+        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\436b79979992c80eb8a51004e03d1d7d\\res\\drawable\\notification_bg_low.xml"
     },
     {
-        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_ic_mr_button_connected_01_light.png.flat",
-        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\mediarouter-v7-28.0.0.aar\\8a23e069ca5fa86b2d0851bb6059ff2a\\res\\drawable-xxhdpi-v4\\ic_mr_button_connected_01_light.png"
+        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_cast_ic_notification_0.png.flat",
+        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\play-services-cast-12.0.1.aar\\3796bba2cf18e100c0b8e42a7fc01bce\\res\\drawable-xhdpi-v4\\cast_ic_notification_0.png"
     },
     {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_ic_mr_button_connecting_13_dark.png.flat",
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\mediarouter-v7-28.0.0.aar\\8a23e069ca5fa86b2d0851bb6059ff2a\\res\\drawable-xxhdpi-v4\\ic_mr_button_connecting_13_dark.png"
     },
     {
-        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_ic_mr_button_connecting_29_light.png.flat",
-        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\mediarouter-v7-28.0.0.aar\\8a23e069ca5fa86b2d0851bb6059ff2a\\res\\drawable-xxhdpi-v4\\ic_mr_button_connecting_29_light.png"
+        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_ic_mr_button_connected_01_light.png.flat",
+        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\mediarouter-v7-28.0.0.aar\\8a23e069ca5fa86b2d0851bb6059ff2a\\res\\drawable-xxhdpi-v4\\ic_mr_button_connected_01_light.png"
     },
     {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_ic_menu_manage.png.flat",
         "source": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\generated\\res\\pngs\\release\\drawable-hdpi\\ic_menu_manage.png"
+    },
+    {
+        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_ic_mr_button_connecting_29_light.png.flat",
+        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\mediarouter-v7-28.0.0.aar\\8a23e069ca5fa86b2d0851bb6059ff2a\\res\\drawable-xxhdpi-v4\\ic_mr_button_connecting_29_light.png"
     },
     {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\layout_item_cashing.xml.flat",
@@ -1960,12 +1960,12 @@
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\mediarouter-v7-28.0.0.aar\\8a23e069ca5fa86b2d0851bb6059ff2a\\res\\drawable-xxhdpi-v4\\ic_mr_button_connecting_08_light.png"
     },
     {
-        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_ic_mr_button_connecting_06_dark.png.flat",
-        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\mediarouter-v7-28.0.0.aar\\8a23e069ca5fa86b2d0851bb6059ff2a\\res\\drawable-xhdpi-v4\\ic_mr_button_connecting_06_dark.png"
-    },
-    {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable_abc_ratingbar_material.xml.flat",
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\64692786b31b448890a0915f3e997604\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_ic_mr_button_connecting_06_dark.png.flat",
+        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\mediarouter-v7-28.0.0.aar\\8a23e069ca5fa86b2d0851bb6059ff2a\\res\\drawable-xhdpi-v4\\ic_mr_button_connecting_06_dark.png"
     },
     {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldrtl-mdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
@@ -2100,12 +2100,12 @@
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\mediarouter-v7-28.0.0.aar\\8a23e069ca5fa86b2d0851bb6059ff2a\\res\\drawable-mdpi-v4\\ic_vol_type_speaker_light.png"
     },
     {
-        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4_ic_group_expand_00.png.flat",
-        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\mediarouter-v7-28.0.0.aar\\8a23e069ca5fa86b2d0851bb6059ff2a\\res\\drawable-xxxhdpi-v4\\ic_group_expand_00.png"
-    },
-    {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_ic_mr_button_connecting_27_dark.png.flat",
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\mediarouter-v7-28.0.0.aar\\8a23e069ca5fa86b2d0851bb6059ff2a\\res\\drawable-xhdpi-v4\\ic_mr_button_connecting_27_dark.png"
+    },
+    {
+        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4_ic_group_expand_00.png.flat",
+        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\mediarouter-v7-28.0.0.aar\\8a23e069ca5fa86b2d0851bb6059ff2a\\res\\drawable-xxxhdpi-v4\\ic_group_expand_00.png"
     },
     {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_ic_mr_button_connected_21_dark.png.flat",
@@ -2128,12 +2128,12 @@
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\play-services-cast-framework-12.0.1.aar\\70f844f356381869b931eb5a05849ac4\\res\\drawable-xxxhdpi-v4\\quantum_ic_closed_caption_white_36.png"
     },
     {
-        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_ic_mr_button_connected_13_light.png.flat",
-        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\mediarouter-v7-28.0.0.aar\\8a23e069ca5fa86b2d0851bb6059ff2a\\res\\drawable-xhdpi-v4\\ic_mr_button_connected_13_light.png"
-    },
-    {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_ic_mr_button_connected_14_dark.png.flat",
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\mediarouter-v7-28.0.0.aar\\8a23e069ca5fa86b2d0851bb6059ff2a\\res\\drawable-xxhdpi-v4\\ic_mr_button_connected_14_dark.png"
+    },
+    {
+        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_ic_mr_button_connected_13_light.png.flat",
+        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\mediarouter-v7-28.0.0.aar\\8a23e069ca5fa86b2d0851bb6059ff2a\\res\\drawable-xhdpi-v4\\ic_mr_button_connected_13_light.png"
     },
     {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable_et_login.xml.flat",
@@ -2376,20 +2376,20 @@
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\ee4314f349afcb69741434a37604cd8a\\res\\layout\\design_navigation_item_separator.xml"
     },
     {
-        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_quantum_ic_pause_circle_filled_white_36.png.flat",
-        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\play-services-cast-framework-12.0.1.aar\\70f844f356381869b931eb5a05849ac4\\res\\drawable-mdpi-v4\\quantum_ic_pause_circle_filled_white_36.png"
-    },
-    {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\layout_abc_tooltip.xml.flat",
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\64692786b31b448890a0915f3e997604\\res\\layout\\abc_tooltip.xml"
     },
     {
-        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_ic_mr_button_connecting_29_dark.png.flat",
-        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\mediarouter-v7-28.0.0.aar\\8a23e069ca5fa86b2d0851bb6059ff2a\\res\\drawable-xxhdpi-v4\\ic_mr_button_connecting_29_dark.png"
+        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_quantum_ic_pause_circle_filled_white_36.png.flat",
+        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\play-services-cast-framework-12.0.1.aar\\70f844f356381869b931eb5a05849ac4\\res\\drawable-mdpi-v4\\quantum_ic_pause_circle_filled_white_36.png"
     },
     {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\layout_notification_template_icon_group.xml.flat",
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\436b79979992c80eb8a51004e03d1d7d\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_ic_mr_button_connecting_29_dark.png.flat",
+        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\mediarouter-v7-28.0.0.aar\\8a23e069ca5fa86b2d0851bb6059ff2a\\res\\drawable-xxhdpi-v4\\ic_mr_button_connecting_29_dark.png"
     },
     {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_quantum_ic_stop_grey600_36.png.flat",
@@ -2424,12 +2424,12 @@
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\mediarouter-v7-28.0.0.aar\\8a23e069ca5fa86b2d0851bb6059ff2a\\res\\drawable-xhdpi-v4\\ic_mr_button_connecting_14_light.png"
     },
     {
-        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
-        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\64692786b31b448890a0915f3e997604\\res\\drawable-mdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
-    },
-    {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_cast_ic_stop_circle_filled_white.png.flat",
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\play-services-cast-framework-12.0.1.aar\\70f844f356381869b931eb5a05849ac4\\res\\drawable-xxhdpi-v4\\cast_ic_stop_circle_filled_white.png"
+    },
+    {
+        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
+        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\64692786b31b448890a0915f3e997604\\res\\drawable-mdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
     },
     {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\layout_abc_action_bar_up_container.xml.flat",
@@ -2460,12 +2460,12 @@
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\play-services-cast-framework-12.0.1.aar\\70f844f356381869b931eb5a05849ac4\\res\\drawable-xxxhdpi-v4\\quantum_ic_forward_30_white_24.png"
     },
     {
-        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\layout_item_visit.xml.flat",
-        "source": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\src\\main\\res\\layout\\item_visit.xml"
-    },
-    {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_quantum_ic_volume_up_grey600_36.png.flat",
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\play-services-cast-framework-12.0.1.aar\\70f844f356381869b931eb5a05849ac4\\res\\drawable-mdpi-v4\\quantum_ic_volume_up_grey600_36.png"
+    },
+    {
+        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\layout_item_visit.xml.flat",
+        "source": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\src\\main\\res\\layout\\item_visit.xml"
     },
     {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
@@ -2616,12 +2616,12 @@
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\play-services-cast-framework-12.0.1.aar\\70f844f356381869b931eb5a05849ac4\\res\\drawable-xxhdpi-v4\\quantum_ic_closed_caption_white_36.png"
     },
     {
-        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\layout_item_invoice.xml.flat",
-        "source": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\src\\main\\res\\layout\\item_invoice.xml"
-    },
-    {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\436b79979992c80eb8a51004e03d1d7d\\res\\drawable-hdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\layout_item_invoice.xml.flat",
+        "source": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\src\\main\\res\\layout\\item_invoice.xml"
     },
     {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\menu_simple.xml.flat",
@@ -2640,12 +2640,12 @@
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\mediarouter-v7-28.0.0.aar\\8a23e069ca5fa86b2d0851bb6059ff2a\\res\\drawable-xhdpi-v4\\ic_mr_button_connecting_22_dark.png"
     },
     {
-        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable_mr_vol_type_audiotrack_light.xml.flat",
-        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\mediarouter-v7-28.0.0.aar\\8a23e069ca5fa86b2d0851bb6059ff2a\\res\\drawable\\mr_vol_type_audiotrack_light.xml"
-    },
-    {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_ic_mr_button_connected_00_light.png.flat",
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\mediarouter-v7-28.0.0.aar\\8a23e069ca5fa86b2d0851bb6059ff2a\\res\\drawable-xxhdpi-v4\\ic_mr_button_connected_00_light.png"
+    },
+    {
+        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable_mr_vol_type_audiotrack_light.xml.flat",
+        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\mediarouter-v7-28.0.0.aar\\8a23e069ca5fa86b2d0851bb6059ff2a\\res\\drawable\\mr_vol_type_audiotrack_light.xml"
     },
     {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_ic_mr_button_connecting_18_dark.png.flat",
@@ -2704,12 +2704,12 @@
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\436b79979992c80eb8a51004e03d1d7d\\res\\drawable-v21\\notification_action_background.xml"
     },
     {
-        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_quantum_ic_refresh_white_24.png.flat",
-        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\play-services-cast-framework-12.0.1.aar\\70f844f356381869b931eb5a05849ac4\\res\\drawable-hdpi-v4\\quantum_ic_refresh_white_24.png"
-    },
-    {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_quantum_ic_replay_10_white_24.png.flat",
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\play-services-cast-framework-12.0.1.aar\\70f844f356381869b931eb5a05849ac4\\res\\drawable-mdpi-v4\\quantum_ic_replay_10_white_24.png"
+    },
+    {
+        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_quantum_ic_refresh_white_24.png.flat",
+        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\play-services-cast-framework-12.0.1.aar\\70f844f356381869b931eb5a05849ac4\\res\\drawable-hdpi-v4\\quantum_ic_refresh_white_24.png"
     },
     {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi_ic_cash.png.flat",
@@ -2820,12 +2820,12 @@
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\play-services-base-12.0.1.aar\\a738961baa70576d78f0aa22e4396f16\\res\\drawable\\common_google_signin_btn_icon_disabled.xml"
     },
     {
-        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_quantum_ic_cast_white_36.png.flat",
-        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\play-services-cast-framework-12.0.1.aar\\70f844f356381869b931eb5a05849ac4\\res\\drawable-xhdpi-v4\\quantum_ic_cast_white_36.png"
-    },
-    {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\color_common_google_signin_btn_tint.xml.flat",
         "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\play-services-base-12.0.1.aar\\a738961baa70576d78f0aa22e4396f16\\res\\color\\common_google_signin_btn_tint.xml"
+    },
+    {
+        "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_quantum_ic_cast_white_36.png.flat",
+        "source": "C:\\WorkSpaces\\XVitales\\caches\\transforms-1\\files-1.1\\play-services-cast-framework-12.0.1.aar\\70f844f356381869b931eb5a05849ac4\\res\\drawable-xhdpi-v4\\quantum_ic_cast_white_36.png"
     },
     {
         "merged": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_ic_mr_button_connected_09_dark.png.flat",

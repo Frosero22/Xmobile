@@ -110,6 +110,10 @@ public interface Services {
     @POST("Promociones/promocionesComidesa")
     Call<PromotionResponse> promotionsComidesa(@Body PromotionRequest promotionRequest);
 
+    @POST("Promociones/promocionesProduventas")
+    Call<PromotionResponse> promotionsProduventas(@Body PromotionRequest promotionRequest);
+
+
     @GET("Cobros/obtenerCobros")
     Call<GuideResponse> guide(@Query("arg0") int companyCode, @Query("arg1") int subCompanyCode, @Query("arg2") int personalSequence, @Query("arg3") String dateIni, @Query("arg4") String dateEnd, @Query("arg5") String filter, @Query("arg6") String value);
 

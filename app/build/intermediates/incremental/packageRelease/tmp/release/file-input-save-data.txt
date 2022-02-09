@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun Jan 30 13:13:02 COT 2022
+#Mon Feb 07 17:22:07 COT 2022
 2.base=C\:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\transforms\\dexMerger\\release\\0
 5.set=NATIVE_RESOURCE
 0.path=lib/x86_64/librealm-jni.so
