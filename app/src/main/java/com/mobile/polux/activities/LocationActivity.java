@@ -1,9 +1,15 @@
 package com.mobile.polux.activities;
 
+import android.Manifest;
 import android.annotation.TargetApi;
+import android.app.Service;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.IntentSender;
 import android.content.pm.PackageManager;
+import android.location.Location;
+import android.location.LocationListener;
+import android.location.LocationManager;
 import android.media.MediaScannerConnection;
 import android.net.Uri;
 import android.os.Build;
@@ -13,6 +19,7 @@ import android.provider.MediaStore;
 import android.provider.Settings;
 import android.support.annotation.NonNull;
 import android.support.design.widget.Snackbar;
+import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.FileProvider;
 import android.support.v4.view.MenuItemCompat;
 import android.support.v7.app.AlertDialog;
@@ -34,13 +41,22 @@ import android.widget.Toast;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GooglePlayServicesNotAvailableException;
 import com.google.android.gms.common.GooglePlayServicesRepairableException;
+import com.google.android.gms.common.api.ApiException;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.common.api.GoogleApiClient.OnConnectionFailedListener;
+import com.google.android.gms.common.api.ResolvableApiException;
+import com.google.android.gms.location.LocationRequest;
+import com.google.android.gms.location.LocationServices;
+import com.google.android.gms.location.LocationSettingsRequest;
+import com.google.android.gms.location.LocationSettingsResponse;
+import com.google.android.gms.location.LocationSettingsStatusCodes;
 import com.google.android.gms.location.places.Place;
 import com.google.android.gms.location.places.Places;
 import com.google.android.gms.location.places.ui.PlacePicker;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.LatLngBounds;
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
 import com.google.gson.Gson;
 import com.google.gson.TypeAdapter;
 import com.mobile.polux.BuildConfig;
@@ -56,6 +72,7 @@ import com.squareup.picasso.Picasso;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -71,7 +88,7 @@ import static android.Manifest.permission.ACCESS_FINE_LOCATION;
 import static android.Manifest.permission.CAMERA;
 import static android.Manifest.permission.WRITE_EXTERNAL_STORAGE;
 
-public class LocationActivity extends AppCompatActivity implements View.OnClickListener, OnConnectionFailedListener {
+public class LocationActivity extends AppCompatActivity implements View.OnClickListener, OnConnectionFailedListener,LocationListener {
 
     private TextView tvName;
     private TextView tvAddress;
@@ -82,6 +99,15 @@ public class LocationActivity extends AppCompatActivity implements View.OnClickL
     private LinearLayout llImage;
 
     private final int PLACE_PIKER = 1;
+
+    boolean isGPS = false;
+    boolean isNetwork = false;
+    boolean canGetLocation = true;
+    private LocationManager locationManager;
+    private Location loc;
+
+    private static final long MIN_DISTANCE_CHANGE_FOR_UPDATES = 1;//1 Metro
+    private static final long MIN_TIME_BW_UPDATES = 1000 * 60 * 1;//1 minuto
 
     private int clientId;
     private int id;
@@ -108,6 +134,11 @@ public class LocationActivity extends AppCompatActivity implements View.OnClickL
     private ScrollView scrollView;
 
     private Dialog dialogUtil;
+
+    final String TAG = "GPS";
+    private final static int ALL_PERMISSIONS_RESULT = 101;
+    ArrayList<String> permissions = new ArrayList<>();
+    ArrayList<String> permissionsToRequest;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -164,6 +195,111 @@ public class LocationActivity extends AppCompatActivity implements View.OnClickL
         mRlView = (RelativeLayout) findViewById(R.id.activity_location);
         imageView = (ImageView) findViewById(R.id.iv_image);
         scrollView  = (ScrollView) findViewById(R.id.scrollView);
+
+        LocationRequest locationRequest = LocationRequest.create();
+        locationRequest.setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY);
+        LocationSettingsRequest.Builder builder = new LocationSettingsRequest.Builder()
+                .addLocationRequest(locationRequest);
+
+        Task<LocationSettingsResponse> result =
+                LocationServices.getSettingsClient(this).checkLocationSettings(builder.build());
+
+
+
+        result.addOnCompleteListener(new OnCompleteListener<LocationSettingsResponse>() {
+            @Override
+            public void onComplete(@NonNull Task<LocationSettingsResponse> task) {
+                try {
+                    LocationSettingsResponse response = task.getResult(ApiException.class);
+                    // All location settings are satisfied. The client can initialize location
+                    // requests here.
+                } catch (ApiException exception) {
+                    switch (exception.getStatusCode()) {
+                        case LocationSettingsStatusCodes.RESOLUTION_REQUIRED:
+                            // Location settings are not satisfied. But could be fixed by showing the
+                            // user a dialog.
+                            try {
+                                // Cast to a resolvable exception.
+                                ResolvableApiException resolvable = (ResolvableApiException) exception;
+                                // Show the dialog by calling startResolutionForResult(),
+                                // and check the result in onActivityResult().
+                                resolvable.startResolutionForResult(
+                                        LocationActivity.this,
+                                        LocationRequest.PRIORITY_HIGH_ACCURACY);
+                            } catch (IntentSender.SendIntentException e) {
+                                // Ignore the error.
+                            } catch (ClassCastException e) {
+                                // Ignore, should be an impossible error.
+                            }
+                            break;
+                        case LocationSettingsStatusCodes.SETTINGS_CHANGE_UNAVAILABLE:
+                            // Location settings are not satisfied. However, we have no way to fix the
+                            // settings so we won't show the dialog.
+                            break;
+                    }
+                }
+            }
+        });
+
+
+
+
+        locationManager = (LocationManager) getSystemService(Service.LOCATION_SERVICE);
+        boolean permissionGranted = ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED;
+        if(permissionGranted) {
+            locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 0, 0, this);
+
+        } else {
+            ActivityCompat.requestPermissions(  this, new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, 200);
+        }
+
+        isGPS = locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER);
+        isNetwork = locationManager.isProviderEnabled(LocationManager.NETWORK_PROVIDER);
+        permissions.add(Manifest.permission.ACCESS_FINE_LOCATION);
+        permissions.add(Manifest.permission.ACCESS_COARSE_LOCATION);
+        permissionsToRequest = findUnAskedPermissions(permissions);
+
+        if (!isGPS && !isNetwork) {
+            Log.d(TAG, "Connection off");
+            Dialog.dialogo("Advertencia","Tu GPS esta desactivado, por favor activalo para continuar",LocationActivity.this);
+        } else {
+            Log.d(TAG, "Connection on");
+            // check permissions
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+                if (permissionsToRequest.size() > 0) {
+                    requestPermissions(permissionsToRequest.toArray(new String[permissionsToRequest.size()]),
+                            ALL_PERMISSIONS_RESULT);
+                    Log.d(TAG, "Permission requests");
+                    canGetLocation = false;
+                }
+            }
+
+        }
+
+    }
+
+    private boolean hasPermission(String permission) {
+        if (canAskPermission()) {
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+                return (checkSelfPermission(permission) == PackageManager.PERMISSION_GRANTED);
+            }
+        }
+        return true;
+    }
+
+    private boolean canAskPermission() {
+        return (Build.VERSION.SDK_INT > Build.VERSION_CODES.LOLLIPOP_MR1);
+    }
+
+
+    private ArrayList findUnAskedPermissions(ArrayList<String> wanted) {
+        ArrayList result = new ArrayList();
+        for (String perm : wanted) {
+            if (!hasPermission(perm)) {
+                result.add(perm);
+            }
+        }
+        return result;
     }
 
     private void setValues(String name, String address, String addressDelivery, String latitude, String longitude, String img, String phone) {
@@ -181,7 +317,7 @@ public class LocationActivity extends AppCompatActivity implements View.OnClickL
             this.longitude = Double.parseDouble(longitude);
         }
 
-        if (img !=null && !img.isEmpty()){
+        /*if (img !=null && !img.isEmpty()){
             final ProgressBar  progressBar = (ProgressBar) findViewById(R.id.loading);
             //imageView.setVisibility(View.GONE);
             progressBar.setVisibility(View.VISIBLE);
@@ -202,7 +338,7 @@ public class LocationActivity extends AppCompatActivity implements View.OnClickL
                             progressBar.setVisibility(View.GONE);
                         }
                     });
-        }
+        }*/
     }
 
     @Override
@@ -228,7 +364,7 @@ public class LocationActivity extends AppCompatActivity implements View.OnClickL
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.ll_location:
-                map();
+                getLocation();
                 break;
             case R.id.ll_image:
                 openCamera();
@@ -237,6 +373,8 @@ public class LocationActivity extends AppCompatActivity implements View.OnClickL
                 break;
         }
     }
+
+
 
     private void map() {
         PlacePicker.IntentBuilder builder = new PlacePicker.IntentBuilder();
@@ -251,6 +389,66 @@ public class LocationActivity extends AppCompatActivity implements View.OnClickL
             startActivityForResult(builder.build(this), PLACE_PIKER);
         } catch (GooglePlayServicesRepairableException e) {
         } catch (GooglePlayServicesNotAvailableException e) {
+        }
+    }
+
+    private void getLocation() {
+        try {
+            if (canGetLocation) {
+
+                // from GPS
+                locationManager.requestLocationUpdates(
+                        LocationManager.GPS_PROVIDER,
+                        MIN_TIME_BW_UPDATES,
+                        MIN_DISTANCE_CHANGE_FOR_UPDATES, (LocationListener) this);
+
+                if (locationManager != null) {
+                    loc = locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER);
+                }
+
+                if(loc != null){
+
+                    latitude = loc.getLatitude();
+                    longitude = loc.getLongitude();
+                    tvLocation.setText(latitude + " , " + longitude);
+                    return;
+
+                }else{
+
+                    locationManager.requestLocationUpdates(
+                            LocationManager.NETWORK_PROVIDER,
+                            MIN_TIME_BW_UPDATES,
+                            MIN_DISTANCE_CHANGE_FOR_UPDATES, (LocationListener) this);
+
+                    if (locationManager != null) {
+                        loc = locationManager.getLastKnownLocation(LocationManager.NETWORK_PROVIDER);
+                    }
+
+                    if(loc != null){
+                        latitude = loc.getLatitude();
+                        longitude = loc.getLongitude();
+                        tvLocation.setText(latitude + " , " + longitude);
+                        return;
+                    }
+
+                }
+
+
+                if(loc == null){
+                    loc= locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER);
+                    latitude = loc.getLatitude();
+                    longitude = loc.getLongitude();
+                    tvLocation.setText(latitude + " , " + longitude);
+                    return;
+                }
+
+            } else {
+                Intent intent = new Intent(this,LocalitiesActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        } catch (SecurityException e) {
+            e.printStackTrace();
         }
     }
 
@@ -380,7 +578,7 @@ public class LocationActivity extends AppCompatActivity implements View.OnClickL
         if (requestCode == MY_PERMISSIONS) {
             if (grantResults.length == 4 && grantResults[0] == PackageManager.PERMISSION_GRANTED && grantResults[1] == PackageManager.PERMISSION_GRANTED
                     && grantResults[2] == PackageManager.PERMISSION_GRANTED && grantResults[3] == PackageManager.PERMISSION_GRANTED
-                    ) {
+            ) {
                 Toast.makeText(LocationActivity.this, "Permisos aceptados", Toast.LENGTH_SHORT).show();
             }
         } else {
@@ -484,7 +682,7 @@ public class LocationActivity extends AppCompatActivity implements View.OnClickL
                     .compressToFile(new File(mPath));
         } catch (Exception e) {
             try {
-            compressedImageFile = new File(mPath);
+                compressedImageFile = new File(mPath);
             } catch (Exception ex) { }
         }
 
@@ -554,5 +752,25 @@ public class LocationActivity extends AppCompatActivity implements View.OnClickL
 
     private void showToast(String message) {
         Toast.makeText(getApplicationContext(), message, Toast.LENGTH_LONG).show();
+    }
+
+    @Override
+    public void onLocationChanged(Location location) {
+
+    }
+
+    @Override
+    public void onStatusChanged(String provider, int status, Bundle extras) {
+
+    }
+
+    @Override
+    public void onProviderEnabled(String provider) {
+
+    }
+
+    @Override
+    public void onProviderDisabled(String provider) {
+
     }
 }

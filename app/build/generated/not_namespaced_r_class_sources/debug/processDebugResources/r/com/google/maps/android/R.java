@@ -95,20 +95,20 @@ public final class R {
         public static final int holo_dark = 0x7f0900cb;
         public static final int holo_light = 0x7f0900cc;
         public static final int hybrid = 0x7f0900d0;
-        public static final int match_parent = 0x7f090146;
-        public static final int monochrome = 0x7f09014c;
-        public static final int none = 0x7f090187;
-        public static final int normal = 0x7f090188;
-        public static final int production = 0x7f09019f;
-        public static final int sandbox = 0x7f0901ac;
-        public static final int satellite = 0x7f0901ad;
-        public static final int selectionDetails = 0x7f0901c7;
-        public static final int strict_sandbox = 0x7f0901e3;
-        public static final int terrain = 0x7f0901ec;
-        public static final int text = 0x7f0901ee;
-        public static final int webview = 0x7f090277;
-        public static final int window = 0x7f090279;
-        public static final int wrap_content = 0x7f09027c;
+        public static final int match_parent = 0x7f090145;
+        public static final int monochrome = 0x7f09014b;
+        public static final int none = 0x7f090186;
+        public static final int normal = 0x7f090187;
+        public static final int production = 0x7f09019e;
+        public static final int sandbox = 0x7f0901ab;
+        public static final int satellite = 0x7f0901ac;
+        public static final int selectionDetails = 0x7f0901c6;
+        public static final int strict_sandbox = 0x7f0901e2;
+        public static final int terrain = 0x7f0901eb;
+        public static final int text = 0x7f0901ed;
+        public static final int webview = 0x7f090276;
+        public static final int window = 0x7f090278;
+        public static final int wrap_content = 0x7f09027b;
     }
     public static final class integer {
         private integer() {}

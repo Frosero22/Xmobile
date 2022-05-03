@@ -8,6 +8,6 @@ public final class BuildConfig {
   public static final String APPLICATION_ID = "com.mobile.polux";
   public static final String BUILD_TYPE = "release";
   public static final String FLAVOR = "";
-  public static final int VERSION_CODE = 77;
-  public static final String VERSION_NAME = "1.7.3";
+  public static final int VERSION_CODE = 80;
+  public static final String VERSION_NAME = "1.9";
 }

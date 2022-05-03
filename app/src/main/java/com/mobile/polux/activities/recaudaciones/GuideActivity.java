@@ -5,6 +5,7 @@ import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.ContextMenu;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -151,13 +152,16 @@ public class GuideActivity extends AbstractActivity {
 
     private void search(){
         if (!etSearch.getText().toString().isEmpty()) {
+
             text = etSearch.getText().toString();
             InfoGuia infoGuia = UtilDB.guideById(realm, guide);
-            guideDetail = infoGuia.getDetails().where()
-                    .contains("name", text, Case.INSENSITIVE)
-                    .findAll();
+            guideDetail = infoGuia.getDetails().where().contains("name", text, Case.INSENSITIVE).findAll();
+            adapter = new CashingAdapter(this, R.layout.item_cashing, guideDetail);
+            lvCashing.setAdapter(adapter);
+            adapter.notifyDataSetChanged();
 
-        } else if (text !=null && !text.isEmpty()) {
+
+        } else  {
             text = "";
             findGuide();
         }
@@ -167,7 +171,10 @@ public class GuideActivity extends AbstractActivity {
     private void findGuide(){
         InfoGuia infoGuia = UtilDB.guideById(realm, guide);
         guideDate = infoGuia.getFechaIngreso();
-        guideDetail = infoGuia.getDetails().where().findAllSorted("name", Sort.ASCENDING);;
+        guideDetail = infoGuia.getDetails().where().findAllSorted("name", Sort.ASCENDING);
+        adapter = new CashingAdapter(this, R.layout.item_cashing, guideDetail);
+        lvCashing.setAdapter(adapter);
+        adapter.notifyDataSetChanged();
     }
 
     private void removePayments(int clientId) {
@@ -213,13 +220,19 @@ public class GuideActivity extends AbstractActivity {
             for (Payment p : pl) {
                 payments.add(p.toUnManaged(realm));
             }
+
+            for(Payment p : payments){
+                Log.e("METODO"," PAGO "+p.getBanco());
+            }
+
             liquidation.setPayments(payments);
+            liquidation.setCodigoEmpresa(App.companyCode);
+            liquidation.setUsuarioIngreso(App.userCode);
             InfoGuia info = UtilDB.guideById(realm, guide);
             if (info != null) {
                 liquidation.setGuiaCobro(info.toUnManaged(realm));
                 liquidation.getGuiaCobro().setCodigo(liquidation.getGuiaCobro().getCodigoGuiasCobro());
-                liquidation.getGuiaCobro().setFechaIngreso(null);
-                liquidation.getGuiaCobro().setNombreCompletoVendedor(null);
+                liquidation.getGuiaCobro().setNombreCompletoVendedor(info.getNombreCompletoVendedor());
             } else {
                 showToast("No se encontró información de guías de cobro");
             }
@@ -250,7 +263,7 @@ public class GuideActivity extends AbstractActivity {
                     }
 
                     if ("OK".equals(liquidationResponse.getMensaje())) {
-                        showToast("Liquidación de guía exitosa");
+                        dialogUtil.showDialog("Transacción Exitosa","Guía asignada correctamente",GuideActivity.this);
                     } else {
                         dialogUtil.showDialog("Fallo el servicio liquidaciones", "Mensaje obtenido: " + liquidationResponse.getMensaje()
                                 + "\ncausa: " + liquidationResponse.getCausa(), GuideActivity.this);
@@ -363,7 +376,7 @@ public class GuideActivity extends AbstractActivity {
         android.support.v7.app.AlertDialog alertDialog = new android.support.v7.app.AlertDialog.Builder(GuideActivity.this).create();
         alertDialog.setTitle("Confirmar");
 
-                alertDialog.setMessage("¿Esta seguro que desea anular los movimientos para este cliente?");
+        alertDialog.setMessage("¿Esta seguro que desea anular los movimientos para este cliente?");
 
 
         alertDialog.setButton(android.support.v7.app.AlertDialog.BUTTON_POSITIVE, "SI",
@@ -458,5 +471,14 @@ public class GuideActivity extends AbstractActivity {
             realm.close();
         } catch (Exception e) {
         }
+    }
+
+
+    @Override
+    public void onBackPressed() {
+        Intent intent = new Intent(GuideActivity.this,GuideListActivity.class);
+        startActivity(intent);
+        finish();
+        super.onBackPressed();
     }
 }

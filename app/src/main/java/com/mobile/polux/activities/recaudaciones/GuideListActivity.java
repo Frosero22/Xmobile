@@ -20,6 +20,7 @@ import com.google.gson.Gson;
 import com.google.gson.TypeAdapter;
 import com.mobile.polux.R;
 import com.mobile.polux.activities.AbstractActivity;
+import com.mobile.polux.activities.MainActivity;
 import com.mobile.polux.adapters.GuideAdapter;
 import com.mobile.polux.app.App;
 import com.mobile.polux.models.CashingGuideDetail;
@@ -172,7 +173,7 @@ public class GuideListActivity extends AbstractActivity implements View.OnClickL
             if (cashingGuideDetail == null) {
                 cashingGuideDetail = new CashingGuideDetail(
                         detail.getClientId(), detail.getNombreCliente(),
-                        detail.getAddress(), "PEN", detail.getTotalCanceled(),
+                        detail.getAddress(), "PEN", 0.0,
                         detail.getTotalDoc() - detail.getTotalCanceled(),
                         detail.getDue()
                 );
@@ -407,4 +408,33 @@ public class GuideListActivity extends AbstractActivity implements View.OnClickL
                 break;
         }
     }
+
+    @Override
+    public void onBackPressed() {
+        Intent intent = new Intent(GuideListActivity.this, MainActivity.class);
+        startActivity(intent);
+        finish();
+        super.onBackPressed();
+    }
+
+   /* @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        try {
+            realm.close();
+            Intent intent = new Intent(this,MainActivity.class);
+            startActivity(intent);
+            finish();
+        } catch (Exception e) {
+        }
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        realm.close();
+        Intent intent = new Intent(this,MainActivity.class);
+        startActivity(intent);
+        finish();
+    }*/
 }

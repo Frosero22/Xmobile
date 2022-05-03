@@ -19,6 +19,27 @@ public class GuideLiquidation {
     @Expose
     @SerializedName("cobros")
     private List<Payment> payments;
+    @Expose
+    private Integer codigoEmpresa;
+    @Expose
+    private String usuarioIngreso;
+
+
+    public Integer getCodigoEmpresa() {
+        return codigoEmpresa;
+    }
+
+    public void setCodigoEmpresa(Integer codigoEmpresa) {
+        this.codigoEmpresa = codigoEmpresa;
+    }
+
+    public String getUsuarioIngreso() {
+        return usuarioIngreso;
+    }
+
+    public void setUsuarioIngreso(String usuarioIngreso) {
+        this.usuarioIngreso = usuarioIngreso;
+    }
 
     public InfoGuia getGuiaCobro() {
         return guiaCobro;

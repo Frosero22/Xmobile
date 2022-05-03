@@ -6,6 +6,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.ContextMenu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -268,11 +269,39 @@ public class CashingActivity extends AppCompatActivity implements View.OnClickLi
 
                     value = parsed.doubleValue();
 
+                    if(value > cashingGuideDetail.getTotalDue()){
+                        showToast("El valor no puede ser mayor a la deuda total");
+                        return;
+                    }
+
+                    if(payments != null && payments.size() >= 1 && payments.get(position) != null){
+
+                        double dou = 0.0;
+
+                        if(edit){
+                            payments.get(position).setValor(0.00);
+                        }
+
+                        for(Payment payment : payments){
+                            if(String.valueOf(payment.getValor()) != null || payment.getValor() > 0){
+                                dou = dou + payment.getValor();
+                            }
+                        }
+
+                        dou = dou + value;
+
+                        if(dou > cashingGuideDetail.getTotalDue()){
+                            showToast("El valor no puede ser mayor a la deuda total");
+                            return;
+                        }
+                    }
+
                     if (value <= 0) {
                         showToast("Ingresa el monto");
                         return;
                     }
                 } catch (Exception e) {
+                    e.printStackTrace();
                     showToast("Ingresa el monto");
                     return;
                 }
@@ -295,6 +324,9 @@ public class CashingActivity extends AppCompatActivity implements View.OnClickLi
                         return;
                     }
                     payment.setBanco(bank.getId());
+
+                    Log.e("BANCO","BANCO ESCOGIDO "+payment.getBanco());
+
                     if (etCheque.getText() != null && etCheque.getText().toString() != null && !etCheque.getText().toString().isEmpty()) {
                         payment.setNumCuenta(etCheque.getText().toString());
                     } else {
@@ -443,21 +475,34 @@ public class CashingActivity extends AppCompatActivity implements View.OnClickLi
                         }
                     }
                 };
-        DatePickerDialog d = new DatePickerDialog(CashingActivity.this, datePickerListener, year, month, day);
+        DatePickerDialog d = new DatePickerDialog(this, datePickerListener, year, month, day);
         d.show();
     }
 
 
+
     private void showToast(String message) {
-        Toast.makeText(getApplicationContext(), message, Toast.LENGTH_LONG).show();
+        Toast.makeText(this,message, Toast.LENGTH_LONG).show();
     }
 
-    @Override
+   /*  @Override
     protected void onDestroy() {
         super.onDestroy();
         try {
             realm.close();
+            Intent intent = new Intent(this,GuideListActivity.class);
+            startActivity(intent);
+            finish();
         } catch (Exception e) {
         }
     }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        realm.close();
+        Intent intent = new Intent(this,GuideListActivity.class);
+        startActivity(intent);
+        finish();
+    } */
 }

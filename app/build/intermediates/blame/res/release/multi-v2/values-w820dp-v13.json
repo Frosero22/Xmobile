@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
+            "outputFile": "C:\\Users\\ACER PREDATOR\\Documents\\RESPALDOS\\Xmobile\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\WorkSpaces\\New Xmobile\\Xmobile\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "source": "C:\\Users\\ACER PREDATOR\\Documents\\RESPALDOS\\Xmobile\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
                     "from": {
                         "startLines": "4,11,10,6,7,9",
                         "startColumns": "4,4,4,4,4,4",

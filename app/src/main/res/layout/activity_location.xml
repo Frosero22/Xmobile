@@ -125,7 +125,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="2dp"
-                    android:text="Ubicación GPS"
+                    android:text="Pulse Aqui para tomar Localización"
                     android:textColor="#000"
                     android:textSize="@dimen/label" />
 
@@ -171,17 +171,7 @@
 
             </LinearLayout>
 
-            <ProgressBar
-                android:id="@+id/loading"
-                style="?android:attr/progressBarStyleLarge"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerHorizontal="true"
-                android:layout_marginTop="40dp"
-                android:layout_marginBottom="-80dp"
-                android:translationZ="2dp"
-                android:elevation="2dp"
-                android:layout_gravity="center"/>
+
 
             <ImageView
                 android:id="@+id/iv_image"

@@ -1965,7 +1965,6 @@ id ll_total_discount_percent
 id ll_value_manual
 id ll_value_xrules
 id lnlValidaXRules
-id loading
 id loading_indicator
 id login_form
 id login_progress

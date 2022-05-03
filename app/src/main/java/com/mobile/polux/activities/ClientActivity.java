@@ -218,7 +218,8 @@ public class ClientActivity extends AppCompatActivity implements View.OnClickLis
 
     @Override
     public void onBackPressed() {
-
-        super.onBackPressed();
+        Intent intent = new Intent(this,MainActivity.class);
+        startActivity(intent);
+        finish();
     }
 }

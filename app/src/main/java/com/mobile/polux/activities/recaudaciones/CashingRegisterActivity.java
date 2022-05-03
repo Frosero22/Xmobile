@@ -1,6 +1,7 @@
 package com.mobile.polux.activities.recaudaciones;
 
 import android.app.AlertDialog;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
@@ -29,6 +30,7 @@ import com.mobile.polux.utils.MoneyTextWatcher;
 import com.mobile.polux.utils.UtilDB;
 
 import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -59,7 +61,7 @@ public class CashingRegisterActivity extends AppCompatActivity {
 
     private static int asignados;
 
-    private DateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
+    private DateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
 
     private CashingGuideDetail cashingGuideDetail;
 
@@ -210,7 +212,7 @@ public class CashingRegisterActivity extends AppCompatActivity {
             RealmResults<Payment> pl = UtilDB.paymentsByClientId(realm, GuideActivity.guide, GuideActivity.guideClientId);
             pl.deleteAllFromRealm();
             for (Payment p : getPayments()) {
-              //  p.setId(nextId);
+                //  p.setId(nextId);
                 realm.copyToRealmOrUpdate(p);
                 //nextId++;
             }
@@ -349,7 +351,7 @@ public class CashingRegisterActivity extends AppCompatActivity {
                     showToast("Ingresa el monto que deseas abonar");
                     return;
                 }
-                if (pay > creditPay) {
+                if (pay > redondearDecimales(creditPay)) {
                     showToast(" Créditos insuficientes ");
                     return;
                 }
@@ -370,18 +372,26 @@ public class CashingRegisterActivity extends AppCompatActivity {
                 }
 
                 RealmList<PaymentDoc> paymentsDoc = new RealmList<PaymentDoc>();
-                PaymentDoc payDoc = null;
+                PaymentDoc payDoc = new PaymentDoc();
                 for (Payment payment : getPayments()) {
-                    if (payment.getResiduary() > 0) {
+
+                    payDoc = new PaymentDoc();
+                    payDoc.setId(payment.getCodigo());
+                    payDoc.setValue(pay);
+                    payDoc.setDate(day);
+
+                    paymentsDoc.add(payDoc);
+
+                    break;
+
+
+                   /* if (payment.getResiduary() > 0) {
 
                         if (payment.getResiduary()>= payC) {
                             payInvoice = payC;
                             payment.setResiduary(payment.getResiduary() - payC);
                             payC = payC - payInvoice;
-                            payDoc = new PaymentDoc();
-                            payDoc.setId(payment.getCodigo());
-                            payDoc.setValue(payInvoice);
-                            payDoc.setDate(day);
+
                         } else {
                             payInvoice = payment.getResiduary();
                             payment.setResiduary(0);
@@ -395,7 +405,7 @@ public class CashingRegisterActivity extends AppCompatActivity {
                     }
                     if (payC == 0) {
                         break;
-                    }
+                    } */
                 }
                 invoices.get(position).setPay(pay);
                 invoices.get(position).setPago(paymentsDoc);
@@ -425,12 +435,31 @@ public class CashingRegisterActivity extends AppCompatActivity {
         Toast.makeText(getApplicationContext(), message, Toast.LENGTH_LONG).show();
     }
 
-    @Override
+    private Double redondearDecimales(Double douValorDecimal)
+    {
+        BigDecimal objBigDecimal = new BigDecimal(String.valueOf(douValorDecimal));
+        BigDecimal objBigDecimalRedondeado = objBigDecimal.setScale(2, RoundingMode.HALF_UP);
+        return objBigDecimalRedondeado.doubleValue();
+    }
+
+   /* @Override
     protected void onDestroy() {
         super.onDestroy();
         try {
             realm.close();
+            Intent intent = new Intent(this,GuideActivity.class);
+            startActivity(intent);
+            finish();
         } catch (Exception e) {
         }
     }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        realm.close();
+        Intent intent = new Intent(this,GuideActivity.class);
+        startActivity(intent);
+        finish();
+    } */
 }
