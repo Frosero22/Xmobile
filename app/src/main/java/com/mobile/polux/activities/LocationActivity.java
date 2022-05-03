@@ -108,7 +108,6 @@ public class LocationActivity extends AppCompatActivity implements View.OnClickL
 
     private static final long MIN_DISTANCE_CHANGE_FOR_UPDATES = 1;//1 Metro
     private static final long MIN_TIME_BW_UPDATES = 1000 * 60 * 1;//1 minuto
-
     private int clientId;
     private int id;
 
