@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.gms:play-services-games-license:12.0.1@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../../WorkSpaces/XVitales/caches/transforms-1/files-1.1/play-services-games-license-12.0.1.aar/2626a6e98b8d3676aab89dc9d20e4667/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../../WorkSpaces/XVitales/caches/transforms-1/files-1.1/play-services-games-license-12.0.1.aar/2626a6e98b8d3676aab89dc9d20e4667/res" />
+      <root url="file://$PROJECT_DIR$/../../../../../WorkSpaces/XVitales/caches/transforms-1/files-1.1/play-services-games-license-12.0.1.aar/2626a6e98b8d3676aab89dc9d20e4667/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

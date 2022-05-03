@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: android.arch.lifecycle:livedata:1.1.1@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../../WorkSpaces/XVitales/caches/transforms-1/files-1.1/livedata-1.1.1.aar/723b787d770f83303e380b42f0766272/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../../WorkSpaces/XVitales/caches/transforms-1/files-1.1/livedata-1.1.1.aar/723b787d770f83303e380b42f0766272/res" />
+      <root url="file://$PROJECT_DIR$/../../../../../WorkSpaces/XVitales/caches/transforms-1/files-1.1/livedata-1.1.1.aar/723b787d770f83303e380b42f0766272/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../../WorkSpaces/XVitales/caches/modules-2/files-2.1/android.arch.lifecycle/livedata/1.1.1/bf27acaa4953c98cd519756ed7b7caacf94407d4/livedata-1.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.firebase:firebase-storage-common:12.0.1@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../../WorkSpaces/XVitales/caches/transforms-1/files-1.1/firebase-storage-common-12.0.1.aar/a6ddfffbb17d56ee6bdcf2aca1d2732c/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../../WorkSpaces/XVitales/caches/transforms-1/files-1.1/firebase-storage-common-12.0.1.aar/a6ddfffbb17d56ee6bdcf2aca1d2732c/res" />
+      <root url="file://$PROJECT_DIR$/../../../../../WorkSpaces/XVitales/caches/transforms-1/files-1.1/firebase-storage-common-12.0.1.aar/a6ddfffbb17d56ee6bdcf2aca1d2732c/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.gms:play-services-panorama:12.0.1@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../../WorkSpaces/XVitales/caches/transforms-1/files-1.1/play-services-panorama-12.0.1.aar/3c9ee754b0d35c0ac66ef2559ebf395a/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../../WorkSpaces/XVitales/caches/transforms-1/files-1.1/play-services-panorama-12.0.1.aar/3c9ee754b0d35c0ac66ef2559ebf395a/res" />
+      <root url="file://$PROJECT_DIR$/../../../../../WorkSpaces/XVitales/caches/transforms-1/files-1.1/play-services-panorama-12.0.1.aar/3c9ee754b0d35c0ac66ef2559ebf395a/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

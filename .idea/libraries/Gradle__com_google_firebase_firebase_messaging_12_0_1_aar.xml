@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.firebase:firebase-messaging:12.0.1@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../../WorkSpaces/XVitales/caches/transforms-1/files-1.1/firebase-messaging-12.0.1.aar/5ab5382152f2fb59df18cc3152a25a9c/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../../WorkSpaces/XVitales/caches/transforms-1/files-1.1/firebase-messaging-12.0.1.aar/5ab5382152f2fb59df18cc3152a25a9c/res" />
+      <root url="file://$PROJECT_DIR$/../../../../../WorkSpaces/XVitales/caches/transforms-1/files-1.1/firebase-messaging-12.0.1.aar/5ab5382152f2fb59df18cc3152a25a9c/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

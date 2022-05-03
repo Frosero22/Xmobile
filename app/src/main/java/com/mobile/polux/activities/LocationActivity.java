@@ -97,7 +97,6 @@ public class LocationActivity extends AppCompatActivity implements View.OnClickL
     private TextView tvPhone;
     private LinearLayout llLocation;
     private LinearLayout llImage;
-
     private final int PLACE_PIKER = 1;
 
     boolean isGPS = false;
