@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.google.firebase:firebase-common-license:12.0.1@aar">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../../../../WorkSpaces/XVitales/caches/transforms-1/files-1.1/firebase-common-license-12.0.1.aar/f907924f1b2b3149fca2ebd682bec306/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../../../../WorkSpaces/XVitales/caches/transforms-1/files-1.1/firebase-common-license-12.0.1.aar/f907924f1b2b3149fca2ebd682bec306/res" />
-      <root url="file://$PROJECT_DIR$/../../../../../WorkSpaces/XVitales/caches/transforms-1/files-1.1/firebase-common-license-12.0.1.aar/f907924f1b2b3149fca2ebd682bec306/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../XVitales/caches/transforms-1/files-1.1/firebase-common-license-12.0.1.aar/f907924f1b2b3149fca2ebd682bec306/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../XVitales/caches/transforms-1/files-1.1/firebase-common-license-12.0.1.aar/f907924f1b2b3149fca2ebd682bec306/res" />
+      <root url="file://$PROJECT_DIR$/../../XVitales/caches/transforms-1/files-1.1/firebase-common-license-12.0.1.aar/f907924f1b2b3149fca2ebd682bec306/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

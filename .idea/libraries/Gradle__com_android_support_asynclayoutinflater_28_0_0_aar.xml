@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.android.support:asynclayoutinflater:28.0.0@aar">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../../../../WorkSpaces/XVitales/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/704bfd770ee669e001fb521371a76857/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../../../../WorkSpaces/XVitales/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/704bfd770ee669e001fb521371a76857/res" />
-      <root url="file://$PROJECT_DIR$/../../../../../WorkSpaces/XVitales/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/704bfd770ee669e001fb521371a76857/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../XVitales/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/704bfd770ee669e001fb521371a76857/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../XVitales/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/704bfd770ee669e001fb521371a76857/res" />
+      <root url="file://$PROJECT_DIR$/../../XVitales/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/704bfd770ee669e001fb521371a76857/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

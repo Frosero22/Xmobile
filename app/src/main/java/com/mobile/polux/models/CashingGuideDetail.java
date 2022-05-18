@@ -27,13 +27,14 @@ public class CashingGuideDetail extends RealmObject {
     private Double totalDue;
     private Double credit;
     private String date;
+    private Integer seqC;
     @Expose
     private RealmList<Invoice> docXcobrar;
 
     public CashingGuideDetail() {
     }
 
-    public CashingGuideDetail(int clientId, String name, String address, String state, Double collected, Double pending, Double due) {
+    public CashingGuideDetail(int clientId, String name, String address, String state, Double collected, Double pending, Double due,Integer seqC) {
         this.clientId = clientId;
         this.name = name;
         this.address = address;
@@ -41,6 +42,7 @@ public class CashingGuideDetail extends RealmObject {
         this.collected = collected;
         this.pending = pending;
         this.totalDue = due;
+        this.seqC = seqC;
     }
 
     public int getId() {
@@ -139,5 +141,13 @@ public class CashingGuideDetail extends RealmObject {
 
     public CashingGuideDetail toUnManaged(Realm realm) {
         return isManaged() ? realm.copyFromRealm(this) : this;
+    }
+
+    public Integer getSeqC() {
+        return seqC;
+    }
+
+    public void setSeqC(Integer seqC) {
+        this.seqC = seqC;
     }
 }

@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.android.support:multidex-instrumentation:1.0.2@aar">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../../../../WorkSpaces/XVitales/caches/transforms-1/files-1.1/multidex-instrumentation-1.0.2.aar/cb7913c5b0159d6924541ac34d512e27/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../../../../WorkSpaces/XVitales/caches/transforms-1/files-1.1/multidex-instrumentation-1.0.2.aar/cb7913c5b0159d6924541ac34d512e27/res" />
-      <root url="file://$PROJECT_DIR$/../../../../../WorkSpaces/XVitales/caches/transforms-1/files-1.1/multidex-instrumentation-1.0.2.aar/cb7913c5b0159d6924541ac34d512e27/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../XVitales/caches/transforms-1/files-1.1/multidex-instrumentation-1.0.2.aar/cb7913c5b0159d6924541ac34d512e27/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../XVitales/caches/transforms-1/files-1.1/multidex-instrumentation-1.0.2.aar/cb7913c5b0159d6924541ac34d512e27/res" />
+      <root url="file://$PROJECT_DIR$/../../XVitales/caches/transforms-1/files-1.1/multidex-instrumentation-1.0.2.aar/cb7913c5b0159d6924541ac34d512e27/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

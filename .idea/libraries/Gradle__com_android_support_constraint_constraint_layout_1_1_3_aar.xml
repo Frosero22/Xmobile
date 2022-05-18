@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.android.support.constraint:constraint-layout:1.1.3@aar">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../../../../WorkSpaces/XVitales/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/6f80e9b8046dda255e60c1fddeaaf018/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../../../../WorkSpaces/XVitales/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/6f80e9b8046dda255e60c1fddeaaf018/res" />
-      <root url="file://$PROJECT_DIR$/../../../../../WorkSpaces/XVitales/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/6f80e9b8046dda255e60c1fddeaaf018/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../XVitales/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/6f80e9b8046dda255e60c1fddeaaf018/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../XVitales/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/6f80e9b8046dda255e60c1fddeaaf018/res" />
+      <root url="file://$PROJECT_DIR$/../../XVitales/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/6f80e9b8046dda255e60c1fddeaaf018/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

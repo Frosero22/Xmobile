@@ -263,7 +263,7 @@ public class GuideActivity extends AbstractActivity {
                     }
 
                     if ("OK".equals(liquidationResponse.getMensaje())) {
-                        dialogUtil.showDialog("Transacción Exitosa","Guía asignada correctamente",GuideActivity.this);
+                        dialogUtil.showDialog("Transacción Exitosa",liquidationResponse.getResult(),GuideActivity.this);
                     } else {
                         dialogUtil.showDialog("Fallo el servicio liquidaciones", "Mensaje obtenido: " + liquidationResponse.getMensaje()
                                 + "\ncausa: " + liquidationResponse.getCausa(), GuideActivity.this);
@@ -464,19 +464,20 @@ public class GuideActivity extends AbstractActivity {
         }
     }
 
-    @Override
+    /*@Override
     protected void onDestroy() {
         super.onDestroy();
         try {
             realm.close();
         } catch (Exception e) {
         }
-    }
+    }*/
 
 
     @Override
     public void onBackPressed() {
         Intent intent = new Intent(GuideActivity.this,GuideListActivity.class);
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
         startActivity(intent);
         finish();
         super.onBackPressed();

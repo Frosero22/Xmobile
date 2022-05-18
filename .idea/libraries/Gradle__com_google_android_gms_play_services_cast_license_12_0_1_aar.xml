@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.google.android.gms:play-services-cast-license:12.0.1@aar">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../../../../WorkSpaces/XVitales/caches/transforms-1/files-1.1/play-services-cast-license-12.0.1.aar/8775325c64c555ae384bf55f69890235/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../../../../WorkSpaces/XVitales/caches/transforms-1/files-1.1/play-services-cast-license-12.0.1.aar/8775325c64c555ae384bf55f69890235/res" />
-      <root url="file://$PROJECT_DIR$/../../../../../WorkSpaces/XVitales/caches/transforms-1/files-1.1/play-services-cast-license-12.0.1.aar/8775325c64c555ae384bf55f69890235/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../XVitales/caches/transforms-1/files-1.1/play-services-cast-license-12.0.1.aar/8775325c64c555ae384bf55f69890235/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../XVitales/caches/transforms-1/files-1.1/play-services-cast-license-12.0.1.aar/8775325c64c555ae384bf55f69890235/res" />
+      <root url="file://$PROJECT_DIR$/../../XVitales/caches/transforms-1/files-1.1/play-services-cast-license-12.0.1.aar/8775325c64c555ae384bf55f69890235/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

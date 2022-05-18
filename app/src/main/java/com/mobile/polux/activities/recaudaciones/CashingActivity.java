@@ -6,6 +6,8 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.util.Log;
 import android.view.ContextMenu;
 import android.view.MenuInflater;
@@ -24,6 +26,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.mobile.polux.R;
+import com.mobile.polux.activities.MainActivity;
 import com.mobile.polux.adapters.PaymentAdapter;
 import com.mobile.polux.app.App;
 import com.mobile.polux.models.Bank;
@@ -196,6 +199,8 @@ public class CashingActivity extends AppCompatActivity implements View.OnClickLi
         final EditText etCheque = (EditText) view.findViewById(R.id.et_num_cheque);
         final EditText etDate = (EditText) view.findViewById(R.id.et_date_ini);
 
+
+
         etValue.addTextChangedListener(new MoneyTextWatcher(etValue));
 
         final Spinner spinner = view.findViewById(R.id.sp_bank);
@@ -311,10 +316,12 @@ public class CashingActivity extends AppCompatActivity implements View.OnClickLi
                     payment.setTipo(type);
                     payment.setValor(value);
                     payment.setResiduary(value);
+                    payment.setSecuencia(cashingGuideDetail.getSeqC());
                 } else {
                     payment = new Payment(type, value);
                     payment.setGuide(GuideActivity.guide);
                     payment.setClientId(GuideActivity.guideClientId);
+                    payment.setSecuencia(cashingGuideDetail.getSeqC());
                 }
 
                 if ("C".equals(type)) {
@@ -334,6 +341,7 @@ public class CashingActivity extends AppCompatActivity implements View.OnClickLi
                         return;
                     }
                     payment.setFecha(etDate.getText().toString());
+                    payment.setSecuencia(cashingGuideDetail.getSeqC());
                 }
                 if (!edit) {
                     payments.add(payment);
@@ -369,6 +377,9 @@ public class CashingActivity extends AppCompatActivity implements View.OnClickLi
             if (p.getCodigo() == null || UtilDB.countPayment(realm, p.getCodigo()) == 0) {
                 value += p.getValor();
             }
+
+            p.setSecuencia(cashingGuideDetail.getSeqC());
+
         }
 
         final TextView tvCash = (TextView) view.findViewById(R.id.tv_cash);
@@ -485,7 +496,10 @@ public class CashingActivity extends AppCompatActivity implements View.OnClickLi
         Toast.makeText(this,message, Toast.LENGTH_LONG).show();
     }
 
-   /*  @Override
+
+
+
+/*  @Override
     protected void onDestroy() {
         super.onDestroy();
         try {

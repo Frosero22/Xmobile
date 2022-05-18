@@ -1,16 +1,16 @@
 <component name="libraryTable">
   <library name="Gradle: com.android.support.test:runner:0.5@aar">
     <ANNOTATIONS>
-      <root url="jar://$PROJECT_DIR$/../../../../../WorkSpaces/XVitales/caches/transforms-1/files-1.1/runner-0.5.aar/df96dbacbfb2b9b0c60be269d53ac26a/annotations.zip!/" />
+      <root url="jar://$PROJECT_DIR$/../../XVitales/caches/transforms-1/files-1.1/runner-0.5.aar/df96dbacbfb2b9b0c60be269d53ac26a/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../../../../WorkSpaces/XVitales/caches/transforms-1/files-1.1/runner-0.5.aar/df96dbacbfb2b9b0c60be269d53ac26a/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../../../../WorkSpaces/XVitales/caches/transforms-1/files-1.1/runner-0.5.aar/df96dbacbfb2b9b0c60be269d53ac26a/res" />
-      <root url="file://$PROJECT_DIR$/../../../../../WorkSpaces/XVitales/caches/transforms-1/files-1.1/runner-0.5.aar/df96dbacbfb2b9b0c60be269d53ac26a/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../XVitales/caches/transforms-1/files-1.1/runner-0.5.aar/df96dbacbfb2b9b0c60be269d53ac26a/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../XVitales/caches/transforms-1/files-1.1/runner-0.5.aar/df96dbacbfb2b9b0c60be269d53ac26a/res" />
+      <root url="file://$PROJECT_DIR$/../../XVitales/caches/transforms-1/files-1.1/runner-0.5.aar/df96dbacbfb2b9b0c60be269d53ac26a/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$PROJECT_DIR$/../../../../../WorkSpaces/XVitales/caches/modules-2/files-2.1/com.android.support.test/runner/0.5/d13156b1f4d8dc7013cd8b3b1284b22bd3b44d23/runner-0.5-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../XVitales/caches/modules-2/files-2.1/com.android.support.test/runner/0.5/d13156b1f4d8dc7013cd8b3b1284b22bd3b44d23/runner-0.5-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

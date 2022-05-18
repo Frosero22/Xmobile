@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.google.firebase:firebase-analytics-impl:12.0.1@aar">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../../../../WorkSpaces/XVitales/caches/transforms-1/files-1.1/firebase-analytics-impl-12.0.1.aar/08eef71b7c6eb9f38a9e62389d2ef0c9/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../../../../WorkSpaces/XVitales/caches/transforms-1/files-1.1/firebase-analytics-impl-12.0.1.aar/08eef71b7c6eb9f38a9e62389d2ef0c9/res" />
-      <root url="file://$PROJECT_DIR$/../../../../../WorkSpaces/XVitales/caches/transforms-1/files-1.1/firebase-analytics-impl-12.0.1.aar/08eef71b7c6eb9f38a9e62389d2ef0c9/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../XVitales/caches/transforms-1/files-1.1/firebase-analytics-impl-12.0.1.aar/08eef71b7c6eb9f38a9e62389d2ef0c9/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../XVitales/caches/transforms-1/files-1.1/firebase-analytics-impl-12.0.1.aar/08eef71b7c6eb9f38a9e62389d2ef0c9/res" />
+      <root url="file://$PROJECT_DIR$/../../XVitales/caches/transforms-1/files-1.1/firebase-analytics-impl-12.0.1.aar/08eef71b7c6eb9f38a9e62389d2ef0c9/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

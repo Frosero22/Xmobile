@@ -24,6 +24,8 @@ public interface PaymentRealmProxyInterface {
     public void realmSet$name(String value);
     public double realmGet$residuary();
     public void realmSet$residuary(double value);
+    public Integer realmGet$secuencia();
+    public void realmSet$secuencia(Integer value);
     public long realmGet$guide();
     public void realmSet$guide(long value);
 }

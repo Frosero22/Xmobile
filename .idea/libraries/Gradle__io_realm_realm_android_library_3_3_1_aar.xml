@@ -1,15 +1,15 @@
 <component name="libraryTable">
   <library name="Gradle: io.realm:realm-android-library:3.3.1@aar">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../../../../WorkSpaces/XVitales/caches/transforms-1/files-1.1/realm-android-library-3.3.1.aar/e508e8be156375802ab905bd77a4838a/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../../../../WorkSpaces/XVitales/caches/transforms-1/files-1.1/realm-android-library-3.3.1.aar/e508e8be156375802ab905bd77a4838a/res" />
-      <root url="file://$PROJECT_DIR$/../../../../../WorkSpaces/XVitales/caches/transforms-1/files-1.1/realm-android-library-3.3.1.aar/e508e8be156375802ab905bd77a4838a/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../XVitales/caches/transforms-1/files-1.1/realm-android-library-3.3.1.aar/e508e8be156375802ab905bd77a4838a/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../XVitales/caches/transforms-1/files-1.1/realm-android-library-3.3.1.aar/e508e8be156375802ab905bd77a4838a/res" />
+      <root url="file://$PROJECT_DIR$/../../XVitales/caches/transforms-1/files-1.1/realm-android-library-3.3.1.aar/e508e8be156375802ab905bd77a4838a/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$PROJECT_DIR$/../../../../../WorkSpaces/XVitales/caches/modules-2/files-2.1/io.realm/realm-android-library/3.3.1/a23786bb83a09d5a97bcf9b0df68a3a58f7b3957/realm-android-library-3.3.1-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../XVitales/caches/modules-2/files-2.1/io.realm/realm-android-library/3.3.1/a23786bb83a09d5a97bcf9b0df68a3a58f7b3957/realm-android-library-3.3.1-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$PROJECT_DIR$/../../../../../WorkSpaces/XVitales/caches/modules-2/files-2.1/io.realm/realm-android-library/3.3.1/bcc6a620ca86008b3fbd123e8e1ab7e187b4b7ac/realm-android-library-3.3.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../XVitales/caches/modules-2/files-2.1/io.realm/realm-android-library/3.3.1/bcc6a620ca86008b3fbd123e8e1ab7e187b4b7ac/realm-android-library-3.3.1-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

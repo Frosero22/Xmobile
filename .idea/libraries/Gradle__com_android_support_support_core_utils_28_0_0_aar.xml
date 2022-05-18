@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.android.support:support-core-utils:28.0.0@aar">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../../../../WorkSpaces/XVitales/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/284966a97fcb694fe9284a8d3c6b86d8/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../../../../WorkSpaces/XVitales/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/284966a97fcb694fe9284a8d3c6b86d8/res" />
-      <root url="file://$PROJECT_DIR$/../../../../../WorkSpaces/XVitales/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/284966a97fcb694fe9284a8d3c6b86d8/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../XVitales/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/284966a97fcb694fe9284a8d3c6b86d8/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../XVitales/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/284966a97fcb694fe9284a8d3c6b86d8/res" />
+      <root url="file://$PROJECT_DIR$/../../XVitales/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/284966a97fcb694fe9284a8d3c6b86d8/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

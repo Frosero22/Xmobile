@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.google.android.gms:play-services-nearby:12.0.1@aar">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../../../../WorkSpaces/XVitales/caches/transforms-1/files-1.1/play-services-nearby-12.0.1.aar/102f4a6cbb93a99b7482911b890e4efd/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../../../../WorkSpaces/XVitales/caches/transforms-1/files-1.1/play-services-nearby-12.0.1.aar/102f4a6cbb93a99b7482911b890e4efd/res" />
-      <root url="file://$PROJECT_DIR$/../../../../../WorkSpaces/XVitales/caches/transforms-1/files-1.1/play-services-nearby-12.0.1.aar/102f4a6cbb93a99b7482911b890e4efd/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../XVitales/caches/transforms-1/files-1.1/play-services-nearby-12.0.1.aar/102f4a6cbb93a99b7482911b890e4efd/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../XVitales/caches/transforms-1/files-1.1/play-services-nearby-12.0.1.aar/102f4a6cbb93a99b7482911b890e4efd/res" />
+      <root url="file://$PROJECT_DIR$/../../XVitales/caches/transforms-1/files-1.1/play-services-nearby-12.0.1.aar/102f4a6cbb93a99b7482911b890e4efd/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

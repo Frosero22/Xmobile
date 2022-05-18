@@ -91,6 +91,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="7dp"
             android:gravity="right"
+            android:inputType="number"
             android:textSize="14dp" />
 
     </LinearLayout>

@@ -43,10 +43,11 @@ public class CashingGuideDetailRealmProxy extends com.mobile.polux.models.Cashin
         long totalDueIndex;
         long creditIndex;
         long dateIndex;
+        long seqCIndex;
         long docXcobrarIndex;
 
         CashingGuideDetailColumnInfo(SharedRealm realm, Table table) {
-            super(11);
+            super(12);
             this.idIndex = addColumnDetails(table, "id", RealmFieldType.INTEGER);
             this.clientIdIndex = addColumnDetails(table, "clientId", RealmFieldType.INTEGER);
             this.nameIndex = addColumnDetails(table, "name", RealmFieldType.STRING);
@@ -57,6 +58,7 @@ public class CashingGuideDetailRealmProxy extends com.mobile.polux.models.Cashin
             this.totalDueIndex = addColumnDetails(table, "totalDue", RealmFieldType.DOUBLE);
             this.creditIndex = addColumnDetails(table, "credit", RealmFieldType.DOUBLE);
             this.dateIndex = addColumnDetails(table, "date", RealmFieldType.STRING);
+            this.seqCIndex = addColumnDetails(table, "seqC", RealmFieldType.INTEGER);
             this.docXcobrarIndex = addColumnDetails(table, "docXcobrar", RealmFieldType.LIST);
         }
 
@@ -84,6 +86,7 @@ public class CashingGuideDetailRealmProxy extends com.mobile.polux.models.Cashin
             dst.totalDueIndex = src.totalDueIndex;
             dst.creditIndex = src.creditIndex;
             dst.dateIndex = src.dateIndex;
+            dst.seqCIndex = src.seqCIndex;
             dst.docXcobrarIndex = src.docXcobrarIndex;
         }
     }
@@ -104,6 +107,7 @@ public class CashingGuideDetailRealmProxy extends com.mobile.polux.models.Cashin
         fieldNames.add("totalDue");
         fieldNames.add("credit");
         fieldNames.add("date");
+        fieldNames.add("seqC");
         fieldNames.add("docXcobrar");
         FIELD_NAMES = Collections.unmodifiableList(fieldNames);
     }
@@ -419,6 +423,39 @@ public class CashingGuideDetailRealmProxy extends com.mobile.polux.models.Cashin
     }
 
     @Override
+    @SuppressWarnings("cast")
+    public Integer realmGet$seqC() {
+        proxyState.getRealm$realm().checkIfValid();
+        if (proxyState.getRow$realm().isNull(columnInfo.seqCIndex)) {
+            return null;
+        }
+        return (int) proxyState.getRow$realm().getLong(columnInfo.seqCIndex);
+    }
+
+    @Override
+    public void realmSet$seqC(Integer value) {
+        if (proxyState.isUnderConstruction()) {
+            if (!proxyState.getAcceptDefaultValue$realm()) {
+                return;
+            }
+            final Row row = proxyState.getRow$realm();
+            if (value == null) {
+                row.getTable().setNull(columnInfo.seqCIndex, row.getIndex(), true);
+                return;
+            }
+            row.getTable().setLong(columnInfo.seqCIndex, row.getIndex(), value, true);
+            return;
+        }
+
+        proxyState.getRealm$realm().checkIfValid();
+        if (value == null) {
+            proxyState.getRow$realm().setNull(columnInfo.seqCIndex);
+            return;
+        }
+        proxyState.getRow$realm().setLong(columnInfo.seqCIndex, value);
+    }
+
+    @Override
     public RealmList<com.mobile.polux.models.Invoice> realmGet$docXcobrar() {
         proxyState.getRealm$realm().checkIfValid();
         // use the cached value if available
@@ -484,6 +521,7 @@ public class CashingGuideDetailRealmProxy extends com.mobile.polux.models.Cashin
             realmObjectSchema.add("totalDue", RealmFieldType.DOUBLE, !Property.PRIMARY_KEY, !Property.INDEXED, !Property.REQUIRED);
             realmObjectSchema.add("credit", RealmFieldType.DOUBLE, !Property.PRIMARY_KEY, !Property.INDEXED, !Property.REQUIRED);
             realmObjectSchema.add("date", RealmFieldType.STRING, !Property.PRIMARY_KEY, !Property.INDEXED, !Property.REQUIRED);
+            realmObjectSchema.add("seqC", RealmFieldType.INTEGER, !Property.PRIMARY_KEY, !Property.INDEXED, !Property.REQUIRED);
             if (!realmSchema.contains("Invoice")) {
                 InvoiceRealmProxy.createRealmObjectSchema(realmSchema);
             }
@@ -499,14 +537,14 @@ public class CashingGuideDetailRealmProxy extends com.mobile.polux.models.Cashin
         }
         Table table = sharedRealm.getTable("class_CashingGuideDetail");
         final long columnCount = table.getColumnCount();
-        if (columnCount != 11) {
-            if (columnCount < 11) {
-                throw new RealmMigrationNeededException(sharedRealm.getPath(), "Field count is less than expected - expected 11 but was " + columnCount);
+        if (columnCount != 12) {
+            if (columnCount < 12) {
+                throw new RealmMigrationNeededException(sharedRealm.getPath(), "Field count is less than expected - expected 12 but was " + columnCount);
             }
             if (allowExtraColumns) {
-                RealmLog.debug("Field count is more than expected - expected 11 but was %1$d", columnCount);
+                RealmLog.debug("Field count is more than expected - expected 12 but was %1$d", columnCount);
             } else {
-                throw new RealmMigrationNeededException(sharedRealm.getPath(), "Field count is more than expected - expected 11 but was " + columnCount);
+                throw new RealmMigrationNeededException(sharedRealm.getPath(), "Field count is more than expected - expected 12 but was " + columnCount);
             }
         }
         Map<String, RealmFieldType> columnTypes = new HashMap<String, RealmFieldType>();
@@ -617,6 +655,15 @@ public class CashingGuideDetailRealmProxy extends com.mobile.polux.models.Cashin
         if (!table.isColumnNullable(columnInfo.dateIndex)) {
             throw new RealmMigrationNeededException(sharedRealm.getPath(), "Field 'date' is required. Either set @Required to field 'date' or migrate using RealmObjectSchema.setNullable().");
         }
+        if (!columnTypes.containsKey("seqC")) {
+            throw new RealmMigrationNeededException(sharedRealm.getPath(), "Missing field 'seqC' in existing Realm file. Either remove field or migrate using io.realm.internal.Table.addColumn().");
+        }
+        if (columnTypes.get("seqC") != RealmFieldType.INTEGER) {
+            throw new RealmMigrationNeededException(sharedRealm.getPath(), "Invalid type 'Integer' for field 'seqC' in existing Realm file.");
+        }
+        if (!table.isColumnNullable(columnInfo.seqCIndex)) {
+            throw new RealmMigrationNeededException(sharedRealm.getPath(),"Field 'seqC' does not support null values in the existing Realm file. Either set @Required, use the primitive type for field 'seqC' or migrate using RealmObjectSchema.setNullable().");
+        }
         if (!columnTypes.containsKey("docXcobrar")) {
             throw new RealmMigrationNeededException(sharedRealm.getPath(), "Missing field 'docXcobrar'");
         }
@@ -626,9 +673,9 @@ public class CashingGuideDetailRealmProxy extends com.mobile.polux.models.Cashin
         if (!sharedRealm.hasTable("class_Invoice")) {
             throw new RealmMigrationNeededException(sharedRealm.getPath(), "Missing class 'class_Invoice' for field 'docXcobrar'");
         }
-        Table table_10 = sharedRealm.getTable("class_Invoice");
-        if (!table.getLinkTarget(columnInfo.docXcobrarIndex).hasSameSchema(table_10)) {
-            throw new RealmMigrationNeededException(sharedRealm.getPath(), "Invalid RealmList type for field 'docXcobrar': '" + table.getLinkTarget(columnInfo.docXcobrarIndex).getName() + "' expected - was '" + table_10.getName() + "'");
+        Table table_11 = sharedRealm.getTable("class_Invoice");
+        if (!table.getLinkTarget(columnInfo.docXcobrarIndex).hasSameSchema(table_11)) {
+            throw new RealmMigrationNeededException(sharedRealm.getPath(), "Invalid RealmList type for field 'docXcobrar': '" + table.getLinkTarget(columnInfo.docXcobrarIndex).getName() + "' expected - was '" + table_11.getName() + "'");
         }
 
         return columnInfo;
@@ -741,6 +788,13 @@ public class CashingGuideDetailRealmProxy extends com.mobile.polux.models.Cashin
                 ((CashingGuideDetailRealmProxyInterface) obj).realmSet$date((String) json.getString("date"));
             }
         }
+        if (json.has("seqC")) {
+            if (json.isNull("seqC")) {
+                ((CashingGuideDetailRealmProxyInterface) obj).realmSet$seqC(null);
+            } else {
+                ((CashingGuideDetailRealmProxyInterface) obj).realmSet$seqC((int) json.getInt("seqC"));
+            }
+        }
         if (json.has("docXcobrar")) {
             if (json.isNull("docXcobrar")) {
                 ((CashingGuideDetailRealmProxyInterface) obj).realmSet$docXcobrar(null);
@@ -837,6 +891,13 @@ public class CashingGuideDetailRealmProxy extends com.mobile.polux.models.Cashin
                 } else {
                     ((CashingGuideDetailRealmProxyInterface) obj).realmSet$date((String) reader.nextString());
                 }
+            } else if (name.equals("seqC")) {
+                if (reader.peek() == JsonToken.NULL) {
+                    reader.skipValue();
+                    ((CashingGuideDetailRealmProxyInterface) obj).realmSet$seqC(null);
+                } else {
+                    ((CashingGuideDetailRealmProxyInterface) obj).realmSet$seqC((int) reader.nextInt());
+                }
             } else if (name.equals("docXcobrar")) {
                 if (reader.peek() == JsonToken.NULL) {
                     reader.skipValue();
@@ -918,6 +979,7 @@ public class CashingGuideDetailRealmProxy extends com.mobile.polux.models.Cashin
             ((CashingGuideDetailRealmProxyInterface) realmObject).realmSet$totalDue(((CashingGuideDetailRealmProxyInterface) newObject).realmGet$totalDue());
             ((CashingGuideDetailRealmProxyInterface) realmObject).realmSet$credit(((CashingGuideDetailRealmProxyInterface) newObject).realmGet$credit());
             ((CashingGuideDetailRealmProxyInterface) realmObject).realmSet$date(((CashingGuideDetailRealmProxyInterface) newObject).realmGet$date());
+            ((CashingGuideDetailRealmProxyInterface) realmObject).realmSet$seqC(((CashingGuideDetailRealmProxyInterface) newObject).realmGet$seqC());
 
             RealmList<com.mobile.polux.models.Invoice> docXcobrarList = ((CashingGuideDetailRealmProxyInterface) newObject).realmGet$docXcobrar();
             if (docXcobrarList != null) {
@@ -988,6 +1050,10 @@ public class CashingGuideDetailRealmProxy extends com.mobile.polux.models.Cashin
         String realmGet$date = ((CashingGuideDetailRealmProxyInterface)object).realmGet$date();
         if (realmGet$date != null) {
             Table.nativeSetString(tableNativePtr, columnInfo.dateIndex, rowIndex, realmGet$date, false);
+        }
+        Number realmGet$seqC = ((CashingGuideDetailRealmProxyInterface)object).realmGet$seqC();
+        if (realmGet$seqC != null) {
+            Table.nativeSetLong(tableNativePtr, columnInfo.seqCIndex, rowIndex, realmGet$seqC.longValue(), false);
         }
 
         RealmList<com.mobile.polux.models.Invoice> docXcobrarList = ((CashingGuideDetailRealmProxyInterface) object).realmGet$docXcobrar();
@@ -1061,6 +1127,10 @@ public class CashingGuideDetailRealmProxy extends com.mobile.polux.models.Cashin
                 String realmGet$date = ((CashingGuideDetailRealmProxyInterface)object).realmGet$date();
                 if (realmGet$date != null) {
                     Table.nativeSetString(tableNativePtr, columnInfo.dateIndex, rowIndex, realmGet$date, false);
+                }
+                Number realmGet$seqC = ((CashingGuideDetailRealmProxyInterface)object).realmGet$seqC();
+                if (realmGet$seqC != null) {
+                    Table.nativeSetLong(tableNativePtr, columnInfo.seqCIndex, rowIndex, realmGet$seqC.longValue(), false);
                 }
 
                 RealmList<com.mobile.polux.models.Invoice> docXcobrarList = ((CashingGuideDetailRealmProxyInterface) object).realmGet$docXcobrar();
@@ -1144,6 +1214,12 @@ public class CashingGuideDetailRealmProxy extends com.mobile.polux.models.Cashin
             Table.nativeSetString(tableNativePtr, columnInfo.dateIndex, rowIndex, realmGet$date, false);
         } else {
             Table.nativeSetNull(tableNativePtr, columnInfo.dateIndex, rowIndex, false);
+        }
+        Number realmGet$seqC = ((CashingGuideDetailRealmProxyInterface)object).realmGet$seqC();
+        if (realmGet$seqC != null) {
+            Table.nativeSetLong(tableNativePtr, columnInfo.seqCIndex, rowIndex, realmGet$seqC.longValue(), false);
+        } else {
+            Table.nativeSetNull(tableNativePtr, columnInfo.seqCIndex, rowIndex, false);
         }
 
         long docXcobrarNativeLinkViewPtr = Table.nativeGetLinkView(tableNativePtr, columnInfo.docXcobrarIndex, rowIndex);
@@ -1233,6 +1309,12 @@ public class CashingGuideDetailRealmProxy extends com.mobile.polux.models.Cashin
                 } else {
                     Table.nativeSetNull(tableNativePtr, columnInfo.dateIndex, rowIndex, false);
                 }
+                Number realmGet$seqC = ((CashingGuideDetailRealmProxyInterface)object).realmGet$seqC();
+                if (realmGet$seqC != null) {
+                    Table.nativeSetLong(tableNativePtr, columnInfo.seqCIndex, rowIndex, realmGet$seqC.longValue(), false);
+                } else {
+                    Table.nativeSetNull(tableNativePtr, columnInfo.seqCIndex, rowIndex, false);
+                }
 
                 long docXcobrarNativeLinkViewPtr = Table.nativeGetLinkView(tableNativePtr, columnInfo.docXcobrarIndex, rowIndex);
                 LinkView.nativeClear(docXcobrarNativeLinkViewPtr);
@@ -1279,6 +1361,7 @@ public class CashingGuideDetailRealmProxy extends com.mobile.polux.models.Cashin
         ((CashingGuideDetailRealmProxyInterface) unmanagedObject).realmSet$totalDue(((CashingGuideDetailRealmProxyInterface) realmObject).realmGet$totalDue());
         ((CashingGuideDetailRealmProxyInterface) unmanagedObject).realmSet$credit(((CashingGuideDetailRealmProxyInterface) realmObject).realmGet$credit());
         ((CashingGuideDetailRealmProxyInterface) unmanagedObject).realmSet$date(((CashingGuideDetailRealmProxyInterface) realmObject).realmGet$date());
+        ((CashingGuideDetailRealmProxyInterface) unmanagedObject).realmSet$seqC(((CashingGuideDetailRealmProxyInterface) realmObject).realmGet$seqC());
 
         // Deep copy of docXcobrar
         if (currentDepth == maxDepth) {
@@ -1307,6 +1390,7 @@ public class CashingGuideDetailRealmProxy extends com.mobile.polux.models.Cashin
         ((CashingGuideDetailRealmProxyInterface) realmObject).realmSet$totalDue(((CashingGuideDetailRealmProxyInterface) newObject).realmGet$totalDue());
         ((CashingGuideDetailRealmProxyInterface) realmObject).realmSet$credit(((CashingGuideDetailRealmProxyInterface) newObject).realmGet$credit());
         ((CashingGuideDetailRealmProxyInterface) realmObject).realmSet$date(((CashingGuideDetailRealmProxyInterface) newObject).realmGet$date());
+        ((CashingGuideDetailRealmProxyInterface) realmObject).realmSet$seqC(((CashingGuideDetailRealmProxyInterface) newObject).realmGet$seqC());
         RealmList<com.mobile.polux.models.Invoice> docXcobrarList = ((CashingGuideDetailRealmProxyInterface) newObject).realmGet$docXcobrar();
         RealmList<com.mobile.polux.models.Invoice> docXcobrarRealmList = ((CashingGuideDetailRealmProxyInterface) realmObject).realmGet$docXcobrar();
         docXcobrarRealmList.clear();
@@ -1369,6 +1453,10 @@ public class CashingGuideDetailRealmProxy extends com.mobile.polux.models.Cashin
         stringBuilder.append(",");
         stringBuilder.append("{date:");
         stringBuilder.append(realmGet$date() != null ? realmGet$date() : "null");
+        stringBuilder.append("}");
+        stringBuilder.append(",");
+        stringBuilder.append("{seqC:");
+        stringBuilder.append(realmGet$seqC() != null ? realmGet$seqC() : "null");
         stringBuilder.append("}");
         stringBuilder.append(",");
         stringBuilder.append("{docXcobrar:");

@@ -175,7 +175,7 @@ public class GuideListActivity extends AbstractActivity implements View.OnClickL
                         detail.getClientId(), detail.getNombreCliente(),
                         detail.getAddress(), "PEN", 0.0,
                         detail.getTotalDoc() - detail.getTotalCanceled(),
-                        detail.getDue()
+                        detail.getDue(),detail.getSeqDoc()
                 );
                 cashingGuideDetail.setDate(date);
                 cashingGuideDetail.setId(App.guideDetailId.incrementAndGet());
@@ -412,24 +412,14 @@ public class GuideListActivity extends AbstractActivity implements View.OnClickL
     @Override
     public void onBackPressed() {
         Intent intent = new Intent(GuideListActivity.this, MainActivity.class);
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
         startActivity(intent);
         finish();
         super.onBackPressed();
     }
 
-   /* @Override
-    protected void onDestroy() {
-        super.onDestroy();
-        try {
-            realm.close();
-            Intent intent = new Intent(this,MainActivity.class);
-            startActivity(intent);
-            finish();
-        } catch (Exception e) {
-        }
-    }
 
-    @Override
+   /* @Override
     protected void onPause() {
         super.onPause();
         realm.close();

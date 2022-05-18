@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.google.android.gms:play-services-gass-license:12.0.1@aar">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../../../../WorkSpaces/XVitales/caches/transforms-1/files-1.1/play-services-gass-license-12.0.1.aar/88aed820620bc211243e600c879cc8be/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../../../../WorkSpaces/XVitales/caches/transforms-1/files-1.1/play-services-gass-license-12.0.1.aar/88aed820620bc211243e600c879cc8be/res" />
-      <root url="file://$PROJECT_DIR$/../../../../../WorkSpaces/XVitales/caches/transforms-1/files-1.1/play-services-gass-license-12.0.1.aar/88aed820620bc211243e600c879cc8be/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../XVitales/caches/transforms-1/files-1.1/play-services-gass-license-12.0.1.aar/88aed820620bc211243e600c879cc8be/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../XVitales/caches/transforms-1/files-1.1/play-services-gass-license-12.0.1.aar/88aed820620bc211243e600c879cc8be/res" />
+      <root url="file://$PROJECT_DIR$/../../XVitales/caches/transforms-1/files-1.1/play-services-gass-license-12.0.1.aar/88aed820620bc211243e600c879cc8be/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

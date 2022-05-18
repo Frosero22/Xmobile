@@ -650,15 +650,7 @@ public class MainActivity extends AppCompatActivity
         Toast.makeText(getApplicationContext(), message, Toast.LENGTH_LONG).show();
     }
 
-    @Override
-    public void onBackPressed() {
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        if (drawer.isDrawerOpen(GravityCompat.START)) {
-            drawer.closeDrawer(GravityCompat.START);
-        } else {
-            super.onBackPressed();
-        }
-    }
+
 
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
@@ -749,4 +741,6 @@ public class MainActivity extends AppCompatActivity
                 });
         alertDialog.show();
     }
+
+
 }

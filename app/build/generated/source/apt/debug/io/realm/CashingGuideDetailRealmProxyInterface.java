@@ -22,6 +22,8 @@ public interface CashingGuideDetailRealmProxyInterface {
     public void realmSet$credit(Double value);
     public String realmGet$date();
     public void realmSet$date(String value);
+    public Integer realmGet$seqC();
+    public void realmSet$seqC(Integer value);
     public RealmList<com.mobile.polux.models.Invoice> realmGet$docXcobrar();
     public void realmSet$docXcobrar(RealmList<com.mobile.polux.models.Invoice> value);
 }

@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.google.firebase:firebase-common:12.0.1@aar">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../../../../WorkSpaces/XVitales/caches/transforms-1/files-1.1/firebase-common-12.0.1.aar/ab4b4da1236284625b96d0b35b2e5219/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../../../../WorkSpaces/XVitales/caches/transforms-1/files-1.1/firebase-common-12.0.1.aar/ab4b4da1236284625b96d0b35b2e5219/res" />
-      <root url="file://$PROJECT_DIR$/../../../../../WorkSpaces/XVitales/caches/transforms-1/files-1.1/firebase-common-12.0.1.aar/ab4b4da1236284625b96d0b35b2e5219/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../XVitales/caches/transforms-1/files-1.1/firebase-common-12.0.1.aar/ab4b4da1236284625b96d0b35b2e5219/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../XVitales/caches/transforms-1/files-1.1/firebase-common-12.0.1.aar/ab4b4da1236284625b96d0b35b2e5219/res" />
+      <root url="file://$PROJECT_DIR$/../../XVitales/caches/transforms-1/files-1.1/firebase-common-12.0.1.aar/ab4b4da1236284625b96d0b35b2e5219/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

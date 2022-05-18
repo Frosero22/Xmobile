@@ -44,10 +44,11 @@ public class PaymentRealmProxy extends com.mobile.polux.models.Payment
         long fechaIndex;
         long nameIndex;
         long residuaryIndex;
+        long secuenciaIndex;
         long guideIndex;
 
         PaymentColumnInfo(SharedRealm realm, Table table) {
-            super(12);
+            super(13);
             this.codigoIndex = addColumnDetails(table, "codigo", RealmFieldType.INTEGER);
             this.clientIdIndex = addColumnDetails(table, "clientId", RealmFieldType.INTEGER);
             this.tipoIndex = addColumnDetails(table, "tipo", RealmFieldType.STRING);
@@ -59,6 +60,7 @@ public class PaymentRealmProxy extends com.mobile.polux.models.Payment
             this.fechaIndex = addColumnDetails(table, "fecha", RealmFieldType.STRING);
             this.nameIndex = addColumnDetails(table, "name", RealmFieldType.STRING);
             this.residuaryIndex = addColumnDetails(table, "residuary", RealmFieldType.DOUBLE);
+            this.secuenciaIndex = addColumnDetails(table, "secuencia", RealmFieldType.INTEGER);
             this.guideIndex = addColumnDetails(table, "guide", RealmFieldType.INTEGER);
         }
 
@@ -87,6 +89,7 @@ public class PaymentRealmProxy extends com.mobile.polux.models.Payment
             dst.fechaIndex = src.fechaIndex;
             dst.nameIndex = src.nameIndex;
             dst.residuaryIndex = src.residuaryIndex;
+            dst.secuenciaIndex = src.secuenciaIndex;
             dst.guideIndex = src.guideIndex;
         }
     }
@@ -107,6 +110,7 @@ public class PaymentRealmProxy extends com.mobile.polux.models.Payment
         fieldNames.add("fecha");
         fieldNames.add("name");
         fieldNames.add("residuary");
+        fieldNames.add("secuencia");
         fieldNames.add("guide");
         FIELD_NAMES = Collections.unmodifiableList(fieldNames);
     }
@@ -420,6 +424,39 @@ public class PaymentRealmProxy extends com.mobile.polux.models.Payment
 
     @Override
     @SuppressWarnings("cast")
+    public Integer realmGet$secuencia() {
+        proxyState.getRealm$realm().checkIfValid();
+        if (proxyState.getRow$realm().isNull(columnInfo.secuenciaIndex)) {
+            return null;
+        }
+        return (int) proxyState.getRow$realm().getLong(columnInfo.secuenciaIndex);
+    }
+
+    @Override
+    public void realmSet$secuencia(Integer value) {
+        if (proxyState.isUnderConstruction()) {
+            if (!proxyState.getAcceptDefaultValue$realm()) {
+                return;
+            }
+            final Row row = proxyState.getRow$realm();
+            if (value == null) {
+                row.getTable().setNull(columnInfo.secuenciaIndex, row.getIndex(), true);
+                return;
+            }
+            row.getTable().setLong(columnInfo.secuenciaIndex, row.getIndex(), value, true);
+            return;
+        }
+
+        proxyState.getRealm$realm().checkIfValid();
+        if (value == null) {
+            proxyState.getRow$realm().setNull(columnInfo.secuenciaIndex);
+            return;
+        }
+        proxyState.getRow$realm().setLong(columnInfo.secuenciaIndex, value);
+    }
+
+    @Override
+    @SuppressWarnings("cast")
     public long realmGet$guide() {
         proxyState.getRealm$realm().checkIfValid();
         return (long) proxyState.getRow$realm().getLong(columnInfo.guideIndex);
@@ -454,6 +491,7 @@ public class PaymentRealmProxy extends com.mobile.polux.models.Payment
             realmObjectSchema.add("fecha", RealmFieldType.STRING, !Property.PRIMARY_KEY, !Property.INDEXED, !Property.REQUIRED);
             realmObjectSchema.add("name", RealmFieldType.STRING, !Property.PRIMARY_KEY, !Property.INDEXED, !Property.REQUIRED);
             realmObjectSchema.add("residuary", RealmFieldType.DOUBLE, !Property.PRIMARY_KEY, !Property.INDEXED, Property.REQUIRED);
+            realmObjectSchema.add("secuencia", RealmFieldType.INTEGER, !Property.PRIMARY_KEY, !Property.INDEXED, !Property.REQUIRED);
             realmObjectSchema.add("guide", RealmFieldType.INTEGER, !Property.PRIMARY_KEY, !Property.INDEXED, Property.REQUIRED);
             return realmObjectSchema;
         }
@@ -466,14 +504,14 @@ public class PaymentRealmProxy extends com.mobile.polux.models.Payment
         }
         Table table = sharedRealm.getTable("class_Payment");
         final long columnCount = table.getColumnCount();
-        if (columnCount != 12) {
-            if (columnCount < 12) {
-                throw new RealmMigrationNeededException(sharedRealm.getPath(), "Field count is less than expected - expected 12 but was " + columnCount);
+        if (columnCount != 13) {
+            if (columnCount < 13) {
+                throw new RealmMigrationNeededException(sharedRealm.getPath(), "Field count is less than expected - expected 13 but was " + columnCount);
             }
             if (allowExtraColumns) {
-                RealmLog.debug("Field count is more than expected - expected 12 but was %1$d", columnCount);
+                RealmLog.debug("Field count is more than expected - expected 13 but was %1$d", columnCount);
             } else {
-                throw new RealmMigrationNeededException(sharedRealm.getPath(), "Field count is more than expected - expected 12 but was " + columnCount);
+                throw new RealmMigrationNeededException(sharedRealm.getPath(), "Field count is more than expected - expected 13 but was " + columnCount);
             }
         }
         Map<String, RealmFieldType> columnTypes = new HashMap<String, RealmFieldType>();
@@ -592,6 +630,15 @@ public class PaymentRealmProxy extends com.mobile.polux.models.Payment
         }
         if (table.isColumnNullable(columnInfo.residuaryIndex)) {
             throw new RealmMigrationNeededException(sharedRealm.getPath(), "Field 'residuary' does support null values in the existing Realm file. Use corresponding boxed type for field 'residuary' or migrate using RealmObjectSchema.setNullable().");
+        }
+        if (!columnTypes.containsKey("secuencia")) {
+            throw new RealmMigrationNeededException(sharedRealm.getPath(), "Missing field 'secuencia' in existing Realm file. Either remove field or migrate using io.realm.internal.Table.addColumn().");
+        }
+        if (columnTypes.get("secuencia") != RealmFieldType.INTEGER) {
+            throw new RealmMigrationNeededException(sharedRealm.getPath(), "Invalid type 'Integer' for field 'secuencia' in existing Realm file.");
+        }
+        if (!table.isColumnNullable(columnInfo.secuenciaIndex)) {
+            throw new RealmMigrationNeededException(sharedRealm.getPath(),"Field 'secuencia' does not support null values in the existing Realm file. Either set @Required, use the primitive type for field 'secuencia' or migrate using RealmObjectSchema.setNullable().");
         }
         if (!columnTypes.containsKey("guide")) {
             throw new RealmMigrationNeededException(sharedRealm.getPath(), "Missing field 'guide' in existing Realm file. Either remove field or migrate using io.realm.internal.Table.addColumn().");
@@ -719,6 +766,13 @@ public class PaymentRealmProxy extends com.mobile.polux.models.Payment
                 ((PaymentRealmProxyInterface) obj).realmSet$residuary((double) json.getDouble("residuary"));
             }
         }
+        if (json.has("secuencia")) {
+            if (json.isNull("secuencia")) {
+                ((PaymentRealmProxyInterface) obj).realmSet$secuencia(null);
+            } else {
+                ((PaymentRealmProxyInterface) obj).realmSet$secuencia((int) json.getInt("secuencia"));
+            }
+        }
         if (json.has("guide")) {
             if (json.isNull("guide")) {
                 throw new IllegalArgumentException("Trying to set non-nullable field 'guide' to null.");
@@ -817,6 +871,13 @@ public class PaymentRealmProxy extends com.mobile.polux.models.Payment
                 } else {
                     ((PaymentRealmProxyInterface) obj).realmSet$residuary((double) reader.nextDouble());
                 }
+            } else if (name.equals("secuencia")) {
+                if (reader.peek() == JsonToken.NULL) {
+                    reader.skipValue();
+                    ((PaymentRealmProxyInterface) obj).realmSet$secuencia(null);
+                } else {
+                    ((PaymentRealmProxyInterface) obj).realmSet$secuencia((int) reader.nextInt());
+                }
             } else if (name.equals("guide")) {
                 if (reader.peek() == JsonToken.NULL) {
                     reader.skipValue();
@@ -899,6 +960,7 @@ public class PaymentRealmProxy extends com.mobile.polux.models.Payment
             ((PaymentRealmProxyInterface) realmObject).realmSet$fecha(((PaymentRealmProxyInterface) newObject).realmGet$fecha());
             ((PaymentRealmProxyInterface) realmObject).realmSet$name(((PaymentRealmProxyInterface) newObject).realmGet$name());
             ((PaymentRealmProxyInterface) realmObject).realmSet$residuary(((PaymentRealmProxyInterface) newObject).realmGet$residuary());
+            ((PaymentRealmProxyInterface) realmObject).realmSet$secuencia(((PaymentRealmProxyInterface) newObject).realmGet$secuencia());
             ((PaymentRealmProxyInterface) realmObject).realmSet$guide(((PaymentRealmProxyInterface) newObject).realmGet$guide());
             return realmObject;
         }
@@ -953,6 +1015,10 @@ public class PaymentRealmProxy extends com.mobile.polux.models.Payment
             Table.nativeSetString(tableNativePtr, columnInfo.nameIndex, rowIndex, realmGet$name, false);
         }
         Table.nativeSetDouble(tableNativePtr, columnInfo.residuaryIndex, rowIndex, ((PaymentRealmProxyInterface)object).realmGet$residuary(), false);
+        Number realmGet$secuencia = ((PaymentRealmProxyInterface)object).realmGet$secuencia();
+        if (realmGet$secuencia != null) {
+            Table.nativeSetLong(tableNativePtr, columnInfo.secuenciaIndex, rowIndex, realmGet$secuencia.longValue(), false);
+        }
         Table.nativeSetLong(tableNativePtr, columnInfo.guideIndex, rowIndex, ((PaymentRealmProxyInterface)object).realmGet$guide(), false);
         return rowIndex;
     }
@@ -1011,6 +1077,10 @@ public class PaymentRealmProxy extends com.mobile.polux.models.Payment
                     Table.nativeSetString(tableNativePtr, columnInfo.nameIndex, rowIndex, realmGet$name, false);
                 }
                 Table.nativeSetDouble(tableNativePtr, columnInfo.residuaryIndex, rowIndex, ((PaymentRealmProxyInterface)object).realmGet$residuary(), false);
+                Number realmGet$secuencia = ((PaymentRealmProxyInterface)object).realmGet$secuencia();
+                if (realmGet$secuencia != null) {
+                    Table.nativeSetLong(tableNativePtr, columnInfo.secuenciaIndex, rowIndex, realmGet$secuencia.longValue(), false);
+                }
                 Table.nativeSetLong(tableNativePtr, columnInfo.guideIndex, rowIndex, ((PaymentRealmProxyInterface)object).realmGet$guide(), false);
             }
         }
@@ -1075,6 +1145,12 @@ public class PaymentRealmProxy extends com.mobile.polux.models.Payment
             Table.nativeSetNull(tableNativePtr, columnInfo.nameIndex, rowIndex, false);
         }
         Table.nativeSetDouble(tableNativePtr, columnInfo.residuaryIndex, rowIndex, ((PaymentRealmProxyInterface)object).realmGet$residuary(), false);
+        Number realmGet$secuencia = ((PaymentRealmProxyInterface)object).realmGet$secuencia();
+        if (realmGet$secuencia != null) {
+            Table.nativeSetLong(tableNativePtr, columnInfo.secuenciaIndex, rowIndex, realmGet$secuencia.longValue(), false);
+        } else {
+            Table.nativeSetNull(tableNativePtr, columnInfo.secuenciaIndex, rowIndex, false);
+        }
         Table.nativeSetLong(tableNativePtr, columnInfo.guideIndex, rowIndex, ((PaymentRealmProxyInterface)object).realmGet$guide(), false);
         return rowIndex;
     }
@@ -1143,6 +1219,12 @@ public class PaymentRealmProxy extends com.mobile.polux.models.Payment
                     Table.nativeSetNull(tableNativePtr, columnInfo.nameIndex, rowIndex, false);
                 }
                 Table.nativeSetDouble(tableNativePtr, columnInfo.residuaryIndex, rowIndex, ((PaymentRealmProxyInterface)object).realmGet$residuary(), false);
+                Number realmGet$secuencia = ((PaymentRealmProxyInterface)object).realmGet$secuencia();
+                if (realmGet$secuencia != null) {
+                    Table.nativeSetLong(tableNativePtr, columnInfo.secuenciaIndex, rowIndex, realmGet$secuencia.longValue(), false);
+                } else {
+                    Table.nativeSetNull(tableNativePtr, columnInfo.secuenciaIndex, rowIndex, false);
+                }
                 Table.nativeSetLong(tableNativePtr, columnInfo.guideIndex, rowIndex, ((PaymentRealmProxyInterface)object).realmGet$guide(), false);
             }
         }
@@ -1177,6 +1259,7 @@ public class PaymentRealmProxy extends com.mobile.polux.models.Payment
         ((PaymentRealmProxyInterface) unmanagedObject).realmSet$fecha(((PaymentRealmProxyInterface) realmObject).realmGet$fecha());
         ((PaymentRealmProxyInterface) unmanagedObject).realmSet$name(((PaymentRealmProxyInterface) realmObject).realmGet$name());
         ((PaymentRealmProxyInterface) unmanagedObject).realmSet$residuary(((PaymentRealmProxyInterface) realmObject).realmGet$residuary());
+        ((PaymentRealmProxyInterface) unmanagedObject).realmSet$secuencia(((PaymentRealmProxyInterface) realmObject).realmGet$secuencia());
         ((PaymentRealmProxyInterface) unmanagedObject).realmSet$guide(((PaymentRealmProxyInterface) realmObject).realmGet$guide());
         return unmanagedObject;
     }
@@ -1192,6 +1275,7 @@ public class PaymentRealmProxy extends com.mobile.polux.models.Payment
         ((PaymentRealmProxyInterface) realmObject).realmSet$fecha(((PaymentRealmProxyInterface) newObject).realmGet$fecha());
         ((PaymentRealmProxyInterface) realmObject).realmSet$name(((PaymentRealmProxyInterface) newObject).realmGet$name());
         ((PaymentRealmProxyInterface) realmObject).realmSet$residuary(((PaymentRealmProxyInterface) newObject).realmGet$residuary());
+        ((PaymentRealmProxyInterface) realmObject).realmSet$secuencia(((PaymentRealmProxyInterface) newObject).realmGet$secuencia());
         ((PaymentRealmProxyInterface) realmObject).realmSet$guide(((PaymentRealmProxyInterface) newObject).realmGet$guide());
         return realmObject;
     }
@@ -1245,6 +1329,10 @@ public class PaymentRealmProxy extends com.mobile.polux.models.Payment
         stringBuilder.append(",");
         stringBuilder.append("{residuary:");
         stringBuilder.append(realmGet$residuary());
+        stringBuilder.append("}");
+        stringBuilder.append(",");
+        stringBuilder.append("{secuencia:");
+        stringBuilder.append(realmGet$secuencia() != null ? realmGet$secuencia() : "null");
         stringBuilder.append("}");
         stringBuilder.append(",");
         stringBuilder.append("{guide:");

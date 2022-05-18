@@ -20,6 +20,16 @@ public class PaymentDoc extends RealmObject {
     @Expose
     @SerializedName("fecha")
     private String date;
+    @Expose
+    @SerializedName("tipo")
+    private String tipo;
+    @Expose
+    @SerializedName("numCuenta")
+    private String numCuenta;
+    @Expose
+    @SerializedName("banco")
+    private Integer banco;
+
 
     public int getId() {
         return id;
@@ -43,5 +53,29 @@ public class PaymentDoc extends RealmObject {
 
     public void setDate(String date) {
         this.date = date;
+    }
+
+    public String getTipo() {
+        return tipo;
+    }
+
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
+    }
+
+    public String getNumCuenta() {
+        return numCuenta;
+    }
+
+    public void setNumCuenta(String numCuenta) {
+        this.numCuenta = numCuenta;
+    }
+
+    public Integer getBanco() {
+        return banco;
+    }
+
+    public void setBanco(Integer banco) {
+        this.banco = banco;
     }
 }

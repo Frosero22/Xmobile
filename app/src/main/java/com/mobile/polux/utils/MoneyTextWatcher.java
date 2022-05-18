@@ -27,20 +27,35 @@ public class MoneyTextWatcher implements TextWatcher {
 
     @Override
     public void onTextChanged(CharSequence s, int start, int before, int count) {
+
+        if(editTextWeakReference.get() == null){
+            return;
+        }
+
     }
 
     @Override
     public void afterTextChanged(Editable editable) {
-        EditText editText = editTextWeakReference.get();
-        if (editText == null) return;
-        String s = editable.toString();
-        if (s.isEmpty()) return;
-        editText.removeTextChangedListener(this);
-        String cleanString = s.replaceAll("[$,.]", "");
-        BigDecimal parsed = new BigDecimal(cleanString).setScale(2, BigDecimal.ROUND_FLOOR).divide(new BigDecimal(100), BigDecimal.ROUND_FLOOR);
-        String formatted = NumberFormat.getCurrencyInstance(Locale.US).format(parsed);
-        editText.setText(formatted);
-        editText.setSelection(formatted.length());
-        editText.addTextChangedListener(this);
+        try{
+
+            if(editTextWeakReference.get() != null){
+                EditText editText = editTextWeakReference.get();
+                if (editText == null) return;
+                String s = editable.toString();
+                if (s.isEmpty()) return;
+                editText.removeTextChangedListener(this);
+                String cleanString = s.replaceAll("[$,.]", "");
+                BigDecimal parsed = new BigDecimal(cleanString).setScale(2, BigDecimal.ROUND_FLOOR).divide(new BigDecimal(100), BigDecimal.ROUND_FLOOR);
+                String formatted = NumberFormat.getCurrencyInstance(Locale.US).format(parsed);
+                editText.setText(formatted);
+                editText.setSelection(formatted.length());
+                editText.addTextChangedListener(this);
+            }
+
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+
+
     }
 }

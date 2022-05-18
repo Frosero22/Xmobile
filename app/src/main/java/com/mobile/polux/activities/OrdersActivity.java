@@ -518,4 +518,12 @@ public class OrdersActivity extends AppCompatActivity implements RealmChangeList
             return "";
         }
     }
+
+    @Override
+    public void onBackPressed() {
+        Intent intent = new Intent(this, MainActivity.class);
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
+        startActivity(intent);
+        overridePendingTransition(R.animator.left_to_right, R.animator.right_to_left);
+    }
 }

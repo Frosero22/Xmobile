@@ -6,6 +6,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -19,6 +20,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.mobile.polux.R;
+import com.mobile.polux.activities.MainActivity;
 import com.mobile.polux.adapters.InvoiceAdapter;
 import com.mobile.polux.app.App;
 import com.mobile.polux.models.CashingGuideDetail;
@@ -169,6 +171,10 @@ public class CashingRegisterActivity extends AppCompatActivity {
                 showToast("No has asignado los cobros a ninguna factura, selecciona una factura para realizar el pago");
                 return;
             }
+            if(creditTotal > 0){
+                showToast("Asigna todos los credítos para poder avanzar");
+                return;
+            }
             cashingGuideDetail.setState("REC");
             if (!realm.isInTransaction()) {
                 realm.beginTransaction();
@@ -291,7 +297,7 @@ public class CashingRegisterActivity extends AppCompatActivity {
         alertDialog.show();
     }
 
-    private void showDialogPaymentInvoice(final int position, String invoice, final double due) {
+    private void showDialogPaymentInvoice(final int position, final String invoice, final double due) {
 
         final View view = getLayoutInflater().inflate(R.layout.invoice_payment, null);
         final AlertDialog alertDialog = new AlertDialog.Builder(CashingRegisterActivity.this)
@@ -374,24 +380,21 @@ public class CashingRegisterActivity extends AppCompatActivity {
                 RealmList<PaymentDoc> paymentsDoc = new RealmList<PaymentDoc>();
                 PaymentDoc payDoc = new PaymentDoc();
                 for (Payment payment : getPayments()) {
-
-                    payDoc = new PaymentDoc();
-                    payDoc.setId(payment.getCodigo());
-                    payDoc.setValue(pay);
-                    payDoc.setDate(day);
-
-                    paymentsDoc.add(payDoc);
-
-                    break;
-
-
-                   /* if (payment.getResiduary() > 0) {
+                    if (payment.getResiduary() > 0) {
 
                         if (payment.getResiduary()>= payC) {
                             payInvoice = payC;
                             payment.setResiduary(payment.getResiduary() - payC);
                             payC = payC - payInvoice;
-
+                            payDoc = new PaymentDoc();
+                            payDoc.setId(payment.getCodigo());
+                            payDoc.setValue(payInvoice);
+                            payDoc.setDate(day);
+                            payDoc.setTipo(payment.getTipo());
+                            if(payment.getTipo().equalsIgnoreCase("C")){
+                                payDoc.setNumCuenta(payment.getNumCuenta());
+                                payDoc.setBanco(payment.getBanco());
+                            }
                         } else {
                             payInvoice = payment.getResiduary();
                             payment.setResiduary(0);
@@ -400,13 +403,24 @@ public class CashingRegisterActivity extends AppCompatActivity {
                             payDoc.setId(payment.getCodigo());
                             payDoc.setValue(payInvoice);
                             payDoc.setDate(day);
+                            payDoc.setTipo(payment.getTipo());
+                            if(payment.getTipo().equalsIgnoreCase("C")){
+                                payDoc.setNumCuenta(payment.getNumCuenta());
+                                payDoc.setBanco(payment.getBanco());
+                            }
                         }
                         paymentsDoc.add(payDoc);
                     }
                     if (payC == 0) {
                         break;
-                    } */
+                    }
                 }
+
+
+
+
+              //  break;
+
                 invoices.get(position).setPay(pay);
                 invoices.get(position).setPago(paymentsDoc);
                 adapter.notifyDataSetChanged();
@@ -441,6 +455,8 @@ public class CashingRegisterActivity extends AppCompatActivity {
         BigDecimal objBigDecimalRedondeado = objBigDecimal.setScale(2, RoundingMode.HALF_UP);
         return objBigDecimalRedondeado.doubleValue();
     }
+
+
 
    /* @Override
     protected void onDestroy() {

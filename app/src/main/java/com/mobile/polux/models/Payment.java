@@ -43,6 +43,9 @@ public class Payment extends RealmObject {
     private String fecha;
     private String name;
     private double residuary;
+    @Expose
+    @SerializedName("secuencia")
+    private Integer secuencia;
 
     private long guide;
 
@@ -153,5 +156,13 @@ public class Payment extends RealmObject {
 
     public Payment toUnManaged(Realm realm) {
         return isManaged() ? realm.copyFromRealm(this) : this;
+    }
+
+    public Integer getSecuencia() {
+        return secuencia;
+    }
+
+    public void setSecuencia(Integer secuencia) {
+        this.secuencia = secuencia;
     }
 }

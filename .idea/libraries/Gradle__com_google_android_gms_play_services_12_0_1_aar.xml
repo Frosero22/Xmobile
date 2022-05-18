@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.google.android.gms:play-services:12.0.1@aar">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../../../../WorkSpaces/XVitales/caches/transforms-1/files-1.1/play-services-12.0.1.aar/6fb66d412da858d50e5a6966f1bb4fd7/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../../../../WorkSpaces/XVitales/caches/transforms-1/files-1.1/play-services-12.0.1.aar/6fb66d412da858d50e5a6966f1bb4fd7/res" />
-      <root url="file://$PROJECT_DIR$/../../../../../WorkSpaces/XVitales/caches/transforms-1/files-1.1/play-services-12.0.1.aar/6fb66d412da858d50e5a6966f1bb4fd7/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../XVitales/caches/transforms-1/files-1.1/play-services-12.0.1.aar/6fb66d412da858d50e5a6966f1bb4fd7/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../XVitales/caches/transforms-1/files-1.1/play-services-12.0.1.aar/6fb66d412da858d50e5a6966f1bb4fd7/res" />
+      <root url="file://$PROJECT_DIR$/../../XVitales/caches/transforms-1/files-1.1/play-services-12.0.1.aar/6fb66d412da858d50e5a6966f1bb4fd7/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

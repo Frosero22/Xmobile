@@ -1,2 +1,2 @@
-# Referenced at C:\Users\ACER PREDATOR\Documents\RESPALDOS\Xmobile\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:32
+# Referenced at C:\WorkSpaces\Android Workspace\Xmobile\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:32
 -keep class com.mobile.polux.app.App { <init>(...); }
