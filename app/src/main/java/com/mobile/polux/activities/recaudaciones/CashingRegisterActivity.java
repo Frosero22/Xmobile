@@ -409,6 +409,7 @@ public class CashingRegisterActivity extends AppCompatActivity {
                                 payDoc.setBanco(payment.getBanco());
                             }
                         }
+
                         paymentsDoc.add(payDoc);
                     }
                     if (payC == 0) {
@@ -416,10 +417,6 @@ public class CashingRegisterActivity extends AppCompatActivity {
                     }
                 }
 
-
-
-
-              //  break;
 
                 invoices.get(position).setPay(pay);
                 invoices.get(position).setPago(paymentsDoc);
