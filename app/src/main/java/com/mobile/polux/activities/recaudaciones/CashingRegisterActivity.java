@@ -418,7 +418,7 @@ public class CashingRegisterActivity extends AppCompatActivity {
                 }
 
 
-              //  invoices.get(position).setPay(pay);
+                invoices.get(position).setPay(pay);
                 invoices.get(position).setPago(paymentsDoc);
                 adapter.notifyDataSetChanged();
                 creditTotal = creditPay - pay;
